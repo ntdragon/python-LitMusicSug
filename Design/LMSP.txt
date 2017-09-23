@@ -1,0 +1,140 @@
+#!/usr/bin/python3
+#
+"""
+Liturgical Music Suggestion Program
+========================================================================================================================
+Version 1.0 ?/?/2017
+--------------------
+This program is designed to help Roman Catholic Music Directors with coming up with music for various events like
+weekend masses and Holy Days of Obligation.  It is derived from a Bash script that was getting longer and longer.
+
+Current Version:
+Version 1.0 ?/?/2017 Edward Birdsall
+
+Program Features
+	Database holding: a liturgical cycle of three years of suggestions of songs
+			  a liturgical cycle of three years of psalm suggestions
+			  Two songbooks print and search data
+			  local parish songbook
+	Profile of parish with songbooks in use
+	Parish events may be added
+	Parish Songbook (local origination or sourced)
+
+Program Operation
+	User starts program end selects liturgical year and event
+	program presents suggestions from database
+	User may import more suggestions and songs to use in a couple of different methods 
+"""
+#
+"""
+Initialization Files
+--------------------
+	Liturgical Events
+	Initial Suggestions
+	Gather Comprehensive Print
+	Gather Comprehensive Search
+	Gather 3 Print
+	Gather 3 Search
+"""
+#
+"""
+Database and operations
+-----------------------
+Database
+	Liturgical Year (A,B,C), Liturgical Event (ex. Easter, 2nd Sunday of Ordinary Time), Song Title
+	Liturgical Year (A,B,C), Liturgical Event (ex. Easter, 2nd Sunday of Ordinary Time), Psalm Title
+	Songbook ID, SearchString, Number of matching songs, song numbers
+	Songbook ID, Song number, Song Title to print
+Operations
+	ImportEventSongSuggestions
+	ImportEventPsalmSuggestions
+	ImportSongbookTitles
+	ImportSongbookSearch
+	FindEventSuggestions
+	ReadSuggestionsDatabase
+	WriteSuggestionsDaTabase
+	ReadPsalmDatabase
+	WritePsalmDatabase
+	ReadSongbookSearch
+	WriteSongbookSearch
+	ReadSongbookTitle
+	WriteSongbookTitle
+
+Operation
+	ImportEventSongSuggestions
+		Select Liturgical Year and Event
+		Select User or other
+			User
+				present formatted input screen
+				add when accepted
+			Other
+				present text area
+				user pastes in input
+				search for known songs for songbooks in use
+				present to user known and unknown for edit and acceptance
+		Add Suggestions
+		Another Event?
+	ImportEventPsalmSuggestions
+		Select Liturgical Year and Event
+		Select User or other
+			User
+				present formatted input screen
+				add when accepted
+			Other
+				present text area
+				user pastes in input
+				search for known songs for songbooks in use
+				present to user known and unknown for edit and acceptance
+		Add Suggestions
+		Another Event?
+	ImportSongbookTitles
+		Songbook code and full title
+		from file or input 
+"""
+#
+"""
+Initialization Process
+	Edit parish Profile
+	Import Suggestions files
+	Import songbooks GC
+"""
+#
+"""
+Main Menu
+	Event Preparation
+	Import Songbook
+	Edit List of Events
+	Edit Parish Profile
+	Edit Parish Songbook
+"""
+#
+"""
+Event Preparation
+	select liturgical year and event
+	find suggestions in database
+	import new suggestions from sources
+		open text input - user to paste suggestions into here
+		search text input for matches in songbooks used
+		present user with found and not found outputs for add to database and current event suggestions
+		add accepted & edited then accepted suggestion to database and current event suggestions
+	import new suggestions from user
+		open formatted text input for user manual import
+		add to database and current event suggestions
+	open appropriate event template if available and allow for selections to fill.  If local edited in then
+		allow for add to database
+	print template
+	save as name coded file
+"""
+#
+"""
+Edit Parish Profile
+	Parish Name
+	songbooks in use, if adding/changing a songbook flag to import song book search and print
+	Templates in use - template file name, events which use it
+"""
+#
+"""
+Edit Parish Songbook
+	present current list
+	entry for new song number and title
+"""
