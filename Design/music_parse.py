@@ -35,7 +35,16 @@ Process
 #=======================================================================================================================
 # Imports here
 # ==============================
+# Standard Library imports
+# ------------------------
 from time import sleep
+
+# Related Third Party Imports
+# ---------------------------
+
+# local imports
+# -------------
+
 # =========================================
 # =====     Global Constants Here     =====
 # =========================================
@@ -47,6 +56,7 @@ GREETINGS = """ Greetings
      Initially you will be asked for the Liturgical Year and what event (like First Sunday of Advent)
      and then for the suggestions in the same format as the NPM webpage.
 """
+LITURGICAL_YEARS = ['A', 'B', 'C']
 
 # Now function definitions
 # ==============================
@@ -68,17 +78,25 @@ def greet_user():
      Just a display with opening greeting and explanation of process
      """
      print(GREETINGS)
-     sleep(10)
+     sleep(1)
 
 def which_event():
      """
      Initially just ask for the Liturgical Year and event but later will be a selector
      """
-     pass
+     liturgical_year = input('Which Liturgical Year [ A, B, C ] is this for?')
+     liturgical_event = input('Which Liturgical Event is this for [example; First Sunday of Advent ]?')
+     print('Liurgical Year is ', liturgical_year)
+     print('Liturgical Event is', liturgical_event)
+# Need to check Liturgical year valid or add a selector when GUI
+# Need to add selector in GUI for valid events
+
 def which_songbook():
      """
      Initially ask but later look in profile.  Initial options are GC or G3 or both
      """
+     songbooks_available[GC, G3, GC_G3]
+     songbook = input('Which songbook are you using [ GC, G3, or both]')
      pass
 def input_arrays():
      """
@@ -113,7 +131,8 @@ def search_suggestions():
      	loop till end of suggestion array
      next songbook or end
      """
-     """while line in InFyleLine :
+     """
+          while line in InFyleLine :
           Line_Number = Line_Number +1
           the_line = line.readline()
           findTitle
@@ -121,23 +140,26 @@ def search_suggestions():
           setOutputLine
           OutFyleLine.write(Lyne_Out)
      """
-     pass
+
 def display_suggestions():
      """
      Display a mutable view of NPM Suggestions; first known then unknown.  Allow user to delete false positives and
      change unkown to a known format.  Allow for sections in display
      """
      pass
+
 def fyle_output_suggestions():
      """
      Save to file formatted NPM Suggestions
      """
      pass
+
 def print_output_suggestions():
      """
      Print out formatted NPM Suggestions by song book
      """
      pass
+
 # ========================================
 # =====     NPM Suggestions Area     =====
 # ========================================
@@ -164,7 +186,7 @@ def print_output_suggestions():
 # =====     MAIN Starts Here     =====     MAIN Starts Here     =====     MAIN Starts Here     =====
 # ==================================================================================================
 greet_user()
-# Which_Event()
+which_event()
 # Which_Songbook()
 # Input_Arrays()
 # Input_NPM_Suggestions()
