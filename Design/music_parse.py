@@ -95,14 +95,60 @@ def which_songbook():
      """
      Initially ask but later look in profile.  Initial options are GC or G3 or both
      """
-     songbooks_available[GC, G3, GC_G3]
+#    songbooks_available[GC, G3, GC_G3]
      songbook = input('Which songbook are you using [ GC, G3, or both]')
-     pass
+     if songbook == 'GC':
+          song_book = 'GC'
+     elif songbook == 'G3':
+          song_book = 'G3'
+     elif songbook == 'both':
+          songbook = 'GC_G3'
+     else:
+          song_book = 'GC'
+     return song_book
+
+def input_print_file(file_name):
+     """
+     This inputs a file that contains two fields per line; song number then title to print
+     """
+     sb = {}
+     with open(file_name, 'r') as the_file:
+          the_lines = the_file.readlines()
+     for line in the_lines:
+          if line[5] == '|':
+               i = 4
+          else:
+               i = 5
+          j = i + 2
+          song_number = line[ :i]
+          song_title = line[j: ]
+          sb[song_number] = (song_number, song_title)
+     return sb
+
+def input_search_file(file_name):
+     """
+     This inputs a file that contains a number of fields; first is search title, then number of songs matching that,
+     the following fields contain the song numbers
+     """
+     sb = {}
+     with open(file_name, 'r') as the_file:
+          the_lines = the_file.readlines()
+     return sb
+
 def input_arrays():
      """
      Input print and search Arrays for GC and G3
+     Files to import:
+          GatherPrint.txt
+          gatherSearch.txt
+          Gather3Print.txt
+          Gather3Search.txt
      """
-     pass
+     # ?? = input_search_file('GatherSearch.txt')
+     # ?? - input_print_file('GatherPrint.txt')
+     # ?? = input_search_file('Gather3Search.txt')
+     # ?? - input_print_file('Gather3Print.txt')
+
 # =========================================
 # =====     User I/O General Area     =====
 # =========================================
