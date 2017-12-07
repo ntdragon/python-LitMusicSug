@@ -1,0 +1,252 @@
+A | Advent 1 | .
+B | Advent 1 | Lord, Make Us Turn to You
+C | Advent 1 | .
+A | Advent 2 | .
+B | Advent 2 | Lord, Let Us See Your Kindness
+C | Advent 2 | .
+A | Advent 3 | .
+B | Advent 3 | My Soul Rejoices
+B | Advent 3 | Magnificat
+C | Advent 3 | .
+A | Advent 4 | .
+B | Advent 4 | For Ever I Will Sing
+C | Advent 4 | .
+A | AllSaints | .
+B | AllSaints | .
+C | AllSaints | .
+A | AllSouls | .
+B | AllSouls | .
+C | AllSouls | .
+A | Annunciation | .
+B | Annunciation | .
+C | Annunciation | .
+A | Ascension | .
+B | Ascension | .
+C | Ascension | .
+A | AshWednesday | .
+B | AshWednesday | .
+C | AshWednesday | .
+A | Assumption | .
+B | Assumption | .
+C | Assumption | .
+A | BaptismLord | .
+B | BaptismLord | With Joy You Will Draw Water
+C | BaptismLord | .
+A | BodyBlood | .
+B | BodyBlood | .
+C | BodyBlood | .
+A | ChristKing | .
+B | ChristKing | .
+C | ChristKing | .
+A | Christmas | .
+B | Christmas | All the Ends of the Earth
+C | Christmas | .
+A | Christmas Dawn | .
+B | Christmas Dawn | A Light Will Shine
+C | Christmas Dawn | .
+A | Christmas Midnight | .
+B | Christmas Midnight | Today Is Born Our Savior
+C | Christmas Midnight | .
+A | Christmas Vigil | .
+B | Christmas Vigil | For Ever I Will Sing
+C | Christmas Vigil | .
+A | Easter | .
+B | Easter | .
+C | Easter | .
+A | Easter 2 | .
+B | Easter 2 | .
+C | Easter 2 | .
+A | Easter 3 | .
+B | Easter 3 | .
+C | Easter 3 | .
+A | Easter 4 | .
+B | Easter 4 | .
+C | Easter 4 | .
+A | Easter 5 | .
+B | Easter 5 | .
+C | Easter 5 | .
+A | Easter 6 | .
+B | Easter 6 | .
+C | Easter 6 | .
+A | Easter 7 | .
+B | Easter 7 | .
+C | Easter 7 | .
+A | Epiphany | .
+B | Epiphany | Every Nation on Earth
+B | Epiphany | Lord, Every Nation on Earth
+C | Epiphany | .
+A | GoodFriday | .
+B | GoodFriday | .
+C | GoodFriday | .
+A | Guadalupe | .
+B | Guadalupe | Salve Regina, Hail, Blessed Lady
+C | Guadalupe | .
+A | HolyFamily | .
+B | HolyFamily | Blessed Are Those Who Fear the Lord
+B | HolyFamily | We Praise You
+C | HolyFamily | .
+A | HolyThursday | .
+B | HolyThursday | .
+C | HolyThursday | .
+A | Immaculate_Conception | .
+B | Immaculate_Conception | Sing to the Lord a New Song
+C | Immaculate_Conception | .
+A | Joseph | .
+B | Joseph | .
+C | Joseph | .
+A | Lent 1 | .
+B | Lent 1 | .
+C | Lent 1 | .
+A | Lent 2 | .
+B | Lent 2 | .
+C | Lent 2 | .
+A | Lent 3 | .
+B | Lent 3 | .
+C | Lent 3 | .
+A | Lent 4 | .
+B | Lent 4 | .
+C | Lent 4 | .
+A | Lent 5 | .
+B | Lent 5 | .
+C | Lent 5 | .
+A | MaryMoG | .
+B | MaryMoG | May God Bless Us
+C | MaryMoG | .
+A | MemorialDay | .
+B | MemorialDay | .
+C | MemorialDay | .
+A | MLK | .
+B | MLK | .
+C | MLK | .
+A | Nat_JohnBaptist | .
+B | Nat_JohnBaptist | .
+C | Nat_JohnBaptist | .
+A | Ordinary 1 | .
+B | Ordinary 1 | .
+C | Ordinary 1 | .
+A | Ordinary 2 | .
+B | Ordinary 2 | .
+C | Ordinary 2 | .
+A | Ordinary 3 | .
+B | Ordinary 3 | .
+C | Ordinary 3 | .
+A | Ordinary 4 | .
+B | Ordinary 4 | .
+C | Ordinary 4 | .
+A | Ordinary 5 | .
+B | Ordinary 5 | .
+C | Ordinary 5 | .
+A | Ordinary 6 | .
+B | Ordinary 6 | .
+C | Ordinary 6 | .
+A | Ordinary 7 | .
+B | Ordinary 7 | .
+C | Ordinary 7 | .
+A | Ordinary 8 | .
+B | Ordinary 8 | .
+C | Ordinary 8 | .
+A | Ordinary 9 | .
+B | Ordinary 9 | .
+C | Ordinary 9 | .
+A | Ordinary 10 | .
+B | Ordinary 10 | .
+C | Ordinary 10 | .
+A | Ordinary 11 | .
+B | Ordinary 11 | .
+C | Ordinary 11 | .
+A | Ordinary 12 | .
+B | Ordinary 12 | .
+C | Ordinary 12 | .
+A | Ordinary 13 | .
+B | Ordinary 13 | .
+C | Ordinary 13 | .
+A | Ordinary 14 | .
+B | Ordinary 14 | .
+C | Ordinary 14 | .
+A | Ordinary 15 | .
+B | Ordinary 15 | .
+C | Ordinary 15 | .
+A | Ordinary 16 | .
+B | Ordinary 16 | .
+C | Ordinary 16 | .
+A | Ordinary 17 | .
+B | Ordinary 17 | .
+C | Ordinary 17 | .
+A | Ordinary 18 | .
+B | Ordinary 18 | .
+C | Ordinary 18 | .
+A | Ordinary 19 | .
+B | Ordinary 19 | .
+C | Ordinary 19 | .
+A | Ordinary 20 | .
+B | Ordinary 20 | .
+C | Ordinary 20 | .
+A | Ordinary 21 | .
+B | Ordinary 21 | .
+C | Ordinary 21 | .
+A | Ordinary 22 | .
+B | Ordinary 22 | .
+C | Ordinary 22 | .
+A | Ordinary 23 | .
+B | Ordinary 23 | .
+C | Ordinary 23 | .
+A | Ordinary 24 | .
+B | Ordinary 24 | .
+C | Ordinary 24 | .
+A | Ordinary 25 | .
+B | Ordinary 25 | .
+C | Ordinary 25 | .
+A | Ordinary 26 | .
+B | Ordinary 26 | .
+C | Ordinary 26 | .
+A | Ordinary 27 | .
+B | Ordinary 27 | .
+C | Ordinary 27 | .
+A | Ordinary 28 | .
+B | Ordinary 28 | .
+C | Ordinary 28 | .
+A | Ordinary 29 | .
+B | Ordinary 29 | .
+C | Ordinary 29 | .
+A | Ordinary 30 | .
+B | Ordinary 30 | .
+C | Ordinary 30 | .
+A | Ordinary 31 | .
+B | Ordinary 31 | .
+C | Ordinary 31 | .
+A | Ordinary 32 | .
+B | Ordinary 32 | .
+C | Ordinary 32 | .
+A | Ordinary 33 | .
+B | Ordinary 33 | .
+C | Ordinary 33 | .
+A | Ordinary 34 | .
+B | Ordinary 34 | .
+C | Ordinary 34 | .
+A | Palm | .
+B | Palm | .
+C | Palm | .
+A | Pentecost | .
+B | Pentecost | .
+C | Pentecost | .
+A | PeterPaul | .
+B | PeterPaul | .
+C | PeterPaul | .
+A | PresentationLord | .
+B | PresentationLord | .
+C | PresentationLord | .
+A | SacredHeart | .
+B | SacredHeart | .
+C | SacredHeart | .
+A | Transfiguration | .
+B | Transfiguration | .
+C | Transfiguration | .
+A | Trinity | .
+B | Trinity | .
+C | Trinity | .
+A | Unborn | .
+B | Unborn | .
+C | Unborn | .
+A | Unity | .
+B | Unity | .
+C | Unity | .
