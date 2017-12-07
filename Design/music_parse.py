@@ -107,11 +107,19 @@ def which_songbook():
           song_book = 'GC'
      return song_book
 
+# =========================================
+# =====     User I/O General Area     =====
+# =========================================
+# =========================================
+# =====     File I/O General Area     =====
+# =========================================
+
+
 def input_print_file(file_name):
      """
      This inputs a file that contains two fields per line; song number then title to print
      """
-     sb = {}
+     song_book_print = {}
      with open(file_name, 'r') as the_file:
           the_lines = the_file.readlines()
      for line in the_lines:
@@ -122,18 +130,18 @@ def input_print_file(file_name):
           j = i + 2
           song_number = line[ :i]
           song_title = line[j: ]
-          sb[song_number] = (song_number, song_title)
-     return sb
+          song_book_print[song_number] = (song_number, song_title)
+     return song_book_print
 
 def input_search_file(file_name):
      """
      This inputs a file that contains a number of fields; first is search title, then number of songs matching that,
      the following fields contain the song numbers
      """
-     sb = {}
+     song_book_search = {}
      with open(file_name, 'r') as the_file:
           the_lines = the_file.readlines()
-     return sb
+     return song_book_search
 
 def input_arrays():
      """
@@ -144,13 +152,13 @@ def input_arrays():
           Gather3Print.txt
           Gather3Search.txt
      """
-     # ?? = input_search_file('GatherSearch.txt')
-     # ?? - input_print_file('GatherPrint.txt')
-     # ?? = input_search_file('Gather3Search.txt')
-     # ?? - input_print_file('Gather3Print.txt')
+     gc_search = input_search_file('GatherSearch.txt')
+     gc_print = input_print_file('GatherPrint.txt')
+     g3_search = input_search_file('Gather3Search.txt')
+     g3_print = input_print_file('Gather3Print.txt')
 
 # =========================================
-# =====     User I/O General Area     =====
+# =====     File I/O General Area     =====
 # =========================================
 # ======================================================================================================================
 # ========================================
@@ -233,11 +241,12 @@ def print_output_suggestions():
 # ==================================================================================================
 greet_user()
 which_event()
-# Which_Songbook()
-# Input_Arrays()
+which_songbook()
+input_arrays()
 # Input_NPM_Suggestions()
-# Search_NPM_Suggestions()
-# Display_NPM_Suggestions()
+# For each song book in use
+#    Search_NPM_Suggestions()
+#    Display_NPM_Suggestions()
 # Fyle_Output_NPM_Suggestions()
 
 # All Done - Goodbye
