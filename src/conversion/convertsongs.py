@@ -9,12 +9,14 @@ def convert(book, infile, db):
     conn = sqlite3.connect(db)
 
     c = conn.cursor()
-    c.execute('''CREATE TABLE IF NOT EXISTS Songs
-        (id integer primary key autoincrement not null,
-         book text,
-         number integer,
-         type text,
-         title text)''')
+    c.execute('''CREATE TABLE IF NOT EXISTS songs (
+        id integer primary key autoincrement not null,
+        book text,
+        number integer,
+        type text,
+        title text,
+        unique(book, number, type, title)
+        )''')
 
 
     for line in infile:
@@ -39,8 +41,8 @@ def convert(book, infile, db):
         # Could gather all entries and use an executemany
         # which would solve knowing which entry is last
         entry = (book, inum, btype, title)
-        c.execute("INSERT INTO Songs (book, number, type, title) VALUES (?,?,?,?)",
-            entry)
+        c.execute("""INSERT OR IGNORE INTO Songs (book, number, type, title)
+            VALUES (?,?,?,?)""", entry)
 
     conn.commit()
     conn.close()
