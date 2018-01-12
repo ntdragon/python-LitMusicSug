@@ -38,6 +38,9 @@ Process
 # Standard Library imports
 # ------------------------
 from time import sleep
+#import argparse
+#import sys
+from tkinter import *
 
 # Related Third Party Imports
 # ---------------------------
@@ -60,11 +63,20 @@ LITURGICAL_YEARS = ['A', 'B', 'C']
 
 # Now function definitions
 # ==============================
-def find_title(the_line, cpos, song_title):
+def find_title():
+     """ In suggestions find the title using the search info
+          the_line, cpos, song_title
+     """
      pass
-def find_song(the_line, cpos, songbook, song_book, song_number):
+def find_song():
+     """ locate the songs in the songbook
+          the_line, cpos, songbook, song_book, song_number
+     """
      pass
-def set_output_line(line_number, song_title, song_book, song_number, lyne_out):
+def set_output_line():
+     """ Set up the appropritate output line to file
+          line_number, song_title, song_book, song_number, lyne_out
+     """
      pass
 #    Lyne_Out = repr(Line_Number) + '\t' + repr(Song_Book, Song_Number) + '/t' +repr(Song_Title)
 
@@ -88,6 +100,7 @@ def which_event():
      liturgical_event = input('Which Liturgical Event is this for [example; First Sunday of Advent ]?')
      print('Liurgical Year is ', liturgical_year)
      print('Liturgical Event is', liturgical_event)
+     return liturgical_year, liturgical_event
 # Need to check Liturgical year valid or add a selector when GUI
 # Need to add selector in GUI for valid events
 
@@ -105,7 +118,24 @@ def which_songbook():
           songbook = 'GC_G3'
      else:
           song_book = 'GC'
+
      return song_book
+
+def tk_screen0():
+     """
+     This screen is opening screen for the program.  It greets the user, and getrs some
+     initial informations.  Liturgical year, liturgical event and songbooks in use.
+     """
+     main_window = Label(-text "Liturgical Music Suggestions")
+     main_window.pack()
+     
+
+
+
+
+
+
+
 
 # =========================================
 # =====     User I/O General Area     =====
@@ -121,16 +151,12 @@ def input_print_file(file_name):
      """
      song_book_print = {}
      with open(file_name, 'r') as the_file:
-          the_lines = the_file.readlines()
-     for line in the_lines:
-          if line[5] == '|':
-               i = 4
-          else:
-               i = 5
-          j = i + 2
-          song_number = line[ :i]
-          song_title = line[j: ]
-          song_book_print[song_number] = (song_number, song_title)
+          for line in the_file:
+               num, title = line.split("|")
+               num = num.strip()
+               song_number = int(num)
+               song_title = title.strip()
+               song_book_print[song_number] = song_title
      return song_book_print
 
 def input_search_file(file_name):
@@ -139,27 +165,37 @@ def input_search_file(file_name):
      the following fields contain the song numbers
      """
      song_book_search = {}
+
      with open(file_name, 'r') as the_file:
           the_lines = the_file.readlines()
+
+     for line in the_lines:
+          the_lyne = line.split("|")
+          song_title = the_lyne(0)
+          the_song_nums = [int(x.strip()) for x in the_lyne[2:]]
+          song_book_search[song_title] = the_song_nums
+
      return song_book_search
 
 def input_arrays():
      """
      Input print and search Arrays for GC and G3
      Files to import:
-          GatherPrint.txt
-          gatherSearch.txt
-          Gather3Print.txt
-          Gather3Search.txt
+          GatherPrint.txt --> gc_print list
+          GatherSearch.txt --> gc_search list
+          Gather3Print.txt --> g3_print list
+          Gather3Search.txt --> g3_search list
      """
+
      gc_search = input_search_file('GatherSearch.txt')
      gc_print = input_print_file('GatherPrint.txt')
      g3_search = input_search_file('Gather3Search.txt')
      g3_print = input_print_file('Gather3Print.txt')
+     return gc_search, gc_print, g3_search, g3_print
 
 # =========================================
 # =====     File I/O General Area     =====
-# =========================================
+# =========================================0
 # ======================================================================================================================
 # ========================================
 # =====     NPM Suggestions Area     =====
@@ -239,20 +275,23 @@ def print_output_suggestions():
 # ==================================================================================================
 # =====     MAIN Starts Here     =====     MAIN Starts Here     =====     MAIN Starts Here     =====
 # ==================================================================================================
-greet_user()
-which_event()
-which_songbook()
-input_arrays()
-# Input_NPM_Suggestions()
-# For each song book in use
-#    Search_NPM_Suggestions()
-#    Display_NPM_Suggestions()
-# Fyle_Output_NPM_Suggestions()
+def main():
+     """ Run as a command line program. """
+     greet_user()
+     the_year, the_event = which_event()
+     the_songbook = which_songbook()
+     gc_search, gc_print, g3_search, g3_print = input_arrays()
+#TODO:    input_suggestions()
+#TODO:    For each song book in use
+#TODO:         Search_NPM_Suggestions()
+#TODO:         Display_NPM_Suggestions()
+#TODO:    Fyle_Output_NPM_Suggestions()
 
 # All Done - Goodbye
 # ===================
 
-
+if __name__ == "__main__":
+     main()
 #=======================================================================================================================
 #==========          Code Ends here          ==========          ==========          Code Ends here          ===========
 #=======================================================================================================================
