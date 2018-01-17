@@ -27,9 +27,9 @@ class MusSugWin(Tk):
      Main Window for testing and then program
      """
 
-PARISH = ""
-LITURGICAL_EVENT = ""
-LITURGICAL_YEAR = ""
+     PARISH = ""
+     LITURGICAL_EVENT = ""
+     LITURGICAL_YEAR = ""
 
      def __init__(self, *args, **kwargs):
 
@@ -78,6 +78,7 @@ class StartPage(Frame):
 class PageOne(Frame):
      """
      First page of gathering information
+     The inputs are currently just text entries for printing or file headers
      """
 
      def __init__(self, parent, controller):
@@ -128,6 +129,8 @@ class PageOne(Frame):
 class PageTwo(Frame):
      """
      Text box entries for Psalms and Songs
+     Need to determine if ask the user to do a bit of work above pasting in the text.  Faster
+     parsing later if user adds a '|' or other mark to split title from rest of line.
      """
      def __init__(self, parent, controller):
           Frame.__init__(self, parent)
@@ -150,22 +153,34 @@ class PageThree(Frame):
      This page just show progress for all the various other tasks that need to be done before
           proceding on to the the final page.  A bit crude code but slowly learning
           Tasks:
-               Input Search and Print for Both Songbooks
+               Input Search and Print for both songbooks into dictionaries
                parse psalms into known and unknown with known into print formatted and unknown raw
                parse songs into known and unknown similar to psalms
+                    Parse Algorithm(?):
+                         psalms-songs in text w/ w/o title identifier so first identify title
+                         if title known then format into formatted area
+                         else place raw line into unformatted text
+                    psalms are in PageTwo.psalms_sugs  songs are in PageTwo.song_sugs
      """
      def __init__(self, parent, controller):
           Frame.__init__(self, parent)
           label = Label(self, text="Processing Suggestions", font=LARGE_FONT).pack(pady=10, padx=10)
           label = Label(self, text="Inputting information from files", font=LARGE_FONT).pack(pady=10, padx=10)
-          gcprint = infyle_print('.gcprint.txt.txt')
+          gcprint = infyle_print('.gcprint.txt')
           g3print = infyle_print('.g3print.txt')
           gcsearch = infyle_search('.gcsearch.txt')
           g3search = infile_search('.g3search.txt')
           #FIXME: Input from files Songbook Print and Search files - is this code correct
 
           label = Label(self, text="Songbook Information read, begin parsing", font=LARGE_FONT).pack(pady=10, padx=10)
-          #TODO: Parse the psalms then song suggestions
+          #TODO: Parse the psalm suggestions, note there may not be psalms suggestions some weeks
+          # psalm suggestions are in PageTwo.psalm_sugs
+          # print format == '/tG?# nnnn\tSongTitle\n'   TabGC# nnnTabSongTitle
+          #  no spaces after tabs
+          #GC first then G3
+
+          #TODO: Parse Song Suggestions
+          # same as psalms but for songs
 
           label = Label(self, text="Ready to display", font=LARGE_FONT).pack(pady=10, padx=10)
           #FIXME: add command to go to next page here?
@@ -178,9 +193,11 @@ class PageThree(Frame):
 
 #----------------------------------------------------------------------------------------------
      #entry for search a dictionary with title as key
+     #XXX: Ask user to put in '|' in page 2 or try to figure out title by regex or loop through
+     #     all till find a match or end.
      #entry for print a dictionary with inum as key
-     def infyle_search(infile,?) #FIXME: need to validate this  do I need to return entry
-          for line in infile:
+     def infyle_search(infyle) #FIXME: need to validate this  do I need to return entry
+          for line in infyle:
                title, num, snums = line.split("|") #FIXME: Need to check with Mike what happens when more than 1 song
 
           num = num.strip()
@@ -188,8 +205,8 @@ class PageThree(Frame):
           title = title.strip()
           #TODO need to add code for 1 to n songs returned
           
-     def infyle_print(infile,?) #FIXME: need to validate this  do I need to return entry
-          for line in infile:
+     def infyle_print(infyle) #FIXME: need to validate this  do I need to return entry
+          for line in infyle:
                num, title = line.split("|")
 
           num = num.strip()
