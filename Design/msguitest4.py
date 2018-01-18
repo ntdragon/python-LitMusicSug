@@ -166,10 +166,10 @@ class PageThree(Frame):
           Frame.__init__(self, parent)
           label = Label(self, text="Processing Suggestions", font=LARGE_FONT).pack(pady=10, padx=10)
           label = Label(self, text="Inputting information from files", font=LARGE_FONT).pack(pady=10, padx=10)
-          gcprint = infyle_print('.gcprint.txt')
-          g3print = infyle_print('.g3print.txt')
-          gcsearch = infyle_search('.gcsearch.txt')
-          g3search = infile_search('.g3search.txt')
+          self.gcprint = self.infyle_print('.gcprint.txt')
+          self.g3print = self.infyle_print('.g3print.txt')
+          self.gcsearch = self.infyle_search('.gcsearch.txt')
+          self.g3search = self.infyle_search('.g3search.txt')
           #FIXME: Input from files Songbook Print and Search files - is this code correct
 
           label = Label(self, text="Songbook Information read, begin parsing", font=LARGE_FONT).pack(pady=10, padx=10)
@@ -196,31 +196,40 @@ class PageThree(Frame):
      #XXX: Ask user to put in '|' in page 2 or try to figure out title by regex or loop through
      #     all till find a match or end.
      #entry for print a dictionary with inum as key
-     def infyle_search(infyle) #FIXME: need to validate this  do I need to return entry
+     def infyle_search(self, infyle):
+          answer = {}
           for line in infyle:
-               title, num, snums = line.split("|") #FIXME: Need to check with Mike what happens when more than 1 song
+               title, dummy_num, rest = line.split("|", 2)
+               snum = rest.split("|")
 
-          num = num.strip()
-          inum = int(num)
-          title = title.strip()
-          #TODO need to add code for 1 to n songs returned
-          
-     def infyle_print(infyle) #FIXME: need to validate this  do I need to return entry
+               title = title.strip()
+
+               answer[title] = snum
+
+          return answer
+
+     def infyle_print(self, infyle):
+          answer = {}
           for line in infyle:
                num, title = line.split("|")
+               num = num.strip()
+               inum = int(num)
+               title = title.strip()
+               if all([v == '0' for v in num]):
+                    continue
+               if all([v == '9' for v in num]) and title.startswith("End of Song"):
+                    continue
+               answer[inum] = title
 
-          num = num.strip()
-          inum = int(num)
-          title = title.strip()
-          if all([v == '0' for v in num]):
-               continue
-          if all([v == '9' for v in num]) and title.startswith("End of Song"):
-               continue
-          entry = (inum, title)
+          return answer
 
 
-     def parse_it(?)
-     def set_print()
+
+     # TODO: Write next two stubs
+     def parse_it(self): # Don't know parameters yet
+        pass
+     def set_print(self):
+        pass
 
 
 
