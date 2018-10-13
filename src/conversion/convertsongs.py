@@ -5,6 +5,12 @@ import sqlite3
 
 def convert(book, infile, db):
     """ Do the conversion for a file """
+         """ Ed - 10/12/2018
+          Song book file for conversion format with | as delimiter:
+               number - 99999 reserved for end of file line
+               type - Psalm, Song or end
+               title - Song title
+          """
 
     conn = sqlite3.connect(db)
 

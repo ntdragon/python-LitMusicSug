@@ -1,0 +1,27 @@
+# Liturgical Music Suggestions Program
+
+## Introduction
+
+This program is designed to be an assist to Roman Catholic Music Directors and musicians who 
+are tasked with setting up music to be used at Mass on Sundays and Holy Days.  The program
+will get input from its own database plus allow for suggestions from NPM and other sources
+to be added.
+
+## Initial Setup files
+
+This program comes with a few files that were used in the design, development and testing of 
+the program but you may need to create and set up some text files for for your parish.
+
+The initial files needed to set up the programs database are;
+* Songbook file - a file containing the song numbers song titles and are they a Psalm or Song.
+     A Psalm indicates a song that may be used instead of the scriptural passage. Provided
+     with the program should be GatherPrint.txt and Gather3Print.text which are for Gather
+     Comprehensive and Gather Comprehensive Third Edition respectively.
+* Search file - a file containing song titles or first lines of songs and which song numbers
+     they are for for a particular book.  GatherSearch.txt and Gather3Search.txt should be
+     part of this install package.
+* Event file - a file containing lines having liturgical year, liturgical event and song title
+     suggested for that event.  SongSuggestions.txt and PsalmSuggestions.txt are provided to
+     get you started. 
+
+### File Format for creating and importing Song book, 

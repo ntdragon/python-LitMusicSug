@@ -1,559 +1,791 @@
- 000 | Not In Gather Comprehensive
- 005 | Morning Praise Gospel Canticle
- 014 | Evensong Gospel Canticle
- 022 | Psalm 15: They Who Do Justice
- 030 | Psalm 23: My Shepherd is the Lord
- 031 | Psalm 23: Shepherd Me, O God
- 032 | Psalm 23: The Lord Is My Shepherd
- 033 | Psalm 23: Nada Me Falta
- 036 | Psalm 25: To You, O Lord
- 037 | Psalm 25: Levanto Mi Alma
- 039 | Psalm 27: The Lord Is My Light
- 048 | Psalm 34: The Cry of the Poor
- 051 | Psalm 41-42: Song of Longing
- 062 | Psalm 63: Your Love Is Finer Than Life
- 063 | Psalm 63: I Long for You
- 075 | Psalm 80/85/Luke 1:Lord, Make Us Turn to You
- 077 | Psalm 84: Happy Are They
- 078 | Psalm 84: How Lovely Is your Dwelling Place
- 080 | Psalm 85: Come, O Lord, and Set us Free
- 085 | Psalm 91: Be with Me, Lord
- 093 | Psalm 96: Proclaim to All the Nations
- 098 | Psalm 103: My Soul, Give Thanks to the Lord
- 110 | Psalm 116: The Name of God
- 111 | Psalm 128: Blest Are Those Who Love
- 112 | Psalm 117: Go Out to All the World
- 115 | Psalm 118: This Is the Day
- 120 | Psalm 122: Let Us Go Rejoicing
- 121 | Psalm 122: I Was Glad
- 125 | Psalm 128: Blest Are Those Who Love You
- 127 | Psalm 130: With the Lord There Is Mercy
- 129 | Psalm 131: My Soul Is Still
- 140 | Psalm 146: Lord, Come and Save Us
- 144 | Canticle of Simeon/Luke 2:29-32
- 145 | Canticle of Mary/Luke 1:46-55
- 146 | Magnificat/Luke 1:46-55
- 147 | Holy Is Your Name/Luke 1:46-55
- 148 | Isaiah 12:2-3,4,6
- 154 | Blessing and Sprinkling of Holy Water
- 242 | Rite of Sprinkling:Springs of Water
- 243 | Rite of Sprinkling:Springs of Water
- 244 | Rite of Sprinkling:Lord Jesus, from Your Wounded Side
- 316 | May We Be One
- 317 | O Come, O Come, Emmanuel
- 318 | People, Look East
- 319 | Walk in the Reign
- 320 | The King Shall Come When Morning Dawns
- 321 | On Jordan's Bank
- 322 | On Jordan's Bank
- 323 | Come, O Long Expected Jesus
- 324 | Advent Gathering
- 325 | Like a Shepherd
- 326 | Comfort, Comfort, O My People
- 327 | When the King Shall Come Again
- 328 | My Soul in Stillness Waits
- 330 | Your Mercy Like Rain
- 331 | God of All People
- 332 | Wait for the Lord
- 333 | O Come, Divine Messiah
- 334 | Savior of the Nations, Come
- 335 | Wake, O Wake and Sleep No Longer
- 336 | Prepare the Way of the Lord
- 337 | Creator of the Stars of Night
- 338 | Come to Set Us Free
- 339 | Each Winter as the Year Grows Older
- 340 | People of the Night
- 341 | O Come, All Ye Faithful/Adeste Fideles
- 343 | Joy to the World
- 345 | The Virgin Mary Had a Baby Boy
- 346 | Awake! Awake, and Greet the New Morn
- 347 | Angels We Have Heard on High
- 348 | Hark! The Herald Angels Sing
- 351 | Of the Father's Love Begotten
- 352 | Silent Night, Holy Night
- 353 | Away in a Manger
- 354 | Infant Holy, Infant Lowly
- 356 | A Stable Lamp Is Lighted
- 357 | Child of Mercy
- 358 | Angels, from the Realms of Glory
- 359 | Go Tell It on the Mountain
- 360 | Rise Up, Shepherd, and Follow
- 361 | 'Twas in the Moon of Wintertime
- 362 | Good Christian Friends, Rejoice
- 363 | O Little Town of Bethlehem
- 366 | God Rest You Merry, Gentlemen
- 367 | It Came upon the Midnight Clear
- 368 | Lo, How a Rose E'er Blooming
- 369 | Carol at the Manger
- 370 | He Came Down
- 371 | The Aye Carol
- 372 | Once in Royal David's City
- 373 | We Three Kings of Orient Are
- 374 | As with Gladness Men of Old
- 375 | Lord, Today
- 376 | Songs of Thankfulness and Praise
- 377 | The First Nowell
- 378 | What Star Is This
- 379 | Brightest and Best
- 380 | What Child Is This
- 381 | Dust and Ashes
- 382 | Again We Keep This Solemn Fast
- 383 | Parce Domine
- 384 | Forty Days and Forty Nights
- 385 | Eternal Lord of Love
- 386 | Hosea
- 387 | Hear Us, Almight Lord/Attende Domine
- 388 | The Glory of These Forty Days
- 389 | Return to God
- 390 | Jerusalem, My Destiny
- 391 | God of Abraham
- 392 | Lord, Who Throughout These Forty Days
- 393 | Jesus Walked This Lonesome Valley
- 394 | Change Our Hearts
- 395 | Somebody's Knockin' at Your Door
- 396 | Adoramus Te Christe
- 397 | Tree of Life
- 398 | Hold Us in Your Mercy
- 399 | Deep Within
- 400 | Wash Me, Cleanse Me
- 404 | Jesus, Remember Me
- 405 | Ride On, Jesus, Ride
- 406 | Triduum Hymn: Wondrous Love
- 408 | Ubi Caritas
- 409 | Jesu, Jesu
- 410 | Serving You
- 412 | Song of the Lord's Supper
- 413 | Faithful Family
- 414 | Jesus Took a Towel
- 415 | O Sacred Head Surrounded
- 416 | Were You There
- 417 | Crucem Tuam/O Lord, Your Cross
- 418 | Jesus, the Lord
- 419 | Calvary
- 420 | Behold the Wood
- 421 | All You Who Pass This Way
- 422 | Jesus Christ Is Risen Today
- 423 | O Sons and Daughters
- 424 | Easter Alleluia
- 425 | Alleluia! Alleluia! Let the Holy Anthem Rise
- 427 | All Things New
- 429 | This Is the Feast of Victory
- 430 | I Know That My Redeemer Lives
- 432 | Resucitó
- 433 | At the Lamb's High Feast We Sing
- 434 | This Joyful Eastertide
- 435 | Sing to the Mountains
- 437 | Christ the Lord Is Risen Today
- 438 | Sequence for Easter
- 439 | Christ the Lord Is Risen!
- 440 | Come Away to the Skies
- 441 | Come, Ye Faithful, Raise the Strain
- 442 | Sing with All the Saints in Glory
- 443 | Alleluia, Alleluia, Give Thanks
- 444 | Now the Green Blade Rises
- 445 | That Easter Day with Joy Was Bright
- 446 | The Strife Is O'er
- 447 | Regina Caeli / O Queen of Heaven
- 448 | Darkness Is Gone
- 449 | This Is the Day
- 450 | Hail Thee, Festival Day
- 451 | Christ Has Risen
- 452 | Up from the Earth
- 453 | A Hymn of Glory Let Us Sing
- 454 | Go 
- 455 | I Will Be with You
- 456 | Lord, You Give the Great Commission
- 457 | Hail the Day That Sees Him Rise
- 458 | The Spirit of God
- 459 | Envía Tu Espíritu
- 460 | Veni Creator Spiritus
- 461 | O Holy Spirit, by Whose Breath
- 462 | Spirit Blowing through Creation
- 463 | Veni Sancte Spiritus
- 464 | Sequence for Pentecost
- 465 | Come Down, O Love Divine
- 466 | Send Down the Fire
- 467 | Spirit-Friend
- 468 | Spirit of God within Me
- 469 | Come, Holy Ghost
- 470 | Send Us Your Spirit
- 471 | Wa Wa Wa Emimimo/Come, O Holy Spirit
- 472 | How Wonderful the Three-in-One
- 473 | Alleluia, Sing!
- 474 | Holy, Holy, Holy! Lord God Almighty
- 475 | Come Now, Almighty King
- 476 | God Is One, Unique and Holy
- 477 | Blessed Be God
- 478 | Stand Up, Friends
- 479 | O God, Almighty Father
- 481 | Christ Is the King
- 482 | Jesus Shall Reign
- 483 | The Carpenter
- 484 | All Hail the Power of Jesus' Name
- 485 | Crown Him with Many Crowns
- 486 | The King of Glory
- 487 | Rejoice, the Lord Is King
- 488 | To Jesus Christ, Our Sovereign King
- 489 | The Stars Declare His Glory
- 490 | Song at the Center
- 492 | All You Works of God
- 493 | The Works of the Lord Are Created in Wisdom
- 494 | How Great Thou Art
- 495 | The Earth Is the Lord's
- 496 | Canticle of the Sun
- 497 | God of All Creation
- 498 | Many and Great
- 499 | Sing Out, Earth and Skies
- 500 | I Will Lift Up My Eyes
- 501 | All You Who Are Thirsty
- 502 | Come to the Water
- 503 | Come to the Feast
- 504 | I Have Loved You
- 505 | You Are All We Have
- 506 | Immortal, Invisible, God Only Wise
- 507 | I Want to Walk as a Child of the Light
- 508 | We Are the Light of the World
- 509 | Be Light for Our Eyes
- 510 | I Am the Light of the World
- 512 | We Are Marching
- 513 | This Little Light of Mine
- 515 | Praise to You, O Christ, Our Savior
- 516 | Sow the Word
- 517 | Not by Bread Alone
- 518 | The Word Is in Your Heart
- 519 | May We Praise You
- 520 | All the Ends of the Earth
- 521 | Sing a New Song to the Lord
- 522 | Glory and Praise to Our God
- 523 | Sing Our God Together
- 524 | Holy God, We Praise Thy Name
- 525 | Laudate Dominum
- 526 | Cantai ao Senhor
- 527 | Praise to the Lord, the Almighty
- 528 | Joyful, Joyful, We Adore You
- 529 | Shake Up the Morning
- 530 | A New Song
- 532 | World without End
- 533 | All Creatures of Our God and King
- 534 | Magnificat
- 535 | To God with Gladness Sing
- 536 | Amen Siakudumisa
- 537 | Sing a New Song
- 539 | Sing Praise to God Who Reigns Above
- 540 | Let All Mortal Flesh Keep Silence
- 541 | We Praise You
- 542 | Alabare 
- 543 | I Will Sing, I Will Sing
- 544 | The God of Abraham Praise
- 545 | Sing Praise to the Lord
- 546 | O God of Matchless Glory
- 547 | Sing of the Lord's Goodness
- 548 | Joyfully Singing
- 549 | You Are the Voice
- 550 | There's a Spirit in the Air
- 551 | Praise, My Soul, the King of Heaven
- 552 | All the Earth, Proclaim God's Glory
- 553 | Cantemos al Señor/Let's Sing unto the Lord
- 554 | Praise the Lord My Soul
- 555 | Jubilate Deo / In the lord Rejoicing
- 556 | Canticle of the Turning
- 558 | Lift Up Your Hearts
- 559 | Shout for Joy
- 560 | When, in Our Music, God Is Glorified
- 562 | Halleluya! We Sing Your Praises
- 563 | Santo, Santo, Santo / Holy, Holy, Holy
- 564 | Come, Ye Thankful People, Come
- 565 | Now Thank We All Our God
- 566 | In the Lord I’ll Be Ever Thankful
- 567 | Let All Things Now Living
- 568 | Father, We Thank Thee, Who Has Planted
- 569 | Thanks Be to You
- 571 | We Gather Together
- 572 | For the Beauty of the Earth
- 573 | Table Prayer
- 574 | Lead Me, Guide Me
- 575 | We Cannot Measure How You Heal
- 577 | Come, My Way, My Truth, My Life
- 578 | Lord of All Hopefulness
- 579 | Standin' in the Need of Prayer
- 580 | Creating God
- 582 | I Need You to Listen
- 584 | Healing River
- 585 | Song over the Waters
- 586 | O Lord, Hear My Prayer
- 588 | Blest Are You
- 589 | May the Lord, Mighty God
- 590 | We Walk by Faith
- 591 | How Shall I Sing to God?
- 593 | We Remember
- 594 | Dwelling Place
- 595 | We Live a Mystery
- 596 | Do Not Fear to Hope
- 597 | I Say "Yes," Lord/Digo "Sí," Señor
- 598 | Center of My Life
- 599 | Hold Me in Life
- 600 | Faith of Our Fathers
- 601 | All That We Have
- 602 | Though the Mountains May Fall
- 603 | How Can I Keep from Singing
- 604 | You Are Near
- 605 | The Lord Is My Light
- 606 | How Firm a Foundation
- 607 | A Mighty Fortress Is Our God
- 608 | Be Not Afraid
- 609 | The Lord Is Near
- 610 | My Refuge
- 611 | On Eagle's Wings
- 612 | Amazing Grace
- 613 | The Lord Is My Hope
- 614 | O God, Our Help in Ages Past
- 615 | Seek Ye First the Kingdom of God
- 616 | For You Are My God
- 617 | Blest Be the Lord
- 618 | Be Still, and Know That I Am God
- 619 | The Lord Is Near
- 620 | You Will Draw Water
- 621 | Only in God
- 622 | Love Divine, All Loves Excelling
- 623 | Not for Tongues of Heaven's Angels
- 624 | Faith, Hope and Love
- 625 | Where Charity and Love Prevail
- 626 | There's a Wideness in God's Mercy
- 627 | What Wondrous Love Is This
- 628 | No Greater Love
- 629 | God Is Love
- 630 | Love One Another
- 631 | Where True Love and Charity are Found/Ubi Caritas
- 633 | Lover of Us All
- 634 | Lord of All Nations, Grant Me Grace
- 635 | The King of Love My Shepherd Is
- 636 | Shelter Me, O God
- 637 | Come to Me, O Weary Traveler
- 638 | Eye Has Not Seen
- 639 | Nada Te Turbe/Nothing Can Trouble
- 640 | A Touching Place
- 641 | Shepherd of My Heart
- 642 | Jesus, Lead the Way
- 643 | The Lord is My Shepherd
- 644 | Within Our Darkest Night
- 645 | Show Us the Path of Life
- 646 | I Heard the Voice of Jesus Say
- 647 | Come To Me
- 648 | There Is a Balm in Gilead
- 649 | You Are Mine
- 650 | Come to Me
- 651 | So the Day Dawn for Me
- 652 | Our God Is Rich in Love
- 653 | The People of God
- 654 | With a Shepherd's Care
- 655 | The Kingdom of God
- 656 | Thy Kingdom Come
- 657 | I Will Not Die
- 658 | Bring Forth the Kingdom
- 659 | Blest Are They
- 661 | The Church’s One Foundation
- 662 | Christ Is Made the Sure Foundation
- 663 | As a Fire Is Meant for Burning
- 664 | Church of God
- 665 | We Will Serve the Lord
- 666 | Pues Si Vivimos/If We Are Living
- 667 | Jesus in the Morning
- 668 | I Bind My Heart
- 669 | The Servant Song
- 670 | Whatsoever You Do
- 671 | Glorious in Majesty
- 672 | I Am the Vine
- 673 | Take This Moment
- 674 | Keep in Mind
- 675 | The God Who Sends Us Forth
- 676 | You Have Anointed Me
- 677 | Thuma Mina/Send Me, Jesus
- 678 | City of God
- 679 | Good News
- 680 | You Are Called to Tell the Story
- 681 | Lord, Whose Love in Humble Service
- 682 | God Has Chosen Me
- 683 | Servant Song
- 684 | Great Is the Lord
- 685 | Moved by the Gospel, Let Us Move
- 686 | Here I Am, Lord
- 687 | Go Make of All Disciples
- 688 | Two Fishermen
- 689 | Out of Darkness
- 690 | Anthem
- 691 | Now Go Forward
- 692 | Sing Hey for the Carpenter
- 694 | Now We Remain
- 695 | Only This I Want
- 696 | Lord, When You Came/Pescador de Hombres
- 697 | Unless a Grain of Wheat
- 698 | Take Up Your Cross
- 699 | We Have Been Told
- 700 | The Summons
- 701 | God It Was
- 702 | The Love of the Lord
- 704 | I Am for You
- 706 | Never the Blade Shall Rise
- 707 | Guide My Feet
- 708 | I Danced in the Morning
- 709 | We Will Drink the Cup
- 710 | Abundant Life
- 711 | The Harvest of Justice
- 712 | On Holy Ground
- 713 | Your Love, O God, Has All the World Created
- 714 | God, Whose Purpose Is to Kindle
- 716 | Let Justice Roll Like a River
- 717 | Free at Last
- 718 | We Are Called
- 719 | For the Healing of the Nations
- 720 | Now Join We to Praise the Creator
- 721 | Voices That Challenge
- 722 | If You Believe and I Believe
- 723 | Freedom Is Coming
- 725 | Jesus, Shepherd of Our Souls
- 726 | Make Me a Channel of Your Peace
- 727 | How Good It Is
- 729 | Prayer of Peace
- 730 | Dona Nobis Pacem
- 731 | Let There Be Peace on Earth
- 732 | World Peace Prayer
- 733 | We Are Many Parts
- 734 | No Longer Strangers
- 735 | They'll Know We Are Christians
- 736 | Many Are the Lightbeams
- 737 | The Broken Body
- 738 | In Christ There Is No East or West
- 739 | Diverse in Culture, Nation, Race
- 740 | Song of Gathering
- 741 | God Is Here! As We His People
- 742 | Now the Feast and Celebration
- 743 | Come to Us
- 744 | Gather Us In
- 745 | Jesus Christ, Yesterday, Today and for Ever
- 746 | This is the Day When Light Was First Created
- 747 | All People That on Earth Do Dwell
- 748 | What Is This Place
- 749 | In Christ There Is a Table Set for All
- 750 | We Gather in Worship
- 751 | Come, Host of Heaven's High Dwelling Place
- 752 | Bless the Feast
- 753 | All Are Welcome
- 755 | Today I Awake
- 756 | Morning Has Broken
- 757 | This Day God Gives Me
- 759 | At Evening
- 760 | Joyful Is the Dark
- 761 | God of Day and God of Darkness
- 764 | Praise and Thanksgiving
- 765 | When the Lord in Glory Comes
- 766 | Mine Eyes Have Seen the Glory
- 767 | O Holy City, Seen of John
- 768 | The Day Is Near
- 769 | My Lord Will Come Again
- 770 | Soon and Very Soon
- 771 | Jerusalem, My Happy Home
- 772 | We Shall Rise Again
- 773 | Steal Away to Jesus
- 774 | Shall We Gather at the River
- 775 | Canticle of Zachary
- 776 | Now Let Your Servant Go
- 777 | Praise We the Lord This Day
- 778 | 'Tis Good, Lord, to Be Here
- 779 | Salve Regina/Hail, Queen of Heaven
- 780 | O Sanctissima/O Most Virtous
- 781 | I Sing a Maid
- 782 | Hail Mary: Gentle Woman
- 783 | Sing of Mary, Pure and Lowly
- 784 | Hail, Holy Queen, Enthroned Above
- 785 | Ave Maria
- 786 | Sing We of the Blessed Mother
- 787 | All Who Claim the Faith of Jesus
- 788 | Magnificat
- 789 | Ave Maria
- 790 | Immaculate Mary
- 791 | Lift High the Cross
- 792 | Give Thanks to God on High
- 793 | For All the Saints
- 794 | Ye Watchers and Ye Holy Ones
- 795 | Litany of the Saints
- 796 | Litany of the Saints
- 797 | Covenant Hymn
- 798 | Baptized in Water
- 799 | Alive in Christ Jesus
- 800 | O Breathe on Me, O Breath of God
- 801 | For the Life of the World
- 803 | Awake, O Sleeper
- 805 | Sign Me Up
- 806 | I Come with Joy to Meet My Lord
- 807 | Come and Let Us Drink of That New River
- 808 | We Are God's Work of Art
- 809 | There Is One Lord
- 810 | You Are God's Work of Art
- 812 | Wade in the Water
- 813 | Song of the Chosen
- 814 | Taste and See
- 815 | You Satisfy the Hungry Heart
- 816 | Let Us Be Bread
- 817 | Jesus, Wine of Peace
- 818 | As We Remember
- 819 | You Are Our Living Bread
- 820 | All Who Hunger
- 821 | Bread of Life, Hope of the World
- 822 | Life-Giving Bread, Saving Cup
- 823 | Behold the Lamb
- 824 | I Myself am the Bread of Life
- 825 | As the Grains of Wheat
- 826 | The Living Bread of God
- 827 | Bread for the World
- 828 | I Am the Bread of Life
- 829 | Shepherd of Our Hearts
- 830 | One Bread, One Body
- 831 | Take and Eat
- 832 | Let Us Break Bread Together
- 833 | Now in This Banquet
- 834 | Seed, Scattered and Sown
- 835 | O Taste and See
- 836 | We Know and Believe
- 837 | Taste and See
- 838 | Eat This Bread
- 839 | Here in This Place
- 840 | Shepherd of Souls
- 841 | In the Breaking of the Bread
- 843 | Look Beyond
- 844 | Without Seeing You
- 845 | The Song of the Supper
- 846 | One Is the Body
- 847 | Song of the Body of Christ
- 848 | Pan de Vida
- 849 | Table Song
- 850 | We Come to Your Feast
- 851 | I Received the Living God
- 852 | At That First Eucharist
- 853 | Alleluia! Sing to Jesus
- 855 | How Lovely Is Your Dwelling
- 856 | I Shall See My God
- 860 | I, the Lord
- 861 | Song of the Exile
- 864 | Song of Farewell
- 865 | When Love Is Found
- 868 | God, in the Planning
- 869 | We Will Serve the Lord
- 870 | Nuptial Blessing
- 873 | In Love We Choose to Live
- 874 | Precious Lord, Take My Hand
- 875 | Jesus, Heal Us
- 876 | He Healed the Darkness of My Mind
- 877 | Out of the Depths
- 878 | The Master Came to Bring Good News
- 879 | Forgive Our Sins
- 880 | Deep Down in My Soul
- 881 | Remember Your Love
- 882 | Healer of Our Every Ill
- 883 | Ashes
- 884 | I Want to Call You
- 885 | Remember Your Mercy, Lord
- 886 | O Food of Exiles Lowly
- 890 | America the Beautiful
- 892 | God of Eve and God of Mary
- 893 | God of Adam, God of Joseph
- 999 | End of Songs
+000|Not In Gather Comprehensive
+001|Morning Praise Opening Dialog
+002|Morning Praise Morning Hymn
+003|Morning Praise Psalm 63
+004|Morning Praise No Title
+005|Morning Praise Gospel Canticle
+006|Morning Praise Morning Prayers
+007|Morning Praise Lord's Prayer
+008|Morning Praise Final Blessing
+009|Evensong Light Proclamation
+010|Evensong Evening Hymn
+011|Evensong Evening Thanksgiving
+012|Evensong Psalm 141/Incense Psalm
+013|Evensong Word of God 
+014|Evensong Gospel Canticle
+015|Evensong Petitions
+016|Evensong Lord's Prayer
+017|Evensong Final Blessing
+018|Psalm 1: Happy Are They
+019|Psalm 4: Let Your Face Shine upon Us
+020|Psalm 8: How Glorius Is Your Name
+021|Psalm 8: How Great Is Your Name
+022|Psalm 15: They Who Do Justice
+023|Psalm 16: Keep Me Safe, O God
+024|Psalm 16: You Will Show Me the Path of Life
+025|Psalm 17: Lord, When Your Glory Appears
+026|Psalm 18: I love You Lord, My Strength
+027|Psalm 19: Lord, You Have the Words
+028|Psalm 22: I Will Praise You, Lord
+029|Psalm 22: My God, My God
+030|Psalm 23: My Shepherd is the Lord
+031|Psalm 23: Shepherd Me, O God
+032|Psalm 23: The Lord Is My Shepherd
+033|Psalm 23: Nada Me Falta
+034|Psalm 24: We Long to See Your Face
+035|Psalm 25: Remember Your Mercies
+036|Psalm 25: To You, O Lord
+037|Psalm 25: Levanto Mi Alma
+038|Psalm 27: In the Land of the Living
+039|Psalm 27: The Lord Is My Light
+040|Psalm 29: The Lord Will Bless His People
+041|Psalm 30: I Will Praise You, Lord
+042|Psalm 31: I Put My Life in Your Hands/Pongo Mi Vida
+043|Psalm 31: I Put My Life in Your Hands
+044|Psalm 32: I Turn to You
+045|Psalm 33: Let Your Mercy Be On Us
+046|Psalm 34: I Will Bless The Lord
+047|Psalm 34: Taste adn See
+048|Psalm 34: The Cry of the Poor
+049|Psalm 40: Here I Am
+050|Psalm 41: Lord, Heal My Soul
+051|Psalm 41-42: Song of Longing
+052|Psalm 45: The Queen Stands at Your Right Hand
+053|Psalm 47: God Mounts His Throne
+054|Psalm 50: To the Upright
+055|Psalm 51: Have Mercy, Lord
+056|Psalm 51: Be Merciful, O Lord
+057|Psalm 51: Create in Me
+058|Psalm 54: The Lord Upholds My Life
+059|Psalm 62: In God Alone
+060|Psalm 63: My Soul Is Thirsting
+061|Psalm 63: My Soul Is Thirsting
+062|Psalm 63: Your Love Is Finer Than Life
+063|Psalm 63: I Long for You
+064|Psalm 65: The Seed That Falls on Good Ground
+065|Psalm 66: Let All the Earth
+066|Psalm 67: May God Bless Us in His Mercy
+067|Psalm 68: You have Made a Home for the Poor
+068|Psalm 69: Lord, in Your Great Love
+069|Psalm 69: Turn to the Lord in Your Need
+070|Psalm 69: Turn to the Lord in Your Need
+071|Psalm 71: I Will Sing
+072|Psalm 72: Every Nation On Earth
+073|Psalm 78: The Lord Gave Them Bread
+074|Psalm 80: The Vinyard of the Lord
+075|Psalm 80/85/Luke 1:Lord, Make Us Turn to You
+076|Psalm 81: Sing with Joy to God
+077|Psalm 84: Happy Are They
+078|Psalm 84: How Lovely Is your Dwelling Place
+079|Psalm 85: Lord, Let Us See Your Kindness
+080|Psalm 85: Come, O Lord, and Set us Free
+081|Psalm 86: Lord, You Are Good and Forgiving
+082|Psalm 89: For Ever I Will Sing
+083|Psalm 90: In Ev'ry Age
+084|Psalm 90: Fill Us with Your Love, O Lord
+085|Psalm 91: Be with Me, Lord
+086|Psalm 92: Lord, It Is Good
+087|Psalm 93: The Lord Is King
+088|Psalm 93: The Lord Is King for Evermore
+089|Psalm 95: If Today You Hear God's Voice
+090|Psalm 96: Today Is Born Our Savior
+091|Psalm 96: Today Is Born Our Savior
+092|Psalm 96: Great Is the Lord
+093|Psalm 96: Proclaim to All the Nations
+094|Psalm 97: The Lord Is King
+095|Psalm 98: All the Ends of the Earth
+096|Psalm 100: Arise, Come to Your God
+097|Psalm 100: We Are God's People
+098|Psalm 103: My Soul, Give Thanks to the Lord
+099|Psalm 103: The Lord is Kind and Merciful
+100|Psalm 103: The Lord is Kind and Merciful
+101|Psalm 104: Lord, Send Out Your Spirit
+102|Psalm 107: Give Thanks to the Lord
+103|Psalm 110: You Are a Priest for Ever
+104|Psalm 112: A Light Rises in the Darkness
+105|Psalm 113: Praise God's Name
+106|Psalm 113: Praise the Lord
+107|Psalm 116: Our Blessing-Cup
+108|Psalm 116: I Will Walk in the Presence
+109|Psalm 116: I Will Walk in the Presence of God
+110|Psalm 116: The Name of God
+111|Psalm 128: Blest Are Those Who Love
+112|Psalm 117: Go Out to All the World
+113|Psalm 118: Alleluia, Alleluia
+114|Psalm 118: Let Us Rejoice
+115|Psalm 118: This Is the Day
+116|Psalm 119: Happy Are Those Who Follow
+117|Psalm 119: Lord, I Love Your Commands
+118|Psalm 121: I Lift Up My Eyes
+119|Psalm 121: Our Help Comes from the Lord
+120|Psalm 122: Let Us Go Rejoicing
+121|Psalm 122: I Was Glad
+122|Psalm 123: Our Eyes are Fixed on the Lord
+123|Psalm 126: The Lord Has Done Great Things
+124|Psalm 126: God Has Done Great Things for Us
+125|Psalm 128: Blest Are Those Who Love You
+126|Psalm 126: The Lord Has Done Great Things
+127|Psalm 130: With the Lord There Is Mercy
+128|Psalm 130: I Place All My Trust In You
+129|Psalm 131: My Soul Is Still
+130|Psalm 134: In the Silent Hours of Night
+131|Psalm 136: Love Is Never Ending
+132|Psalm 137: Let My Tongue Be Silent
+133|Psalm 138: Lord, Your Love Is Eternal
+134|Psalm 138: The Fragrence of Christ
+135|Psalm 139: Filling Me with Joy
+136|Psalm 141: Evening Offering
+137|Psalm 145: I Will Praise Your Name
+138|Psalm 145: Our God Is Compassion
+139|Psalm 146: Happy the Poor in Spirit
+140|Psalm 146: Lord, Come and Save Us
+141|Psalm 147: Bless the Lord, My Soul
+142|Psalm 150: Praise God in His Holy Dwelling
+143|Song at the Sea / Exodus 15
+144|Canticle of Simeon/Luke 2:29-32
+145|Canticle of Mary/Luke 1:46-55
+146|Magnificat/Luke 1:46-55
+147|Holy Is Your Name/Luke 1:46-55
+148|Isaiah 12:2-3,4,6
+149|Revelation 19:1-7
+150|Song of the Three Children / Daniel 3:52-56
+151|Song of the Three Children / Daniel 3:52-57
+152|Song of the Three Children / Daniel 3:57-88
+153|Order of Mass
+154|Blessing and Sprinkling of Holy Water
+155|Penitential Rite
+156|Kyrie
+157|Gloria
+158|Opening Prayer
+159|Liturgy of the Word
+160|Gospel Acclamation
+161|Profession of Faith
+162|Apostles' Creed
+163|General Intercessions
+164|Liturgy of the Eucharist
+165|Eucharistic Prayer
+166|Holy, Holy holy
+167|Mystery of Faith
+168|Amen
+169|Communion Rite
+170|Peace of hte Lord
+171|lamb of God
+172This is the Lambn of God
+173|Concluding Rite
+174|Clense Us, O Lord
+175|Kyrie Eleison
+176|Gloria
+177|Gospel Acclimation
+178|General Intercessions
+179|Preface Dialog
+180|Sanctus
+181|Memorial Acclimation
+182|Amen
+183|Communion Rite
+184|Anguis Dei
+185|Kyrie Eleison
+186|Gloria
+187|Alleluia
+188|Gospel Acclimation
+189|Preface Dialog
+190|Sanctus
+191|Eucharistic Acclimation
+192|Memorial Acclimation
+193|Eucharistic Acclimation
+194|Amen
+195|Angus Dei
+196|Kyrie
+197|Gloria
+198|Alleluia
+199|Preface Dialog
+200|Eucharistic Acclimation
+201|Sanctus
+202|Eucharistic Acclimation
+203|Memorial Acclimation
+204|Eucharistic Acclimation
+205|Eucharistic Acclimation
+206|Amen
+207|Angus Dei
+242|Rite of Sprinkling:Springs of Water
+243|Rite of Sprinkling:Springs of Water
+244|Rite of Sprinkling:Lord Jesus, from Your Wounded Side
+316|May We Be One
+317|O Come, O Come, Emmanuel
+318|People, Look East
+319|Walk in the Reign
+320|The King Shall Come When Morning Dawns
+321|On Jordan's Bank
+322|On Jordan's Bank
+323|Come, O Long Expected Jesus
+324|Advent Gathering
+325|Like a Shepherd
+326|Comfort, Comfort, O My People
+327|When the King Shall Come Again
+328|My Soul in Stillness Waits
+329|Within Our Hearts Be Born
+330|Your Mercy Like Rain
+331|God of All People
+332|Wait for the Lord
+333|O Come, Divine Messiah
+334|Savior of the Nations, Come
+335|Wake, O Wake and Sleep No Longer
+336|Prepare the Way of the Lord
+337|Creator of the Stars of Night
+338|Come to Set Us Free
+339|Each Winter as the Year Grows Older
+340|People of the Night
+341|O Come, All Ye Faithful/Adeste Fideles
+342|Night of Silence
+343|Joy to the World
+344|Gloria
+345|The Virgin Mary Had a Baby Boy
+346|Awake! Awake, and Greet the New Morn
+347|Angels We Have Heard on High
+348|Hark! The Herald Angels Sing
+349|The Age of Expectation
+350|God's Surprise
+351|Of the Father's Love Begotten
+352|Silent Night, Holy Night
+353|Away in a Manger
+354|Infant Holy, Infant Lowly
+355|The Tiny Child to Bethlehem Came
+356|A Stable Lamp Is Lighted
+357|Child of Mercy
+358|Angels, from the Realms of Glory
+359|Go Tell It on the Mountain
+360|Rise Up, Shepherd, and Follow
+361|'Twas in the Moon of Wintertime
+362|Good Christian Friends, Rejoice
+363|O Little Town of Bethlehem
+364|Song of the Stable
+365|Nativity Carol
+366|God Rest You Merry, Gentlemen
+367|It Came upon the Midnight Clear
+368|Lo, How a Rose E'er Blooming
+369|Carol at the Manger
+370|He Came Down
+371|The Aye Carol
+372|Once in Royal David's City
+373|We Three Kings of Orient Are
+374|As with Gladness Men of Old
+375|Lord, Today
+376|Songs of Thankfulness and Praise
+377|The First Nowell
+378|What Star Is This
+379|Brightest and Best
+380|What Child Is This
+381|Dust and Ashes
+382|Again We Keep This Solemn Fast
+383|Parce Domine
+384|Forty Days and Forty Nights
+385|Eternal Lord of Love
+386|Hosea
+387|Hear Us, Almight Lord/Attende Domine
+388|The Glory of These Forty Days
+389|Return to God
+390|Jerusalem, My Destiny
+391|God of Abraham
+392|Lord, Who Throughout These Forty Days
+393|Jesus Walked This Lonesome Valley
+394|Change Our Hearts
+395|Somebody's Knockin' at Your Door
+396|Adoramus Te Christe
+397|Tree of Life
+398|Hold Us in Your Mercy
+399|Deep Within
+400|Wash Me, Cleanse Me
+401|At the Cross Her Station Keeping
+402|All Glory, Laud and Honor
+403|Hosanna
+404|Jesus, Remember Me
+405|Ride On, Jesus, Ride
+406|Triduum Hymn: Wondrous Love
+407|Hail Our Savior’s Glorious Body/Pange Lingua
+408|Ubi Caritas
+409|Jesu, Jesu
+410|Serving You
+411|Stay Here and Keep Watch
+412|Song of the Lord's Supper
+413|Faithful Family
+414|Jesus Took a Towel
+415|O Sacred Head Surrounded
+416|Were You There
+417|Crucem Tuam/O Lord, Your Cross
+418|Jesus, the Lord
+419|Calvary
+420|Behold the Wood
+421|All You Who Pass This Way
+422|Jesus Christ Is Risen Today
+423|O Sons and Daughters
+424|Easter Alleluia
+425|Alleluia! Alleluia! Let the Holy Anthem Rise
+426|Be Joyful, Mary
+427|All Things New
+428|Surrexit Dominus Vere II
+429|This Is the Feast of Victory
+430|I Know That My Redeemer Lives
+431|Christ Is Risen! Shout Hosanna!
+432|Resucitó
+433|At the Lamb's High Feast We Sing
+434|This Joyful Eastertide
+435|Sing to the Mountains
+436|Surrexit Christus
+437|Christ the Lord Is Risen Today
+438|Sequence for Easter
+439|Christ the Lord Is Risen!
+440|Come Away to the Skies
+441|Come, Ye Faithful, Raise the Strain
+442|Sing with All the Saints in Glory
+443|Alleluia, Alleluia, Give Thanks
+444|Now the Green Blade Rises
+445|That Easter Day with Joy Was Bright
+446|The Strife Is O'er
+447|Regina Caeli / O Queen of Heaven
+448|Darkness Is Gone
+449|This Is the Day
+450|Hail Thee, Festival Day
+451|Christ Has Risen
+452|Up from the Earth
+453|A Hymn of Glory Let Us Sing
+454|Go 
+455|I Will Be with You
+456|Lord, You Give the Great Commission
+457|Hail the Day That Sees Him Rise
+458|The Spirit of God
+459|Envía Tu Espíritu
+460|Veni Creator Spiritus
+461|O Holy Spirit, by Whose Breath
+462|Spirit Blowing through Creation
+463|Veni Sancte Spiritus
+464|Sequence for Pentecost
+465|Come Down, O Love Divine
+466|Send Down the Fire
+467|Spirit-Friend
+468|Spirit of God within Me
+469|Come, Holy Ghost
+470|Send Us Your Spirit
+471|Wa Wa Wa Emimimo/Come, O Holy Spirit
+472|How Wonderful the Three-in-One
+473|Alleluia, Sing!
+474|Holy, Holy, Holy! Lord God Almighty
+475|Come Now, Almighty King
+476|God Is One, Unique and Holy
+477|Blessed Be God
+478|Stand Up, Friends
+479|O God, Almighty Father
+480|Jesus, My Lord, My God, My All
+481|Christ Is the King
+482|Jesus Shall Reign
+483|The Carpenter
+484|All Hail the Power of Jesus' Name
+485|Crown Him with Many Crowns
+486|The King of Glory
+487|Rejoice, the Lord Is King
+488|To Jesus Christ, Our Sovereign King
+489|The Stars Declare His Glory
+490|Song at the Center
+491|God, beyond All Names
+492|All You Works of God
+493|The Works of the Lord Are Created in Wisdom
+494|How Great Thou Art
+495|The Earth Is the Lord's
+496|Canticle of the Sun
+497|God of All Creation
+498|Many and Great
+499|Sing Out, Earth and Skies
+500|I Will Lift Up My Eyes
+501|All You Who Are Thirsty
+502|Come to the Water
+503|Come to the Feast
+504|I Have Loved You
+505|You Are All We Have
+506|Immortal, Invisible, God Only Wise
+507|I Want to Walk as a Child of the Light
+508|We Are the Light of the World
+509|Be Light for Our Eyes
+510|I Am the Light of the World
+511|Light of Christ / Exsultet
+512|We Are Marching
+513|This Little Light of Mine
+514|The Word of Life
+515|Praise to You, O Christ, Our Savior
+516|Sow the Word
+517|Not by Bread Alone
+518|The Word Is in Your Heart
+519|May We Praise You
+520|All the Ends of the Earth
+521|Sing a New Song to the Lord
+522|Glory and Praise to Our God
+523|Sing Our God Together
+524|Holy God, We Praise Thy Name
+525|Laudate Dominum
+526|Cantai ao Senhor
+527|Praise to the Lord, the Almighty
+528|Joyful, Joyful, We Adore You
+529|Shake Up the Morning
+530|A New Song
+531|I Want to Praise Your Name
+532|World without End
+533|All Creatures of Our God and King
+534|Magnificat
+535|To God with Gladness Sing
+536|Amen Siakudumisa
+537|Sing a New Song
+538|Let Heaven your Wonders Proclaim
+539|Sing Praise to God Who Reigns Above
+540|Let All Mortal Flesh Keep Silence
+541|We Praise You
+542|Alabaré
+543|I Will Sing, I Will Sing
+544|The God of Abraham Praise
+545|Sing Praise to the Lord
+546|O God of Matchless Glory
+547|Sing of the Lord's Goodness
+548|Joyfully Singing
+549|You Are the Voice
+550|There's a Spirit in the Air
+551|Praise, My Soul, the King of Heaven
+552|All the Earth, Proclaim God's Glory
+553|Cantemos al Señor/Let's Sing unto the Lord
+554|Praise the Lord My Soul
+555|Jubilate Deo / In the lord Rejoicing
+556|Canticle of the Turning
+558|Lift Up Your Hearts
+559|Shout for Joy
+560|When, in Our Music, God Is Glorified
+561|When, in Our Music, God Is Glorified
+562|Halleluya! We Sing Your Praises
+563|Santo, Santo, Santo / Holy, Holy, Holy
+564|Come, Ye Thankful People, Come
+565|Now Thank We All Our God
+566|In the Lord I’ll Be Ever Thankful
+567|Let All Things Now Living
+568|Father, We Thank Thee, Who Has Planted
+569|Thanks Be to You
+570|Confitemini Domino / Come and Fill
+571|We Gather Together
+572|For the Beauty of the Earth
+573|Table Prayer
+574|Lead Me, Guide Me
+575|We Cannot Measure How You Heal
+576|Come to Us, Creative Spirit
+577|Come, My Way, My Truth, My Life
+578|Lord of All Hopefulness
+579|Standin' in the Need of Prayer
+580|Creating God
+581|Kyrie Guarany
+582|I Need You to Listen
+583|Gifts That Last
+584|Healing River
+585|Song over the Waters
+586|O Lord, Hear My Prayer
+587|Bwana Awabariki/May God Grant You a Blessing
+588|Blest Are You
+589|May the Lord, Mighty God
+590|We Walk by Faith
+591|How Shall I Sing to God?
+592|Mayenziwe/Your Will Be Done
+593|We Remember
+594|Dwelling Place
+595|We Live a Mystery
+596|Do Not Fear to Hope
+597|I Say "Yes," Lord/Digo "Sí," Señor
+598|Center of My Life
+599|Hold Me in Life
+600|Faith of Our Fathers
+601|All That We Have
+602|Though the Mountains May Fall
+603|How Can I Keep from Singing
+604|You Are Near
+605|The Lord Is My Light
+606|How Firm a Foundation
+607|A Mighty Fortress Is Our God
+608|Be Not Afraid
+609|The Lord Is Near
+610|My Refuge
+611|On Eagle's Wings
+612|Amazing Grace
+613|The Lord Is My Hope
+614|O God, Our Help in Ages Past
+615|Seek Ye First the Kingdom of God
+616|For You Are My God
+617|Blest Be the Lord
+618|Be Still, and Know That I Am God
+619|The Lord Is Near
+620|You Will Draw Water
+621|Only in God
+622|Love Divine, All Loves Excelling
+623|Not for Tongues of Heaven's Angels
+624|Faith, Hope and Love
+625|Where Charity and Love Prevail
+626|There's a Wideness in God's Mercy
+627|What Wondrous Love Is This
+628|No Greater Love
+629|God Is Love
+630|Love One Another
+631|Where True Love and Charity are Found/Ubi Caritas
+632|Song of Thanksgiving
+633|Lover of Us All
+634|Lord of All Nations, Grant Me Grace
+635|The King of Love My Shepherd Is
+636|Shelter Me, O God
+637|Come to Me, O Weary Traveler
+638|Eye Has Not Seen
+639|Nada Te Turbe/Nothing Can Trouble
+640|A Touching Place
+641|Shepherd of My Heart
+642|Jesus, Lead the Way
+643|The Lord is My Shepherd
+644|Within Our Darkest Night
+645|Show Us the Path of Life
+646|I Heard the Voice of Jesus Say
+647|Come To Me
+648|There Is a Balm in Gilead
+649|You Are Mine
+650|Come to Me
+651|So the Day Dawn for Me
+652|Our God Is Rich in Love
+653|The People of God
+654|With a Shepherd's Care
+655|The Kingdom of God
+656|Thy Kingdom Come
+657|I Will Not Die
+658|Bring Forth the Kingdom
+659|Blest Are They
+660|Onward to the Kingdom
+661|The Church’s One Foundation
+662|Christ Is Made the Sure Foundation
+663|As a Fire Is Meant for Burning
+664|Church of God
+665|We Will Serve the Lord
+666|Pues Si Vivimos/If We Are Living
+667|Jesus in the Morning
+668|I Bind My Heart
+669|The Servant Song
+670|Whatsoever You Do
+671|Glorious in Majesty
+672|I Am the Vine
+673|Take This Moment
+674|Keep in Mind
+675|The God Who Sends Us Forth
+676|You Have Anointed Me
+677|Thuma Mina/Send Me, Jesus
+678|City of God
+679|Good News
+680|You Are Called to Tell the Story
+681|Lord, Whose Love in Humble Service
+682|God Has Chosen Me
+683|Servant Song
+684|Great Is the Lord
+685|Moved by the Gospel, Let Us Move
+686|Here I Am, Lord
+687|Go Make of All Disciples
+688|Two Fishermen
+689|Out of Darkness
+690|Anthem
+691|Now Go Forward
+692|Sing Hey for the Carpenter
+693|We Are Climbing Jacob's Ladder
+694|Now We Remain
+695|Only This I Want
+696|Lord, When You Came/Pescador de Hombres
+697|Unless a Grain of Wheat
+698|Take Up Your Cross
+699|We Have Been Told
+700|The Summons
+701|God It Was
+702|The Love of the Lord
+703|Song of St. Patrick
+704|I Am for You
+705|Jesu Tawa Pano / jesus, We Are Here
+706|Never the Blade Shall Rise
+707|Guide My Feet
+708|I Danced in the Morning
+709|We Will Drink the Cup
+710|Abundant Life
+711|The Harvest of Justice
+712|On Holy Ground
+713|Your Love, O God, Has All the World Created
+714|God, Whose Purpose Is to Kindle
+715|Go Down, Moses
+716|Let Justice Roll Like a River
+717|Free at Last
+718|We Are Called
+719|For the Healing of the Nations
+720|Now Join We to Praise the Creator
+721|Voices That Challenge
+722|If You Believe and I Believe
+723|Freedom Is Coming
+724|We Shall Overcome
+725|Jesus, Shepherd of Our Souls
+726|Make Me a Channel of Your Peace
+727|How Good It Is
+728|Peace Is Flowing Like A River
+729|Prayer of Peace
+730|Dona Nobis Pacem
+731|Let There Be Peace on Earth
+732|World Peace Prayer
+733|We Are Many Parts
+734|No Longer Strangers
+735|They'll Know We Are Christians
+736|Many Are the Lightbeams
+737|The Broken Body
+738|In Christ There Is No East or West
+739|Diverse in Culture, Nation, Race
+740|Song of Gathering
+741|God Is Here! As We His People
+742|Now the Feast and Celebration
+743|Come to Us
+744|Gather Us In
+745|Jesus Christ, Yesterday, Today and for Ever
+746|This is the Day When Light Was First Created
+747|All People That on Earth Do Dwell
+748|What Is This Place
+749|In Christ There Is a Table Set for All
+750|We Gather in Worship
+751|Come, Host of Heaven's High Dwelling Place
+752|Bless the Feast
+753|All Are Welcome
+754|Now the Silence
+755|Today I Awake
+756|Morning Has Broken
+757|This Day God Gives Me
+758|Day Is Done
+759|At Evening
+760|Joyful Is the Dark
+761|God of Day and God of Darkness
+762|Joyous Light of Heavenly Glory
+763|Our Darkness / La Tenebre
+764|Praise and Thanksgiving
+765|When the Lord in Glory Comes
+766|Mine Eyes Have Seen the Glory
+767|O Holy City, Seen of John
+768|The Day Is Near
+769|My Lord Will Come Again
+770|Soon and Very Soon
+771|Jerusalem, My Happy Home
+772|We Shall Rise Again
+773|Steal Away to Jesus
+774|Shall We Gather at the River
+775|Canticle of Zachary
+776|Now Let Your Servant Go
+777|Praise We the Lord This Day
+778|'Tis Good, Lord, to Be Here
+779|Salve Regina/Hail, Queen of Heaven
+780|O Sanctissima/O Most Virtous
+781|I Sing a Maid
+782|Hail Mary: Gentle Woman
+783|Sing of Mary, Pure and Lowly
+784|Hail, Holy Queen, Enthroned Above
+785|Ave Maria
+786|Sing We of the Blessed Mother
+787|All Who Claim the Faith of Jesus
+788|Magnificat
+789|Ave Maria
+790|Immaculate Mary
+791|Lift High the Cross
+792|Give Thanks to God on High
+793|For All the Saints
+794|Ye Watchers and Ye Holy Ones
+795|Litany of the Saints
+796|Litany of the Saints
+797|Covenant Hymn
+798|Baptized in Water
+799|Alive in Christ Jesus
+800|O Breathe on Me, O Breath of God
+801|For the Life of the World
+802|I've Just Come from the Fountain
+803|Awake, O Sleeper
+804|Little Heart of Ages
+805|Sign Me Up
+806|I Come with Joy to Meet My Lord
+807|Come and Let Us Drink of That New River
+808|We Are God's Work of Art
+809|There Is One Lord
+810|You Are God's Work of Art
+811|Christ Will be Your Strength
+812|Wade in the Water
+813|Song of the Chosen
+814|Taste and See
+815|You Satisfy the Hungry Heart
+816|Let Us Be Bread
+817|Jesus, Wine of Peace
+818|As We Remember
+819|You Are Our Living Bread
+820|All Who Hunger
+821|Bread of Life, Hope of the World
+822|Life-Giving Bread, Saving Cup
+823|Behold the Lamb
+824|I Myself am the Bread of Life
+825|As the Grains of Wheat
+826|The Living Bread of God
+827|Bread for the World
+828|I Am the Bread of Life
+829|Shepherd of Our Hearts
+830|One Bread, One Body
+831|Take and Eat
+832|Let Us Break Bread Together
+833|Now in This Banquet
+834|Seed, Scattered and Sown
+835|O Taste and See
+836|We Know and Believe
+837|Taste and See
+838|Eat This Bread
+839|Here in This Place
+840|Shepherd of Souls
+841|In the Breaking of the Bread
+842|Take and Eat This Bread
+843|Look Beyond
+844|Without Seeing You
+845|The Song of the Supper
+846|One Is the Body
+847|Song of the Body of Christ
+848|Pan de Vida
+849|Table Song
+850|We Come to Your Feast
+851|I Received the Living God
+852|At That First Eucharist
+853|Alleluia! Sing to Jesus
+854|I Know That My Reedeemer Lives
+855|How Lovely Is Your Dwelling
+856|I Shall See My God
+857|I Know That My Reedeemer Lives
+858|May the Angels Lead You into Paradise
+859|The Hand of God Shall Hold You
+860|I, the Lord
+861|Song of the Exile
+862|Saints of God
+863|In Paradisum / May Choirs of Angels
+864|Song of Farewell
+865|When Love Is Found
+866|Love Is the Sunlight
+867|Wherever You Go
+868|God, in the Planning
+869|We Will Serve the Lord
+870|Nuptial Blessing
+871|Blessing the Marriage
+872|Wherever You Go
+873|In Love We Choose to Live
+874|Precious Lord, Take My Hand
+875|Jesus, Heal Us
+876|He Healed the Darkness of My Mind
+877|Out of the Depths
+878|The Master Came to Bring Good News
+879|Forgive Our Sins
+880|Deep Down in My Soul
+881|Remember Your Love
+882|Healer of Our Every Ill
+883|Ashes
+884|I Want to Call You
+885|Remember Your Mercy, Lord
+886|O Food of Exiles Lowly
+887|O Saving Victim / O Salutaris
+888|Come Adore / Tantum Ergo
+889|My Country, 'Tis of Thee
+890|America the Beautiful
+891|Star Spangled banner
+892|God of Eve and God of Mary
+893|God of Adam, God of Joseph
+894|The God od All Eternity
+895|Greet Now the Swiftly Changing Year
+999|End of Songs

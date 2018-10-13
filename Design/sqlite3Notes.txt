@@ -1,0 +1,22 @@
+Python sqlite3
+
+import sqlite3
+conn = sqlite3.connect('fyle.db')  or :memory: for it in RAM
+create Cursor
+c=conn.cursor()
+#Create Table
+c.execute('''CREATE TABLE name
+               (item type, item type)''')
+#Insert a row of data
+c.execute("INSERT INTO name VALUES(' ',' '...)")
+#Save commit the changes
+conn.commit()
+#close the database
+conn.close()
+
+TABLES
+
+Print
+     songbook TEXT number INTEGER title TEXT
+Events
+     LitYr TEXT Event TEXT songTitles TEXT

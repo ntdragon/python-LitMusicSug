@@ -159,7 +159,9 @@ class PageThree(Frame):
           Frame.__init__(self, parent)
           label = Label(self, text="Processing Suggestions", font=LARGE_FONT).pack(pady=10, padx=10)
           label = Label(self, text="Inputting information from files", font=LARGE_FONT).pack(pady=10, padx=10)
-          '''   gcprint = infyle_print('.gcprint.txt.txt')
+          '''
+          #TODO: If db set up then input db
+          gcprint = infyle_print('.gcprint.txt')
           g3print = infyle_print('.g3print.txt')
           gcsearch = infyle_search('.gcsearch.txt')
           g3search = infile_search('.g3search.txt')
@@ -178,6 +180,7 @@ class PageThree(Frame):
           button2.pack()
 '''
 #----------------------------------------------------------------------------------------------
+TABLE
      #entry for search a dictionary with title as key
      #entry for print a dictionary with inum as key
      def infyle_search(infile,?) #FIXME: need to validate this  do I need to return entry

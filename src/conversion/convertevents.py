@@ -4,7 +4,13 @@ import sys
 import sqlite3
 
 def convert(book, infile, db):
-    """ Do the conversion for a file """
+    """ Do the conversion for an event file
+
+     event suggestion file format
+          lityear text - liturgical year (A,B,C)  E indicates last line
+          event text - liturgical event  'End' indicates last line
+          title text- a song title for psalm or song ''End of Events' indicates last line
+    """
 
     conn = sqlite3.connect(db)
 
