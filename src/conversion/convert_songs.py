@@ -1,19 +1,67 @@
 """ Convert Song Table - Convert songbook text files into database records """
 import argparse
 import sys
+import os
 import sqlite3
+import csv
 
 def convert(book, infile, db):
     """ Do the conversion for a file """
-         """ Ed - 10/12/2018
-          Song book file for conversion format with | as delimiter:
-               number - 99999 reserved for end of file line
-               type - Psalm, Song or end
-               title - Song title
-          """
 
-    conn = sqlite3.connect(db)
+    # use pipe rather than csv for reader
+    csv.register_dialect('pipes', delimiter='|')
 
+    schema_filename = 'songbook_schema.sql'
+    #db is songbook database filename
+    
+    db_is_new = not os.path.exists(db)         
+
+    dbcon = sqlite3.connect(db)
+
+    if db_is_new:
+        with open(schema_filename, 'rt') as f:
+            schema = f.read()
+            dbcrsr = dbcon.cursor()
+            dbcrsr.executescript(schema)
+        with open(infile, 'rt') as f:
+            reader = csv.reader(f, dialect='pipes')
+            for row in reader:
+                num, btype, title = row.split("|")
+                num = num.strip()
+                inum = int(num)
+                btype = btype.strip()
+                title = title.strip()
+                entry = (book, inum, btype, title)
+                #TODO: finish me
+                cursor.execute("""INSERT OR IGNORE INTO Songs
+                    (book, number, type, title) VALUES (?,?,?,?)""", entry)
+                ##TODO Finish ? 
+    else:
+        dbcrsr = dbcon.cursor()
+        with open(infile, 'rt') as f:
+            reader = csv.reader(f, dialect='pipes')
+            for row in reader:
+                num, btype, title = row.split("|")
+                num = num.strip()
+                inum = int(num)
+                btype = btype.strip()
+                title = title.strip()
+                entry = (book, inum, btype, title)
+                #TODO Finish me
+
+
+    conn.commit()
+    conn.close()
+
+
+
+
+
+
+
+
+#-------------------------------------
+        
     cursor = conn.cursor()
     cursor.execute('''CREATE TABLE IF NOT EXISTS songs (
         id integer primary key autoincrement not null,
@@ -24,6 +72,8 @@ def convert(book, infile, db):
         unique(book, number, type, title)
         )''')
 
+    # use pipe rather than csv for reader
+    csv.register_dialect('pipes', delimiter='|')
 
     for line in infile:
         num, tipe, title = line.split("|")
@@ -48,11 +98,7 @@ def convert(book, infile, db):
         # Could gather all entries and use an executemany
         # which would solve knowing which entry is last
         entry = (book, inum, btype, title)
-        cursor.execute("""INSERT OR IGNORE INTO Songs
-            (book, number, type, title) VALUES (?,?,?,?)""", entry)
 
-    conn.commit()
-    conn.close()
 
 def main():
     """ Run as command line program """

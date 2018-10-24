@@ -1,0 +1,16 @@
+For Thurdsday meeting
+
+Settled on end line coding for files.  Is it necessary since I found a way to set up a dialect
+of csv reader, writer to use pipes | rather than csv?
+
+Putting sql table definitions into their own files rather than coding them - thoughts
+
+Table definitions started and noted in a file.
+
+How many database to have?  Thought is one for songbooks (Print and Search), Suggestions and
+     a third one for Songs Used.  Easier to keep organized and recover if multiple rather than 
+     one.
+
+
+
+
