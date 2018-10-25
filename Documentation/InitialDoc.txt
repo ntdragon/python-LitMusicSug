@@ -65,13 +65,20 @@ last row
      id             integer primary key autoincrement not null
      songbk         text
      songtytle      text
-     songnums------ integer
-
+     numsongs       integer
+     songlist       text
+-------------------------------------------------------------
 ### Song Suggestions and Psalm Suggestions
      lityr
      event
      stype
      stitle
+     origin         (who suggested this NPM, GIA, person??)
+     date           (of suggestion orignally)
+-------------------------------------------------------------
+### Parish
+     name
+     
 ### Songs Used
      date
      time
