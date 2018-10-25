@@ -6,7 +6,7 @@
 create table songbook (
           id        integer primary key autoincrement not null,
           book      text,
-          number    integer,
+          num       integer,
           type      text,
           title     text,
           unique(book, number, type, title)
@@ -18,5 +18,5 @@ create table songsearch (
           book      text,
           stitle    text,
           num       integer,
-          snum      integer?
+          songs     text
 );

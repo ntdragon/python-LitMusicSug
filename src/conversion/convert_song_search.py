@@ -1,4 +1,4 @@
-""" Convert Song Table - Convert songbook text files into database records """
+""" Convert Song Search Table - Convert songbook search text files into database records """
 import argparse
 import sys
 import os
@@ -27,17 +27,16 @@ def convert(book, infile, db):
     with open(infile, 'rt') as f:
             reader = csv.reader(f, dialect='pipes')
             for row in reader:
-                num, btype, title = row.split("|")
+                title, num, lsongs = row.split("|",2)
                 num = num.strip()
                 inum = int(num)
                # check for end line
-               if num == '99999':
+               if num == '0':
                     break
-                btype = btype.strip()
                 title = title.strip()
-                entry = (book, inum, btype, title)
-                dbcrsr.execute("""INSERT OR IGNORE INTO songbook
-                    (book, num, type, title) VALUES (?,?,?,?)""", entry)
+                entry = (book, title, inum, lsongs)
+                dbcrsr.execute("""INSERT OR IGNORE INTO ongsearch
+                    (book, stitle, num, songs) VALUES (?,?,?,?)""", entry)
 
     dbcon.commit()
     dbcon.close()
@@ -45,13 +44,13 @@ def convert(book, infile, db):
 def main():
     """ Run as command line program """
 
-     parser = argparse.ArgumentParser(
+    parser = argparse.ArgumentParser(
         description="Load database song table from infile")
-     parser.add_argument("book", help="Identifier for songbook")
-     parser.add_argument("infile", nargs='?', type=argparse.FileType('r'),
+    parser.add_argument("book", help="Identifier for songbook")
+    parser.add_argument("infile", nargs='?', type=argparse.FileType('r'),
         default=sys.stdin, help="Input file (stdin used if left blank)")
-     parser.add_argument("database", help="Database created or updated")
- 
+    parser.add_argument("database", help="Database created or updated")
+
     args = parser.parse_args()
 
     convert(args.book, args.infile, args.database)
