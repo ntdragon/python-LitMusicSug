@@ -591,7 +591,7 @@ Song of the Body of Christ| 1 | 847
 Song of the Chosen| 1 | 813
 Song of the Lord's Supper| 1 | 412
 Song of the Stable| 1 | 364
-Song of St. Patrick| 1 \ 703
+Song of St. Patrick| 1 | 703
 Song of the Three Children| 3 | 150 | 151 | 152
 Song over the Waters| 1 | 585
 Songs of Thankfulness and Praise| 1 | 376

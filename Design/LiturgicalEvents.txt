@@ -1,26 +1,39 @@
 Possible Events for the Liturgical Year
 
-Advent1 - Advent4
-Christmas
+Advent1
+Advent2
+Advent3
+Advent4
+Christmas - December 25
 Immaculate Conception
-Holy Family
-Mary, Mother of God
-Epiphany
-Baptism of the Lord
-Ordinary1 - Ordinary34
+Holy Family - Sunday within octave of Christmas
+Mary, Mother of God - January 1
+*Epiphany - Sunday between January 2 and 8
+Baptism of the Lord - Sunday after January 6th
+Ordinary 2 
+Ordinary3 - Ordinary34
 Ash Wednesday
-Lent1 - Lent5
-Palm Sunday
-Holy Thursday
-Good Friday
+Lent1
+Lent2
+Lent3
+Lent4
+Lent5
+Palm Sunday - Sunday Before Easter
+Holy Thursday - Thursday before Easter
+Good Friday - Friday before Easter
 Easter
-Easter2 - Easter7
-Ascension 
-Pentecost
-Trinity
-Body and Blood of Christ
+Easter2
+Easter3
+Easter4
+Easter5
+Easter6
+Easter7=Ascension if observed on Sunday
+*Ascension 
+Pentecost - 50 days from Easter
+Trinity Sunday - after Pentecost
+*Body and Blood of Christ - after Trinity Sudnay
 Sacred Heart
-Christ The King
+Christ The King - Last Sunday of Ordinary Time, Sunday before Advent1
 Annunciation
 Joseph
 Birth of John the Baptist
@@ -28,3 +41,21 @@ Peter and Paul
 Assumption
 All Saints
 All Souls
+
+Liturgical year computations
+Advent1 - four Sundays before December 25
+Advent2
+Advent3
+Advent4
+Christmas - December 25
+Holy Family - Sunday after Christmas
+Epiphany - Sunday between January 2 and 8
+Baptism of the Lord - Sunday after Epiphany
+Ordinary Sundays starting at 2 till Ash Wednesday
+-Ash Wednesday - Wednesday 6 weeks and a few days before Easter
+Lent1-5
+Palm Sunday
+Triduum - Holy, Thursday, Good Friday, Holy Saturday
+Easter - Sunday after the first full moon following Spring equinox
+Easter2-6
+Ascension

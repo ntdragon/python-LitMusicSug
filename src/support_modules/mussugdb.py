@@ -87,7 +87,7 @@ class MusSugDB():
           dbcon.commit()
           dbcon.close()
 
-     def convertsearch()
+     def convertsearch(book, infile, db_name)
           """ do conversion for a file of title search for a certain book """
           # use pipe rather than csv for reader
           csv.register_dialect('pipes', delimiter='|')
@@ -122,7 +122,7 @@ class MusSugDB():
           dbcon.commit()
           dbcon.close()
 
-     def convertevent()
+     def convertevent(infile, db_name)
           """ do conversion for a file of event suggestions """
           """
           event suggestion file format
@@ -140,9 +140,9 @@ class MusSugDB():
           schema_filename = 'suggestions_schema.sql'
           #db is songbook database filename
     
-          db_is_new = not os.path.exists(db)         
+          db_is_new = not os.path.exists(db_name)         
 
-          dbcon = sqlite3.connect(db)
+          dbcon = sqlite3.connect(db_name)
           dbcrsr = dbcon.cursor()
 
           if db_is_new:
