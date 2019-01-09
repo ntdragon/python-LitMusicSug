@@ -26,7 +26,7 @@ The initial files needed to set up the programs database are;
 
 ### File Format for creating and importing Song book
      text file using | as the delimiter
-     song (integer) | type (Psalm Song) | title
+     song (integer) | type (Psalm or Song) | title (string)
 examples
      017|Song|Evensong Final Blessing
      018|Psalm|Psalm 1: Happy Are They
@@ -35,7 +35,7 @@ last row:
 
 ### File Format for creating and importing Song book Search
      text file using | as the delimiter
-     title (text)| number of songs for this title (integer)| songnumber (integer) <| songnumber(integer)>
+     title (string)| number of songs for this title (integer)| songnumber (integer) <| songnumber(integer)>
 examples
      Love Is the Sunlight| 1 | 866
      Lover of Us All| 1 | 633

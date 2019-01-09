@@ -13,7 +13,7 @@
 015|Song|Evensong Petitions| 0 |
 016|Song|Evensong Lord's Prayer| 0 |
 017|Song|Evensong Final Blessing| 0 |
-018|Psalm|Psalm 1: Happy Are They| 0 |
+018|Psalm|Psalm 1: Happy Are They| 1 | 77 |
 019|Psalm|Psalm 4: Let Your Face Shine upon Us| 0 |
 020|Psalm|Psalm 8: How Glorius Is Your Name| 0 |
 021|Psalm|Psalm 8: How Great Is Your Name| 0 |
@@ -23,7 +23,7 @@
 025|Psalm|Psalm 17: Lord, When Your Glory Appears| 0 |
 026|Psalm|Psalm 18: I love You Lord, My Strength| 0 |
 027|Psalm|Psalm 19: Lord, You Have the Words| 0 |
-028|Psalm|Psalm 22: I Will Praise You, Lord| 0 |
+028|Psalm|Psalm 22: I Will Praise You, Lord| 1 | 41 |
 029|Psalm|Psalm 22: My God, My God| 0 |
 030|Psalm|Psalm 23: My Shepherd is the Lord| 0 |
 031|Psalm|Psalm 23: Shepherd Me, O God| 0 |
@@ -36,9 +36,9 @@
 038|Psalm|Psalm 27: In the Land of the Living| 0 |
 039|Psalm|Psalm 27: The Lord Is My Light| 0 |
 040|Psalm|Psalm 29: The Lord Will Bless His People| 0 |
-041|Psalm|Psalm 30: I Will Praise You, Lord| 0 |
-042|Psalm|Psalm 31: I Put My Life in Your Hands/Pongo Mi Vida| 0 |
-043|Psalm|Psalm 31: I Put My Life in Your Hands| 0 |
+041|Psalm|Psalm 30: I Will Praise You, Lord| 1 | 28 |
+042|Psalm|Psalm 31: I Put My Life in Your Hands/Pongo Mi Vida| 1 | 43 |
+043|Psalm|Psalm 31: I Put My Life in Your Hands| 1 | 42 |
 044|Psalm|Psalm 32: I Turn to You| 0 |
 045|Psalm|Psalm 33: Let Your Mercy Be On Us| 0 |
 046|Psalm|Psalm 34: I Will Bless The Lord| 0 |
@@ -55,8 +55,8 @@
 057|Psalm|Psalm 51: Create in Me| 0 |
 058|Psalm|Psalm 54: The Lord Upholds My Life| 0 |
 059|Psalm|Psalm 62: In God Alone| 0 |
-060|Psalm|Psalm 63: My Soul Is Thirsting| 0 |
-061|Psalm|Psalm 63: My Soul Is Thirsting| 0 |
+060|Psalm|Psalm 63: My Soul Is Thirsting| 1 | 61 |
+061|Psalm|Psalm 63: My Soul Is Thirsting| 1 | 60 |
 062|Psalm|Psalm 63: Your Love Is Finer Than Life| 0 |
 063|Psalm|Psalm 63: I Long for You| 0 |
 064|Psalm|Psalm 65: The Seed That Falls on Good Ground| 0 |
@@ -72,7 +72,7 @@
 074|Psalm|Psalm 80: The Vinyard of the Lord| 0 |
 075|Psalm|Psalm 80/85/Luke 1:Lord, Make Us Turn to You| 0 |
 076|Psalm|Psalm 81: Sing with Joy to God| 0 |
-077|Psalm|Psalm 84: Happy Are They| 0 |
+077|Psalm|Psalm 84: Happy Are They| 1 | 18 |
 078|Psalm|Psalm 84: How Lovely Is your Dwelling Place| 0 |
 079|Psalm|Psalm 85: Lord, Let Us See Your Kindness| 0 |
 080|Psalm|Psalm 85: Come, O Lord, and Set us Free| 0 |
@@ -90,7 +90,7 @@
 092|Psalm|Psalm 96: Great Is the Lord| 0 |
 093|Psalm|Psalm 96: Proclaim to All the Nations| 0 |
 094|Psalm|Psalm 97: The Lord Is King| 0 |
-095|Psalm|Psalm 98: All the Ends of the Earth| 0 |
+095|Psalm|Psalm 98: All the Ends of the Earth| 1 | 520 |
 096|Psalm|Psalm 100: Arise, Come to Your God| 0 |
 097|Psalm|Psalm 100: We Are God's People| 0 |
 098|Psalm|Psalm 103: My Soul, Give Thanks to the Lord| 0 |
@@ -400,7 +400,7 @@
 517|Song|Not by Bread Alone| 0 |
 518|Song|The Word Is in Your Heart| 0 |
 519|Song|May We Praise You| 0 |
-520|Song|All the Ends of the Earth| 0 |
+520|Song|All the Ends of the Earth| 1 | 95 |
 521|Song|Sing a New Song to the Lord| 0 |
 522|Song|Glory and Praise to Our God| 0 |
 523|Song|Sing Our God Together| 0 |
@@ -654,7 +654,7 @@
 772|Song|We Shall Rise Again| 0 |
 773|Song|Steal Away to Jesus| 0 |
 774|Song|Shall We Gather at the River| 0 |
-775|Song|Canticle of Zachary| 0 |
+775|Song|Canticle of Zachary| 1 | 5 |
 776|Song|Now Let Your Servant Go| 0 |
 777|Song|Praise We the Lord This Day| 0 |
 778|Song|'Tis Good, Lord, to Be Here| 0 |
@@ -664,11 +664,11 @@
 782|Song|Hail Mary: Gentle Woman| 0 |
 783|Song|Sing of Mary, Pure and Lowly| 0 |
 784|Song|Hail, Holy Queen, Enthroned Above| 0 |
-785|Song|Ave Maria| 0 |
+785|Song|Ave Maria| 1 | 789 |
 786|Song|Sing We of the Blessed Mother| 0 |
 787|Song|All Who Claim the Faith of Jesus| 0 |
 788|Song|Magnificat| 0 |
-789|Song|Ave Maria| 0 |
+789|Song|Ave Maria| 1 | 785 |
 790|Song|Immaculate Mary| 0 |
 791|Song|Lift High the Cross| 0 |
 792|Song|Give Thanks to God on High| 0 |
