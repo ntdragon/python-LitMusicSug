@@ -1,18 +1,33 @@
 Notes on LitMusicSug program in Python
 
+Files to keep
+     NPM suggestions - raw
+     SongbookPrintIndex
+     SongbookSearch
+     LiturgicalEvents
+
+Database Tables
+     songbookPrintIndex
+     songbookSearch
+     EventSuggestions
+     EventSaved
+
 Import functions
     ImportSongBookPrint
     InportSongBookSearch
     ImportSuggestionsInitial
     ImportSuggestionsEvent
-    ImportSuggestionManuel
+    ImportSuggestionManual
+
 Initialize functions
     InitializeParishProfile
     InitializeSongBooksDatabasetions
     InitializeSuggestionsDatabase
     InitializeTemplates
+
 Search functions
     Search4Event
+
 EditFunction
     EditSongbook
     EditSuggestions

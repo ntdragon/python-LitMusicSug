@@ -5,32 +5,39 @@
 """
 Database Tables
      songs
+          id  - primary key
           book text - two or three letter code defining which song book is in use
           type text - Psalm or Song
-          number integer - number of the song
+          num integer - number of the song
           title - song title for use
      titlesearch
+         id  - primary key
           book text - two or three letter code defining which song book is in use
-          title text - search title
-          songs integer - list of songs for that search title
-     eventsugg
-          lityear   text - liturgical year (A,B,C)
+          stitle text - search title or first line
+          songs text - list of songs for that search title
+     sugg
+         id  - primary key
+          ly_yr   text - liturgical year (A,B,C)
           event     text - liturgical event
+          stype text - Psalm or Song 
           title     text - a song title for psalm or song
           origin    text - where suggestion was from
-          date      date - date suggestion imported
+          idate      date - date suggestion imported
      parish_information
           name      text - Parish name
           street    text - Street address
           city      text - city
           state     text - state or province
           zip       text - zip code
-          masstimes text - Day:time | Day:time...
-     events_history
-          date text - date of sunday or event
+          masstimes text - Day:time | Day:time..
+     savedevent
+         id  - primary key
+          date text - date and time of mass for sunday or event
           lityr text - liturgical year (A,B,C)
           event text - liturgical event
-          ss .. - list of book:song pairs used for that day
+          stipe - text  - which song/psalm in Mass
+          book - text - song book code
+          num - song number
           #TODO: need to learn best method to do this
 """
 import argparse
@@ -43,8 +50,25 @@ class MusSugDB():
      """
      Database operations for Music Suggestion Program
      """
+     def __init__(self):
+          if database exists then
+               self.db = self.get
+         ? self._get_parms()
+          ?self.db = sqlite3.connect(self.args.database)
+
+     ?def _get_parms(self):
+          
+
+
      def convertsong(book, infile, db_name):
          """ Do the conversion for a song book file
+               Database Table
+                    songs
+                         id  - primary key
+                         book text - two or three letter code defining which song book is in use
+                         type text - Psalm or Song
+                         num integer - number of the song
+                         title - song title for printing
 
                Song book file for conversion format with | as delimiter:
                     number - 99999 reserved for end of file line
@@ -169,3 +193,35 @@ class MusSugDB():
 
      def titlesearch()
           """ with a title to search locate known title """
+
+
+     def songsearch()
+          """ with a title or first line to locate possible titles"""
+
+
+
+
+
+
+
+
+
+
+
+     def main():
+          """
+               Run as a command line program
+          """
+          schema_filename = 'schema.sql'
+          db_filename = 'MSPdatabase.db'
+          db_is_new = not os.path.exists(db_filename)
+          if db_is_new:
+               initdb(self.db, schema_filename, db_filename)
+          else
+               self.db = sqlite3.connect(db_filename)
+          
+          dbcrsr = self.db.cursor()
+          self.db.close()              
+
+if __name__ == '__main__':
+    main()

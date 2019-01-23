@@ -1,5 +1,22 @@
 #Models for LitMusicSugg
 
+##attributes
+
+###SongbookSearch
+     Title or first line: String
+     songbook code: string
+     Song numbers: integer
+###SongbookPrint
+     Songbook code: String 
+     song number: integer
+     Print Title: String
+###EventSuggestion
+     Event Title: String
+     Liturgical Year: String (A,B,C, ABC)
+     Song or Psalm:String
+     Song Title or First Line: String
+     
+###
 
 ##conversion from fyles
 convertPrint(fyle,songbook,database)
