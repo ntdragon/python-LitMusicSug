@@ -1,0 +1,30 @@
+#!/usr/bin/python3
+
+from jinja2 import Environment, FileSystemLoader
+
+# page input
+page = dict(action="single", user="Edward Birdsall")
+
+# tab and header
+hd = {"loc": "Greetings"}
+hdr = dict(page="Greeting ", today="Wednesday  March 06, 2019")
+
+#block1 dicts
+
+# block2 dicts
+evt = dict(parish="St Roch Catholic Church", lityr="C", des="First Sunday in Lent", songbook="GC" )
+dayt = dict(today="March 06, 2019", dmax="December 31,2020")
+# block3 dicts
+
+# collect all the dicts and such
+input_ = {"hd":hd, "hdr":hdr, "evt":evt, "dayt":dayt }
+
+# now to go out and render
+
+env = Environment(loader = FileSystemLoader("."))
+template=env.get_template("page1.jhtml")
+
+
+output = template.render(input_)
+
+print(output)
