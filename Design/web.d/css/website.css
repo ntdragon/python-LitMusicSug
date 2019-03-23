@@ -32,6 +32,21 @@ body{}
      background-color: aqua;
 }
 
+#main {
+         display: inline-block;
+          position: absolute; 
+          top: 150px; 
+          right:0px; left: 11%;
+          bottom: 125px ; 
+           overflow: scroll;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 #footer {
      display: block;
      width: 99%;
@@ -46,7 +61,7 @@ body{}
 
 #footer-left { width = 110px;
      position: absolute;
-     bottom: 0px; left: 0px;}
+     bottom: 5px; left: 10px;}
 
 #footer-center  {width = 310px;
      margin-top: 10px;
@@ -61,18 +76,4 @@ body{}
      position: absolute;
      bottom: 0px; right: 10px; }
 
-#main {
-           overflow: scroll;
-          display: block; 
-          position: absolute; 
-          top: 150px; 
-          right:0px; left: 0px;
-          bottom: 125px ; 
-}
-
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
-}
 

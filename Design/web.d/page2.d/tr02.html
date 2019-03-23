@@ -11,7 +11,7 @@
      <link rel= "stylesheet" type = "text/css" href="../css/normalize.css" />
 
      <link rel= "stylesheet" type = "text/css" href="../css/main.css" />
-     <title> Greetings  Page</title>
+     <title> Input Suggestions  Page</title>
       
 </head>
 <body>
@@ -25,7 +25,7 @@
           <img src="../gfx/lilypond-pic.jpg" alt="lilypond instruction" height="100" width=140">
      </figure>
           <div id="header-center">
-               <h1> Greeting  Page</h1>
+               <h1> Input Suggestions Page</h1>
                <h3>Today's Date: Wednesday  March 06, 2019</h3>
           </div>
      <figure id="header-right">
@@ -36,37 +36,31 @@
      <div id="nav"></div>
      <div id="content">
 <input type="hidden" name="jinja2_template" value="page1.jhtml">
-
+<style>textarea { width: 60em; }</style>
 <div id="main">
 
-<h1>Introduction</h1>
-Welcome to the Liturgical Music Suggestion Program version 0.5.0.  It is intended to be an assistant to the
-Music Director or musicians determining what music to use for an event like Sunday Mass or a holy day.  In
-this version the steps are;
+<h1>Instructions</h1>
 <ol>
-<li> Ask for some information on the event to print out in the header</li>
-<li> ask for NPM's suggestions for the event</li>
-<li> It will then input information from database on songbook songs and past suggestions that it knows.</li>
-<li>It will process the input information</li>
-<li>Then it will output the parsed information in known and unknown sections for Psalms and then Liturgical songs.</li>
+<li> <a href="https://npm.org/premium-content/" target="_blank">Click here to bring up the NPM web page in a new tab</a> and then Log in to NPM</li>
+<li>Navigate on NPM to the event  that has the suggestions</li>
+<li>Cut and paste the Psalm suggestions from the NPM page into the Psalms input box on this page</li>
+<li>Cut and paste the Liturgical song suggestions from the NPM page into the Songs suggestions box</li>
+<li>Click on Next Step</li> to input this information and begin processing</li>
 </ol>
 
-Currently the input and output is based on helping St. Roch's church in Flat Rock, Michigan which uses
-Gather Comprehensive.
 
 
 
-
-<h1>Now to start</h1>
-<form>
-<b>Parish name:</b> St Roch Catholic Church<br /><br />
-<b>Event Date:</b><input type="date" name="event-date" min=March 06, 2019 max=December 31,2020 value=March 06, 2019><br /><br />
-<b>Liturgical Year:</b><select name="lityr" size="1"><option value="A">A</option><option value="B">B</option><option value="C">C</option></select>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<b>Liturgical Event:</b><input type="text" name="litevt" value="First Sunday in Lent" size="60" /><br /><br />
-<b>Songbook:</b><select name="songbook" size="1"><option value="GC">Gather Comprehensive</option><option value="G3">Gather Comprehensive 3</option></select><br /><br />
+<h1>Suggestions Input</h1>
+<h2>Psalms</h2>
+<textarea formid ="inputsug" name="psalms"  rows="5" placeholder="Input Psalm Suggestions Here"></textarea>
+<h2>Songs</h2>
+<textarea formid ="inputsug" name="songs"   rows="15">Input Song Suggestions Here</textarea><br />
+<form id="inputsug">
 <input type="submit" value="Next Step" >
 </form>
+
+
 
 
 

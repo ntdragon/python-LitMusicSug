@@ -1,0 +1,53 @@
+{% extends "base.jhtml" %}
+{# template page2
+     Function: template Input Suggeastions Page
+    --------------------------------------------------------------------------------------------------------------------------- 
+     extends base.jhtml which includes header.jhtml and footer.jhtml
+     base - hd.loc   page location within website
+     header - hdr.name         who is accessing this page
+                      hdr.page           what page in the website
+                      hdr.today         today's date
+     footer - graphics currently set but should be variable?  don't really change over website
+    --------------------------------------------------------------------------------------------------------------------------- 
+     Graphics are from ../gfx/
+     CSS are from ..css/
+     --------------------------------------------------------------------------------------------------------------------------- 
+     Variables
+          var - use
+     --------------------------------------------------------------------------------------------------------------------------- 
+#}
+
+{% block content %}
+<input type="hidden" name="jinja2_template" value="page1.jhtml">
+<style>textarea { width: 60em; }</style>
+<div id="main">
+{% block content1 %}
+<h1>Instructions</h1>
+<ol>
+<li> <a href="https://npm.org/premium-content/" target="_blank">Click here to bring up the NPM web page in a new tab</a> and then Log in to NPM</li>
+<li>Navigate on NPM to the event  that has the suggestions</li>
+<li>Cut and paste the Psalm suggestions from the NPM page into the Psalms input box on this page</li>
+<li>Cut and paste the Liturgical song suggestions from the NPM page into the Songs suggestions box</li>
+<li>Click on Next Step</li> to input this information and begin processing</li>
+</ol>
+
+{% endblock content1 %}
+
+{% block content2 %}
+<h1>Suggestions Input</h1>
+<h2>Psalms</h2>
+<textarea formid ="inputsug" name="psalms"  rows="5" placeholder="Input Psalm Suggestions Here"></textarea>
+<h2>Songs</h2>
+<textarea formid ="inputsug" name="songs"   rows="15" placeholder="Input Song Suggestions Here"></textarea><br />
+<form id="inputsug">
+<input type="submit" value="Next Step" >
+</form>
+
+
+{% endblock content2 %}
+{% block content3 %}
+
+
+{% endblock content3 %}
+</div>
+{% endblock content %}
