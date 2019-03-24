@@ -22,26 +22,30 @@
 
 <div id="main">
 {% block content1 %}
-<h1>Instructions</h1>
-<ol>
-<li> <a href="https://npm.org/premium-content/" target="_blank">Click here to bring up the NPM web page in a new tab</a> and then Log in to NPM</li>
-<li>Navigate on NPM to the event  that has the suggestions</li>
-<li>Cut and paste the Psalm suggestions from the NPM page into the Psalms input box on this page</li>
-<li>Cut and paste the Liturgical song suggestions from the NPM page into the Songs suggestions box</li>
-<li>Click on Next Step</li> to input this information and begin processing</li>
-</ol>
+<h2>Suggestions of  {{evt.parish }} on {{evt.des }} Year {{evt.lityr}} </h2>
+<h3>Psalm Suggestions</h3>
+{% for row in kpsalms %}
+     {{ row }}
+{% endfor %}
+<h3>Song Suggestions</h3>
+{% for row in ksongs %}
+     {{ row }}
+{% endfor %}
 
 {% endblock content1 %}
 
 {% block content2 %}
-<h1>Suggestions Input</h1>
-<h2>Psalms</h2>
-<textarea formid ="inputsug" name="psalms"  rows="5" placeholder="Input Psalm Suggestions Here"></textarea>
-<h2>Songs</h2>
-<textarea formid ="inputsug" name="songs"   rows="15" placeholder="Input Song Suggestions Here"></textarea><br />
-<form id="inputsug">
-<input type="submit" value="Next Step" >
-</form>
+
+<h3>Unknown Psalms Suggested</h3>
+{% for row in upsalms %}
+     {{ row }}
+{% endfor %}
+
+<h3>Unknown Song Suggestions</h3>
+{% for row in usongs %}
+     {{ row }}
+{% endfor %}
+
 
 
 {% endblock content2 %}
