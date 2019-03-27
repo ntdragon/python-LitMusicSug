@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# Generate html files from jhtml files
+
+cd page1.d
+python3 html_try.py > ../html_examples.d/page1.html
+echo "greetings generated"
+cd ../page2.d
+python3 html_try.py > ../html_examples.d/page2.html
+echo "input suggestions generated"
+cd ../page3.d
+python3 html_try.py > ../html_examples.d/page3.html
+echo "suggestions generated"
+cd ../page4.d
+python3 html_try.py > ../html_examples.d/page4.html
+echo "suggestions generated"
+cd ..
+echo "Done!"

@@ -6,8 +6,8 @@ from jinja2 import Environment, FileSystemLoader
 page = dict(action="single", user="Edward Birdsall")
 
 # tab and header
-hd = {"loc": "Greetings"}
-hdr = dict(page="Greeting ", today="Wednesday  March 06, 2019")
+hd = {"loc": "Input Suggestions"}
+hdr = dict(page="Input Suggestions", today="Wednesday  March 06, 2019")
 
 #block1 dicts
 
@@ -23,7 +23,7 @@ input_ = {"hd":hd, "hdr":hdr, "evt":evt, "dayt":dayt }
 # now to go out and render
 
 env = Environment(loader = FileSystemLoader("../templates/"))
-template=env.get_template("page1.jhtml")
+template=env.get_template("page4.jhtml")
 
 
 output = template.render(input_)

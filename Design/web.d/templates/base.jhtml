@@ -19,7 +19,7 @@
      {% block head %}
      <meta charset="utf-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <meta name="author" content="Edward Birdsall, Michael Birdsall"> 
+     <meta name="author" content="Edward Birdsall"> 
      <link rel= "stylesheet" type = "text/css" href="../css/normalize.css" />
      <link rel= "stylesheet" type = "text/css" href="../css/main.css" />
     <link rel= "stylesheet" type = "text/css" href="../css/website.css" />
@@ -29,6 +29,7 @@
 <body>
 <input type="hidden" name="jinja2_template" value="base.jhtml">
      {% include "header.jhtml" ignore missing %}
+     <div id="nav">{% block nav_content %}{% endblock nav_content %}</div>
     <div id="content">{% block content %}{% endblock content %}</div>
     {% include 'footer.jhtml' ignore missing %}
 </body>

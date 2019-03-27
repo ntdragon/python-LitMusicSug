@@ -7,10 +7,9 @@
      <meta charset="utf-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <meta name="author" content="Edward Birdsall"> 
-     <link rel= "stylesheet" type = "text/css" href="../css/website.css" />
      <link rel= "stylesheet" type = "text/css" href="../css/normalize.css" />
-
      <link rel= "stylesheet" type = "text/css" href="../css/main.css" />
+    <link rel= "stylesheet" type = "text/css" href="../css/website.css" />
      <title> Input Suggestions  Page</title>
       
 </head>
@@ -21,20 +20,20 @@
     <div id="header">
 <input type="hidden" name="jinja2_template" value="header.jhtml">
         
-     <figure id="header-left">
-          <img src="../gfx/lilypond-pic.jpg" alt="lilypond instruction" height="100" width=140">
-     </figure>
-          <div id="header-center">
-               <h1> Input Suggestions Page</h1>
+     <!-- <figure id="header-left">
+          <img src="gfx/lilypond-pic.jpg" alt="lilypond instruction" height="100" width=100">
+     </figure> -->
+          <div id=header-center>
+               <h1>Liturgical Music Suggestions Input Suggestions Page</h1>
                <h3>Today's Date: Wednesday  March 06, 2019</h3>
           </div>
-     <figure id="header-right">
-          <img src="../gfx/drum-clef.jpg" alt="drum clef" height="100" width="100">
-     </figure>
+     <!-- <figure id="header-right">
+          <img src="gfx/drum-clef.jpg" alt="drum clef" height="100" width="100">
+     </figure> -->
         
      </div>
      <div id="nav"></div>
-     <div id="content">
+    <div id="content">
 <input type="hidden" name="jinja2_template" value="page1.jhtml">
 <style>textarea { width: 60em; }</style>
 <div id="main">
@@ -55,7 +54,7 @@
 <h2>Psalms</h2>
 <textarea formid ="inputsug" name="psalms"  rows="5" placeholder="Input Psalm Suggestions Here"></textarea>
 <h2>Songs</h2>
-<textarea formid ="inputsug" name="songs"   rows="15">Input Song Suggestions Here</textarea><br />
+<textarea formid ="inputsug" name="songs"   rows="15" placeholder="Input Song Suggestions Here"></textarea><br />
 <form id="inputsug">
 <input type="submit" value="Next Step" >
 </form>

@@ -28,7 +28,7 @@ Music Director or musicians determining what music to use for an event like Sund
 this version the steps are;
 <ol>
 <li> Ask for some information on the event to print out in the header</li>
-<li> ask for NPM's suggestions for the event</li>
+<li> Ask for NPM's suggestions for the event</li>
 <li> It will then input information from database on songbook songs and past suggestions that it knows.</li>
 <li>It will process the input information</li>
 <li>Then it will output the parsed information in known and unknown sections for Psalms and then Liturgical songs.</li>

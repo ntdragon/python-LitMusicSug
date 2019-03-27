@@ -13,18 +13,13 @@
 <input type="hidden" name="jinja2_template" value="footer.jhtml">
         {% block footer %}
       <div id="footer-left">
-       &copy; Copyright 2019 by <a href="https://www.mbirdsall.com/">MBirdsall</a>.
-     </div>
-{#
-     <!-- <figure id="footer-left">
-          <img  src="gfx/lilypond-pic.jpg" alt="lilypond instruction" height="100" width=100">
-     </figure> -->
-#}     
+          <img src="../gfx/drum-clef.jpg" alt="drum clef" height="100" width="100">
+      </div>
 <div id="footer-center">
           <img src="../gfx/webfoot.jpg" alt="webmaster  @  birdsalle.com" height="100" width="300">
      </div>
-     <!-- <figure id="footer-right">
-          <img src="gfx/drum-clef.jpg" alt="drum clef" height="100" width="100">
-     </figure> -->
+     <figure id="footer-right">
+          <img src="../gfx/ed.jpg" alt="ed" height="100" width=100">
+     </figure>
         {% endblock footer %}
      </div>

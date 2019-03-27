@@ -1,0 +1,59 @@
+{% extends "base.jhtml" %}
+{# template page3
+     Function: template Output Suggestions Page
+    --------------------------------------------------------------------------------------------------------------------------- 
+     extends base.jhtml which includes header.jhtml and footer.jhtml
+     base - hd.loc   page location within website
+     header - hdr.name         who is accessing this page
+                      hdr.page           what page in the website
+                      hdr.today         today's date
+     footer - graphics currently set but should be variable?  don't really change over website
+    --------------------------------------------------------------------------------------------------------------------------- 
+     Graphics are from ../gfx/
+     CSS are from ..css/
+     --------------------------------------------------------------------------------------------------------------------------- 
+     Variables
+          var - use
+     --------------------------------------------------------------------------------------------------------------------------- 
+#}
+
+{% block content %}
+<input type="hidden" name="jinja2_template" value="page3.jhtml">
+
+<div id="main">
+{% block content1 %}
+<h2>Suggestions of  {{evt.parish }} on {{evt.des }} Year {{evt.lityr}} </h2>
+<h3>Psalm Suggestions</h3>
+{% for row in kpsalms %}
+     {{ row }}<br />
+{% endfor %}
+<h3>Song Suggestions</h3>
+{% for row in ksongs %}
+     {{ row }}<br />
+{% endfor %}
+
+{% endblock content1 %}
+
+{% block content2 %}
+
+<h3>Unknown Psalms Suggested</h3>
+{% for row in upsalms %}
+     {{ row }}<br />
+{% endfor %}
+
+<h3>Unknown Song Suggestions</h3>
+{% for row in usongs %}
+     {{ row }}<br />
+
+{% endfor %}
+<hr>
+{% endblock content2 %}
+{% block content3 %}
+<form id="sugdone">
+<input type="submit" value="Next Event" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Quit" >
+</form>
+
+
+{% endblock content3 %}
+</div>
+{% endblock content %}

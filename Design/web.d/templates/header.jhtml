@@ -11,6 +11,7 @@
           hdr.today is the current date and time of page access
      --------------------------------------------------------------------------------------------------------------------------- 
 #}
+
     <div id="header">
 <input type="hidden" name="jinja2_template" value="header.jhtml">
         {% block header %}
@@ -18,7 +19,7 @@
           <img src="gfx/lilypond-pic.jpg" alt="lilypond instruction" height="100" width=100">
      </figure> -->
           <div id=header-center>
-               <h1>{{ hdr.name }}'s {{hdr.page}} Page</h1>
+               <h1>Liturgical Music Suggestions {{hdr.page}} Page</h1>
                <h3>Today's Date: {{ hdr.today }}</h3>
           </div>
      <!-- <figure id="header-right">
