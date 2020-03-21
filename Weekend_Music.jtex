@@ -1,0 +1,155 @@
+%RESERVED CHARACTERS: \ # $ % & _ ^ { } ~
+%
+%NEWCOMMMAND FORMAT: A simple substitute.
+% \newcommand{<\NewCommandName>}{text}
+%EX: \newcommand{\stamp}{\hspace{.5in}\textbf{Findings:}%
+%                        \hspace{.5in}}
+%
+%NEWENVIRONMENT FORMAT: Involving a defined Environment Name.
+% \newenvironment{<NewEnvironmentName>}%
+%{\begin{<OldEnvironmentName>}<new stuff>{/end{OldEnvironmentName>}}
+%EX: \newenvironment{smallcapit}%
+%               {\begin{itemize} \scshape}{\end{itemize}}
+%
+%FORMAT OF A MACRO WITH PLACEHOLDERS:
+% \newcommand{<\CommandName>}[#]{A single arguement: text and #.}
+%EX: \newcommand{\phonebk}[3]{NAME: #1$|$ TEL: #2$|$ FAX: #3\\}
+
+\documentclass{article}
+
+%Packages
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{calc}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{multicol}
+
+%PAGE LAYOUT SETTINGS
+%PAGE LAYOUT SETTINGS (based on 8.5 inch by 11 inch paper US letterpaper)
+%Set page so pages have a 1 inch border all around
+%header is from 1 inch to 1.25 inch from top and 0.25 inch above text
+\setlength{\topmargin}{0in}
+\setlength{\headheight}{0.25in}
+\setlength{\headsep}{0.25in}
+%body text is 9’’high and 6.5’’ wide
+\setlength{\hoffset}{0.25in} %0.0in for Epson inkjet
+\setlength{\voffset}{-0.5in} %0.0in for the Epson inkjet
+\setlength{\oddsidemargin}{0.25in}
+\setlength{\evensidemargin}{0.25in}
+\setlength{\textheight}{9.0in}
+\setlength{\textwidth}{6.5in}
+%footer is from 1 inch to 1.25 inch from bottom and 0.25 inch below text
+\setlength{\footskip}{0.5in}
+
+%VERBATIM AND IGNORE
+\newcommand{\bv}{\begin{verbatim}}
+\newcommand{\V}{\verb} %Ex:  \V=-d{#@~}= Expr must fit on a line
+
+% Write your own instructions, aliases macros and abbrevitions here
+
+
+%FOR PRINTOUTS WITH EMPTY LINES BETWEEN PARAGRAPHS AND NO INDENT AT START
+%\flushbottom
+\raggedbottom
+\parindent=0pc
+\setlength{\parskip}{1pc}
+
+\begin{document} %End of preamble. Begin writing.
+%\maketitle %Produces the title
+\vspace*{-1.0in}
+\begin{center} \textbf{\LARGE{ {{ parish }}  }}  \\ 
+Mass Music  {{ wknd.date }} - {{  wknd.title }} - Year {{ wknd.ltyr }} \\
+\textbf{(Choir at {{ wknd.choir }})} \\
+\end{center}
+
+\textbf{Opening Song:}  \vspace*{-0.15in}
+\begin{table}[h!]
+\begin{tabbing}
+111111111\=11\=11111111\=11111111111111\=1111\= \kill
+{{ wknd.mass1 }} \> \> \textbf{{{ mass.1.OS.num }}} \>  \> {{ mass.1.OS.title }} \\
+{{ wknd.mass2 }} \>  \> \textbf{{{ mass.2.OS.num }}} \>  \> {{ mass.2.OS.title }} \\
+{{ wknd.mass3 }} \>  \>  \textbf{{{ mass.3.OS.num }}} \>  \> {{ mass.3.OS.title }} \\
+\end{tabbing}
+\end{table}
+
+\vspace*{-0.5in}
+\textbf{Gloria:}  \vspace*{-0.1in}
+\begin{table}[h!]
+\begin{tabbing}
+111111111\=11\=11111111\=11111111111111\=1111\= \kill
+ \> \> \textbf{ {{ mass.1.Gloria.num }} } \>  \> {{ mass.1.Gloria.title }} \\
+\end{tabbing}
+\end{table}
+
+\vspace*{-0.5in}
+\textbf{Responsorial Song:}   \vspace*{-0.1in}
+\begin{table}[h!]
+\begin{tabbing}
+111111111\=11\=11111111\=11111111111111\=1111\= \kill
+ \> \> \textbf{ {{ mass.1.RS.num }}} \>  \> {{ mass.1.RS.title }}\\
+\end{tabbing}
+\end{table}
+
+\vspace*{-0.5in}
+\textbf{Gospel Acclimation:}   \vspace*{-0.1in}
+\begin{table}[h!]
+\begin{tabbing}
+111111111\=11\=11111111\=11111111111111\=1111\= \kill
+ \> \> \textbf{ {{ mass.1.GA.num }}} \>  \>  {{ mass.1.GA.title }} \\
+  \> \>   {{ mass.1.GA.verse1 }} \\
+   \> \>    {{ mass.1.GA.verse2 }} \\
+\end{tabbing}
+\end{table}
+
+\vspace*{-0.5in}
+\textbf{Offertory:}   \vspace*{-0.1in}
+\begin{table}[h!]
+\begin{tabbing}
+111111111\=11\=11111111\=11111111111111\=1111\= \kill
+ \> \> \textbf{ {{ mass.1.Of.num }}} \>  \>  {{ mass.1.Of.title }} \\
+\end{tabbing}
+\end{table}
+
+\vspace*{-0.5in}
+\begin{table}[h!]
+\begin{tabbing}
+111111111\=11\=11111111\=11111111111111\=1111\= \kill
+\textbf{Holy:} \textbf{ {{ mass.1.Holy.num }}} \> \>  \> \> {{ mass.1.Holy.title }} \\
+\textbf{Mem Acc {{ wknd.acc }}:} \textbf {{ mass.1.MA.num }}} \> \> \> \>  {{ mass.1.MA.title }} \\
+\textbf{Amen:} \textbf{ {{ mass.1.Amen.num }}} \> \>   \> \>  {{ mass.1.Amen.title }} \\
+\textbf{Lamb of God:} \textbf {{ mass.1.LG.num }}} \> \> \> \>  {{ mass.1.LG.title }} \\
+\end{tabbing}
+\end{table}
+
+
+\vspace*{-0.2in}
+\textbf{Communion}   \vspace*{-0.1in}
+\begin{table}[h!]
+\begin{tabbing}
+111111111\=11\=11111111\=11111111111111\=1111\= \kill
+ \> \> \prbf{ {{ mass.1.CS.1.num }}} \>  \> {{ mass.1.CS.1.title }} \\
+\end{tabbing}
+\end{table}
+
+\vspace*{-0.5in}
+\textbf{Communion Meditation:}   \vspace*{-0.1in}
+\begin{table}[h!]
+\begin{tabbing}
+111111111\=11\=11111111\=11111111111111\=1111\= \kill
+ \> \> \textbf{{{ mass.1.CM.num }}} \>  \> {{ mass.1.CM.title }} \\
+\end{tabbing}
+\end{table}
+
+\vspace*{-0.5in}
+\textbf{Closing Song:}   \vspace*{-0.15in}
+\begin{table}[h!]
+\begin{tabbing}
+111111111\=11\=11111111\=11111111111111\=1111\= \kill
+{{ wknd.mass1 }} \> \> \textbf{{{ mass.1.ES.num }}} \>  \> {{ mass.1.ES.title }} \\
+{{ wknd.mass2 }} \>  \> \textbf{{{ mass.2.ES.num }}} \>  \> {{ mass.2.ES.title }} \\
+{{ wknd.mass3 }} \>  \>  \textbf{{{ mass.3.ES.num }}}  \>  \>{{ mass.3.ES.title }} \\
+\end{tabbing}
+\end{table}
+
+
+\end{document}
