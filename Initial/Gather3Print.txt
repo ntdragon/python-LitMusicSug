@@ -1,17 +1,21 @@
+000 |Song| Not in Gather 3
 002 |Song| Morning Praise
 003 |Song| Morning Hymn
 004 |Psalm|Psalm Psalm 63
 006 |Song| Gospel Canticle
 007 |Song| Intercession
 008 |Song| Lord's prayer
-009 |Song| Dismissal
-011 |Song| Evensong
+009 |Part| Dismissal
+010 |Part| Dismissal
+011 |Part| Evensong
+012 |Part| Evensong
 013 |Song| Evening Hymn
 014 |Psalm| Psalm 141 / Incense Psalm
 016 |Song| Gospel Canticle
 017 |Song| Intercessions
 018 |Song| The Lord's Prayer
 019 |Song| Dismissal
+020|Song| Dismissal
 021 |Song| Night prayer
 022 |Song| Hymn
 023 |Psalm| Psalm 134
@@ -97,6 +101,207 @@
 103 |Song| Luke 1:68–79: Now Bless the God of Israel
 104 |Song| Luke 2:29–34: Nunc Dimíttis
 105 |Song| Philippians 2:6–11: Jesus Christ Is Lord!
+192 |Part| Mass of Creation - Penitential Act
+193 |Part| Mass of Creation - Gloria
+194 |Part| Mass of Creation - Gospel Acclamation
+195 |Part| Mass of Creation - Lenten Gospel Acclamation
+196 |Part| Mass of Creation - Prayer of the Faithful
+197 |Part| Mass of Creation - Preface Dialogue
+198 |Part| Mass of Creation - Holy, Holy, Holy 
+199 |Part| Mass of Creation - Memorial Acclamation A
+200 |Part| Mass of Creation - Memorial Acclamation B
+201 |Part| Mass of Creation - Memorial Acclamation C
+202 |Part| Mass of Creation - Amen
+203 |Part| Mass of Creation - The Lord's Prayer
+204 |Part| Mass of Creation - Lamb of God
+205 |Part| Mass of Joy and Peace - Sprinkling Song
+206 |Part| Mass of Joy and Peace - Penitential Act
+207 |Part| Mass of Joy and Peace - Gloria
+208 |Part| Mass of Joy and Peace - Gospel Acclamation
+209 |Part| Mass of Joy and Peace - Lenten Gospel Acclamation
+210 |Part| Mass of Joy and Peace - Prayer of the Faithful
+211 |Part| Mass of Joy and Peace - Holy, Holy, Holy
+212 |Part| Mass of Joy and Peace -  Memorial Acclamation A
+213 |Part| Mass of Joy and Peace -  Memorial Acclamation B
+214 |Part| Mass of Joy and Peace -  Memorial Acclamation C
+215 |Part| Mass of Joy and Peace - Amen
+216 |Part| Mass of Joy and Peace - Lamb of God
+217 |Part| Mass for a New World - Penitential Act
+218 |Part| Mass for a New World - Gloria
+219 |Part| Mass for a New World - Gospel Acclamation
+220 |Part| Mass for a New World - Lenten Gospel Acclamation
+221 |Part| Mass for a New World - Prayer of the Faithful
+222 |Part| Mass for a New World - Holy, Holy, Holy
+223 |Part| Mass for a New World - Memorial Acclamation A
+224 |Part| Mass for a New World - Memorial Acclamation B
+225 |Part| Mass for a New World - Memorial Acclamation C
+226 |Part| Mass for a New World - Amen
+227 |Part| Mass for a New World - The Lord's Prayer
+228 |Part| Mass for a New World - Lamb of God
+229 |Part| Storrington Mass - Penitential Act
+230 |Part| Storrington Mass - Gloria
+231 |Part| Storrington Mass - Gospel Acclamation
+232 |Part| Storrington Mass - Lenten Gospel Acclamation
+233 |Part| Storrington Mass - Holy, Holy, Holy
+234 |Part| Storrington Mass - Memorial Acclamation A
+235 |Part| Storrington Mass - Memorial Acclamation B
+236 |Part| Storrington Mass - Memorial Acclamation C
+237 |Part| Storrington Mass - Amen
+238 |Part| Storrington Mass - Lamb of God
+239 |Part| Black Mountain Liturgy - Kyrie
+240 |Part| Black Mountain Liturgy - Gloria
+241 |Part| Black Mountain Liturgy - Gospel Acclamation
+242 |Part| Black Mountain Liturgy - Holy, Holy, Holy
+243 |Part| Black Mountain Liturgy - Memorial Acclamation A
+244 |Part| Black Mountain Liturgy - Memorial Acclamation B
+245 |Part| Black Mountain Liturgy - Memorial Acclamation C
+246 |Part| Black Mountain Liturgy - Amen
+247 |Part| Black Mountain Liturgy - Lamb of God
+248 |Part| Mass from Age to Age - Kyrie
+249 |Part| Mass from Age to Age - Gloria
+250 |Part| Mass from Age to Age - Gospel Acclamation
+251 |Part| Mass from Age to Age - Lenten Gospel Acclamation
+252 |Part| Mass from Age to Age - Prayer of the Faithful
+253 |Part| Mass from Age to Age - Holy, Holy, Holy
+254 |Part| Mass from Age to Age - Memorial Acclamation A
+255 |Part| Mass from Age to Age - Memorial Acclamation B
+256 |Part| Mass from Age to Age - Memorial Acclamation C
+257 |Part| Mass from Age to Age - Amen
+258 |Part| Mass from Age to Age - The Lord's Prayer
+259 |Part| Mass from Age to Age - Lamb of God
+260 |Part| Glendalough Mass - Kyrie
+261 |Part| Glendalough Mass - Gloria
+262 |Part| Glendalough Mass - Gospel Acclamation
+263 |Part| Glendalough Mass - Holy, Holy, Holy
+264 |Part| Glendalough Mass - Memorial Acclamation A
+265 |Part| Glendalough Mass - Memorial Acclamation B
+266 |Part| Glendalough Mass - Memorial Acclamation C
+267 |Part| Glendalough Mass - Amen
+268 |Part| Glendalough Mass - The Lord's Prayer
+269 |Part| Glendalough Mass - Lamb of God
+270 |Part| Missa Pacem - Penitential Act
+271 |Part| Missa Pacem - Gloria
+272 |Part| Missa Pacem - Gospel Acclamation
+273 |Part| Missa Pacem - Holy, Holy, Holy
+274 |Part| Missa Pacem - Memorial Acclamation A
+275 |Part| Missa Pacem - Memorial Acclamation B
+276 |Part| Missa Pacem - Memorial Acclamation C
+277 |Part| Missa Pacem - Amen
+278 |Part| Missa Pacem - Lamb of God
+279 |Part| Unity Mass - Penitential Act
+280 |Part| Unity Mass - Kyrie
+281 |Part| Unity Mass - Gloria
+282 |Part| Unity Mass - Gospel Acclamation
+283 |Part| Unity Mass - Holy, Holy, Holy
+284 |Part| Unity Mass -  Memorial Acclamation A
+285 |Part| Unity Mass -  Memorial Acclamation B
+286 |Part| Unity Mass -  Memorial Acclamation C
+287 |Part| Unity Mass - Amen
+288 |Part| Unity Mass - Lamb of God
+289 |Part| Misa Una Sante Fe / One Holy Faith Mass - Penitential Act
+290 |Part| Misa Una Sante Fe / One Holy Faith Mass - Gloria
+291 |Part| Misa Una Sante Fe / One Holy Faith Mass - Gospel Acclamation
+292 |Part| Misa Una Sante Fe / One Holy Faith Mass - Lenten Gospel Acclamation
+293 |Part| Misa Una Sante Fe / One Holy Faith Mass - Prayer of the Faithful
+294 |Part| Misa Una Sante Fe / One Holy Faith Mass - Holy, Holy, Holy
+295 |Part| Misa Una Sante Fe / One Holy Faith Mass - Memorial Acclamation A
+296 |Part| Misa Una Sante Fe / One Holy Faith Mass - Memorial Acclamation B
+297 |Part| Misa Una Sante Fe / One Holy Faith Mass - Memorial Acclamation C
+298 |Part| Misa Una Sante Fe / One Holy Faith Mass - Amen
+299 |Part| Misa Una Sante Fe / One Holy Faith Mass - The Lord's Prayer
+300 |Part| Misa Una Sante Fe / One Holy Faith Mass - Lamb of God
+301 |Part| Cantus Missae - Kyrie
+302 |Part| Cantus Missae - Gloria
+303 |Part| Cantus Missae - First Readings
+304 |Part| Cantus Missae - Gospel
+305 |Part| Cantus Missae - Credo
+306 |Part| Cantus Missae - Prayer of the Faithful
+307 |Part| Cantus Missae - Preface Dialogue
+308 |Part| Cantus Missae - Sanctus
+309 |Part| Cantus Missae - Memorial Acclamation
+310 |Part| Cantus Missae - Amen
+311 |Part| Cantus Missae - The Lord's Prayer
+312 |Part| Cantus Missae - Sign of Peace
+313 |Part| Cantus Missae - Angus Dei
+314 |Part| Cantus Missae - Dismissal
+315 |Part| Service Music - Sprinkling Song
+316 |Part| Service Music - Sprinkling Song
+317 |Part| Service Music - Kyrie
+318 |Part| Service Music - Kyrie
+319 |Part| Service Music - Gloria
+320 |Part| Service Music - Gloria
+321 |Part| Service Music - Gloria
+322 |Part| Service Music - Gloria
+323 |Part| Service Music - Gloria
+324 |Part| Service Music - Children's Dismissal for the Liturgy of the Word
+325 |Part| Service Music - Children's Dismissal for the Liturgy of the Word
+326 |Part| Service Music - Gospel Acclamation
+327 |Part| Service Music - Gospel Acclamation
+328 |Part| Service Music - Gospel Acclamation
+329 |Part| Service Music - Gospel Acclamation
+330 |Part| Service Music - Gospel Acclamation
+331 |Part| Service Music - Gospel Acclamation
+332 |Part| Service Music - Gospel Acclamation
+333 |Part| Service Music - Gospel Acclamation
+334 |Part| Service Music - Gospel Acclamation
+335 |Part| Service Music - Gospel Acclamation
+336 |Part| Service Music - Gospel Acclamation
+337 |Part| Service Music - Gospel Acclamation
+338 |Part| Service Music - Gospel Acclamation
+339 |Part| Service Music - Gospel Acclamation
+340 |Part| Service Music - Gospel Acclamation
+341 |Part| Service Music - Lenten Gospel Acclamation
+342 |Part| Service Music - Lenten Gospel Acclamation
+343 |Part| Service Music - Lenten Gospel Acclamation
+344 |Part| Service Music - Prayer of the Faithful
+345 |Part| Service Music - Prayer of the Faithful
+346 |Part| Service Music - Prayer of the Faithful
+347 |Part| Service Music - Prayer of the Faithful
+348 |Part| Service Music - Prayer of the Faithful
+349 |Part| Service Music - Prayer of the Faithful
+350 |Part| Service Music - Prayer of the Faithful
+351 |Part| Service Music - Prayer of the Faithful
+352 |Part| Service Music - Prayer of the Faithful
+353 |Part| Service Music - Prayer of the Faithful
+354 |Part| Service Music - Prayer of the Faithful
+355 |Part| Service Music - Holy, Holy, Holy - Mass of Plenty
+356 |Part| Service Music - Memorial Acclamation A
+357 |Part| Service Music - Amen
+358 |Part| Service Music - Holy, Holy, Holy - Missa Emmanuel
+359 |Part| Service Music - Memorial Acclamation A
+360 |Part| Service Music - Amen
+361 |Part| Service Music - Holy, Holy, Holy - Mass of Light
+362 |Part| Service Music - Memorial Acclamation B
+363 |Part| Service Music - Amen
+364 |Part| Service Music - Holy, Holy, Holy - Deutsche Messe
+365 |Part| Service Music - Memorial Acclamation C
+366 |Part| Service Music - Amen
+367 |Part| Service Music - Holy, Holy, Holy - Land of Rest
+368 |Part| Service Music - Memorial Acclamation B
+369 |Part| Service Music - Amen
+370 |Part| Service Music - Holy, Holy, Holy - A Community Mass
+371 |Part| Service Music - Memorial Acclamation A
+372 |Part| Service Music - Amen
+373 |Part| Service Music - Memorial Acclamation B
+374 |Part| Service Music - Amen
+375 |Part| Service Music - Holy, Holy, Holy - Mass of Angels and Saints
+376 |Part| Service Music - Memorial Acclamation C
+377 |Part| Service Music - Amen
+378 |Part| Service Music - Holy, Holy, Holy - Jubilation Mass
+379 |Part| Service Music - Memorial Acclamation B
+380 |Part| Service Music - Amen
+381 |Part| Service Music - Holy, Holy, Holy - People's Mass
+382 |Part| Service Music - Memorial Acclamation B
+383 |Part| Service Music - Amen
+384 |Part| Service Music - Holy, Holy, Holy - Mass of Remembrance
+385 |Part| Service Music - Memorial Acclamation C
+386 |Part| Service Music - Amen
+387 |Part| Service Music - The Lord's Prayer
+388 |Part| Service Music - Lamb of God
+389 |Part| Service Music - Lamb of God
+390 |Part| Service Music - Lamb of God
+391 |Part| Service Music - Lamb of God
+392 |Part| Service Music - Lamb of God
 393 |Song| May We Be One (Communion Litany)
 394 |Song| May We Be One (Communion Hymn)
 395 |Song| O Come, O Come, Emmanuel
@@ -282,6 +487,7 @@
 575 |Song| All You Works of God
 576 |Song| Canticle of the Sun
 577 |Song| Sing Out, Earth and Skies!
+578 |Song| How Great Thou Art
 579 |Song| Over My Head
 580 |Song| For God So Loved the World
 581 |Song| O God, You Search Me
@@ -368,7 +574,6 @@
 662 |Song| Make Us Worthy
 663 |Song| Lord of All Hopefulness
 664 |Song| A Celtic Rune
-664 |Song| Lord, hear our prayer
 665 |Song| Healing River of the Spirit
 666 |Song| O Lord, Hear My Prayer
 667 |Song| How Shall We Name God?
@@ -694,25 +899,57 @@
 987 |Song| We Have a Dream
 988 |Song| My Country, ’Tis of Thee
 989 |Song| The God of All Eternity
-991 |Song| Let us go rejoicing
-992 |Song| Lord, make us turn to you
-993 |Song| To you, O Lord, I lift my soul
-994 |Song| Justice shall flourish in his time
-995 |Song| Lord, let us see your kindness
-996 |Song| The Lord has done great things for us
-997 |Song| Lord, come and save us
-998 |Song| My soul rejoices
-999 |Song| Cry out with joy and gladness
-1000 |Song| Let the Lord enter
-1001 |Song| For ever I will sing the goodness of the Lord
-1002 |Song| Lord, make us turn to you
-1003 |Song| For ever I will sing the goodness of the Lord
-1004 |Song| Today is born our Savior
-1005 |Song| A light will shine on us this day
-1006 |Song| All the ends fo the earth have seen the saving power of God
-1007 |Song| Blessed are those who fear the Lord
-1008 |Song| The Lord remembers his covenant for ever
-1009 |Song| Blesseda are they who dwell in your house, O Lord
+991 |Psalm| Let us go rejoicing
+992 |Psalm| Lord, make us turn to you
+993 |Psalm| To you, O Lord, I lift my soul
+994 |Psalm| Justice shall flourish in his time
+995 |Psalm| Lord, let us see your kindness
+996 |Psalm| The Lord has done great things for us
+997 |Psalm| Lord, come and save us
+998 |Psalm| My soul rejoices
+999 |Psalm| Cry out with joy and gladness
+1000 |Psalm| Let the Lord enter
+1001 |Psalm| For ever I will sing the goodness of the Lord
+1002 |Psalm| Lord, make us turn to you
+1003 |Psalm| For ever I will sing the goodness of the Lord
+1004 |Psalm| Today is born our Savior
+1005 |Psalm| A light will shine on us this day
+1006 |Psalm| All the ends fo the earth have seen the saving power of God
+1007 |Psalm| Blessed are those who fear the Lord
+1008 |Psalm| The Lord remembers his covenant for ever
+1009 |Psalm| Blessed are they who dwell in your house, O Lord
+1010 |Psalm| May God Bless us in his mercy
+1011 |Psalm| Lord, every nation on earth will ador you
+1012 |Psalm| The Lord will bless his people with peace
+1013 |Psalm| You will draw water joyfully from the springs of salvation
+1014 |Psalm| O, bless the Lord, ny soul
+1016 |Psalm| Be merciful, O Lord, for we have sinned
+1017 |Psalm| Your ways, O Lord, are love and truth
+1018 |Psalm| Be with me, Lord
+1019 |Psalm| Lord, let your mersy be on us
+1020 |Psalm| I will walk before the Lord
+1021 |Psalm| The Lord is my light and salvation
+1022 |Psalm| If today you hear his voice, harden not your hearts
+1023 |Psalm| Lord, You have the words of everlasting life
+1024 |Psalm| The Lord is kind and merciful
+1025 |Psalm|The Lord is my shepherd
+1026 |Psalm| Let my tongue be silenced
+1027 |Psalm| Taste and see the goodness in the Lord
+1028 |Psalm| With the Lord there is mercy
+1029 |Psalm| Create in me
+1030 |Psalm| The Lord has done great things for us
+1032 |Psalm| Hosana to the Son of David
+1034 |Psalm| In the name of Christ Amen
+1035 |Psalm| My God, my God,why have you abandoned me
+1040 |Psalm| Our blessing cup is a communion with teh blood of Christ
+1043 |Psalm| Father into your hands I commend my spirit 
+1044 |Psalm| Come, let us adore 
+1047 |Psalm| Christ our light 
+1048 |Psalm| Lord Send out your Spirit
+1048 |Psalm| The earth is full of hte goodness of the Lord
+
+
+
 1065 |Song| Sequence for Easter
 1084 |Song| Sequence for Pentecost
 1209 |Song| Lord, This is the people
