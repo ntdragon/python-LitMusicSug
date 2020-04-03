@@ -28,6 +28,7 @@ Music Director or musicians determining what music to use for an event like Sund
 this version the steps are;
 <ol>
 <li> Ask for some information on the event to print out in the header</li>
+<li> Ask which songbook you are using and the theme for the mass parts</li>
 <li> Ask for NPM's suggestions for the event</li>
 <li> It will then input information from database on songbook songs and past suggestions that it knows.</li>
 <li>It will process the input information</li>
@@ -48,6 +49,11 @@ Gather Comprehensive.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <b>Liturgical Event:</b><input type="text" name="litevt" value="{{ evt.des }}" size="60" /><br /><br />
 <b>Songbook:</b><select name="songbook" size="1"><option value="GC">Gather Comprehensive</option><option value="G3">Gather Comprehensive 3</option></select><br /><br />
+<b>Mass Theme:</b><select name="mstheme" size="1">
+{%- for num in theme -%} 
+     <option values={{ num.mstid }}>{{ num.mstname }}</option>
+{% endfor %}
+</select><br /><br />
 <input type="submit" value="Next Step" >
 </form>
 {% endblock content2 %}

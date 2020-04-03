@@ -148,55 +148,161 @@
 150|Song|Song of the Three Children / Daniel 3:52-56
 151|Song|Song of the Three Children / Daniel 3:52-57
 152|Song|Song of the Three Children / Daniel 3:57-88
-154|Song|Blessing and Sprinkling of Holy Water
-156|Song|Kyrie
-157|Song|Gloria
-160|Song|Gospel Acclamation
-165|Song|Eucharistic Prayer
-166|Song|Holy, Holy Holy
-167|Song|Mystery of Faith
-168|Song|Amen
-169|Song|Communion Rite
-171|Song|Lamb of God
-174|Song|Clense Us, O Lord
-175|Song|Kyrie Eleison
-176|Song|Gloria
-177|Song|Gospel Acclimation
-178|Song|General Intercessions
-179|Song|Preface Dialog
-180|Song|Sanctus
-181|Song|Memorial Acclimation
-182|Song|Amen
-183|Song|Communion Rite
-184|Song|Anguis Dei
-185|Song|Kyrie Eleison
-186|Song|Gloria
-187|Song|Alleluia
-188|Song|Gospel Acclimation
-189|Song|Preface Dialog
-190|Song|Sanctus
-191|Song|Eucharistic Acclimation
-192|Song|Memorial Acclimation
-193|Song|Eucharistic Acclimation
-194|Song|Amen
-195|Song|Angus Dei
-196|Song|Kyrie
-197|Song|Gloria
-198|Song|Alleluia
-199|Song|Preface Dialog
-200|Song|Eucharistic Acclimation
-201|Song|Sanctus
-202|Song|Eucharistic Acclimation
-203|Song|Memorial Acclimation
-204|Song|Eucharistic Acclimation
-205|Song|Eucharistic Acclimation
-206|Song|Amen
-207|Song|Angus Dei
-241|Song|Rite of Sprinkling:Springs of Water
-242|Song|Rite of Sprinkling:Springs of Water
-243|Song|Rite of Sprinkling:Springs of Water
-244|Song|Rite of Sprinkling:Lord Jesus, from Your Wounded Side
-316|Song|May We Be One
+154|Part|Mass of Creation - Blessing and Sprinkling of Holy Water
+156|Part| Mass of Creation - Kyrie
+157|Part| Mass of Creation - Gloria
+160|Part| Mass of Creation - Gospel Acclamation
+163 |Part| Mass of Creation - General Intercessions
+165|Part| Mass of Creation - Eucharistic Prayer
+166|Part| Mass of Creation - Holy, Holy Holy
+167|Part| Mass of Creation - Mystery of Faith
+168|Part| Mass of Creation - Amen
+169|Part| Mass of Creation - Communion Rite
+171|Part| Mass of Creation - Lamb of God
+173 |Part| Mass of Creation - Dismissal
+174|Part| Composite Setting- Cleanse Us, O Lord
+175|Part| Composite Setting- Kyrie Eleison
+176|Part| Composite Setting- Gloria
+177|Part| Composite Setting- Gospel Acclimation
+178|Part| Composite Setting- General Intercessions
+179|Part| Composite Setting- Preface Dialog
+180|Part| Composite Setting- Sanctus
+181|Part| Composite Setting- Memorial Acclimation
+182|Part| Composite Setting- Amen
+183|Part| Composite Setting- Communion Rite
+184|Part| Composite Setting- Anguis Dei
+185|Part| Mass of Light - Kyrie Eleison
+186|Part| Mass of Light - Gloria
+187|Part| Mass of Light - Alleluia
+188|Part| Mass of Light - Gospel Acclimation
+189|Part| Mass of Light - Preface Dialog
+190|Part| Mass of Light - Sanctus
+191|Part| Mass of Light - Eucharistic Acclimation
+192|Part| Mass of Light - Memorial Acclimation
+193|Part| Mass of Light - Eucharistic Acclimation
+194|Part| Mass of Light - Amen
+195|Part| Mass of Light - Angus Dei
+196|Part| Mass of Rememberance - Kyrie
+197|Part| Mass of Rememberance - Gloria
+198|Part| Mass of Rememberance - Alleluia
+199|Part| Mass of Rememberance - Preface Dialog
+200Part| Mass of Rememberance - Eucharistic Acclimation
+201|Part| Mass of Rememberance - Sanctus
+202|Part| Mass of Rememberance - Eucharistic Acclimation
+203|Part| Mass of Rememberance - Memorial Acclimation
+204|Part| Mass of Rememberance - Eucharistic Acclimation II
+205|Part| Mass of Rememberance - Eucharistic Acclimation III
+206|Part| Mass of Rememberance - Amen
+207|Part| Mass of Rememberance - Angus Dei
+208 |Part| Psallite Mass - Kyrie 
+209 |Part| Psallite Mass - Gloria
+210 |Part| Psallite Mass - Sanctus
+211 |Part| Psallite Mass - Memorial Acclamation
+212 |Part| Psallite Mass - Amen
+213 |Part| Psallite Mass - Angus Dei
+214 |Part| Mass for the Life of the World - Kyrie
+215 |Part| Mass for the Life of the World - Gloria
+216 |Part| Mass for the Life of the World - Alleluia
+217 |Part| Mass for the Life of the World - O Lord, Hear our Prayer
+218 |Part| Mass for the Life of the World - Ostinato 1
+219 |Part| Mass for the Life of the World - Holy, Holy Holy
+220 |Part| Mass for the Life of the World - Holy, Holy Holy
+221 |Part| Mass for the Life of the World - Holy, Holy Holy
+222 |Part| Mass for the Life of the World - Acclamation 3
+223 |Part| Mass for the Life of the World - O Lord, Hear our Prayer
+224 |Part| Mass for the Life of the World - Acclamation 4
+225 |Part| Mass for the Life of the World - Angus Dei
+226 |Part| Community Mass - Kyrie 
+227 |Part| Community Mass - Gloria
+228 |Part| Community Mass - Sanctus
+229 |Part| Community Mass - Memorial Acclamation
+230 |Part| Community Mass - Memorial Acclamation
+231 |Part| Community Mass - Amen
+232 |Part| Community Mass - Angus Dei
+233 |Part| Deutsche Messe - Kyrie
+234 |Part| Deutsche Messe - Gloria
+235 |Part| Deutsche Messe - Sanctus
+236 |Part| Deutsche Messe - Memorial Acclamation
+237 |Part| Deutsche Messe - Memorial Acclamation
+238 |Part| Deutsche Messe - Amen
+239 |Part| Deutsche Messe - Lord's Prayer
+240 |Part| Deutsche Messe - Angus Dei
+241|Part| Service Music - Rite of Sprinkling:Springs of Water
+242|Part| Service Music - Rite of Sprinkling:Springs of Water
+243|Part| Service Music - Rite of Sprinkling:Springs of Water
+244|Part| Service Music - Rite of Sprinkling:Lord Jesus, from Your Wounded Side
+245 |Part| Service Music - You have put on Christ
+246 |Part| Service Music - Kyrie
+247 |Part| Service Music - Kyrie
+248 |Part| Service Music - Kyrie
+249 |Part| Service Music - Gloria
+250 |Part| Service Music - Gloria
+251 |Part| Service Music - Gloria
+252 |Part| Service Music - Gloria
+253 |Part| Service Music - Gloria
+254 |Part| Service Music - Gloria
+255 |Part| Service Music - Gloria
+256 |Part| Service Music - Alleluia
+257 |Part| Service Music - Alleluia
+258 |Part| Service Music - Celtic Alleluia
+259 |Part| Service Music - Halle, Halle, Halle
+260 |Part| Service Music - Alleluia
+261 |Part| Service Music - Alleluia
+262 |Part| Service Music - Alleluia
+263 |Part| Service Music - Alleluia
+264 |Part| Service Music - Alleluia
+265 |Part| Service Music - Alleluia
+266 |Part| Service Music - Lenten Acclamation
+267 |Part| Service Music - Lenten Acclamation
+268 |Part| Service Music - Gemeral Intercessions
+269 |Part| Service Music - Gemeral Intercessions
+270 |Part| Service Music - Gemeral Intercessions
+271 |Part| Service Music - Gemeral Intercessions
+272 |Part| Service Music - Gemeral Intercessions
+273 |Part| Service Music - Gemeral Intercessions
+274 |Part| Service Music - Gemeral Intercessions
+275 |Part| Service Music - Preface Dialog
+276 |Part| Service Music - Eucharistic Acclamation I
+277 |Part| Service Music - Sanctus
+278 |Part| Service Music - Eucharistic Acclamation II
+279 |Part| Service Music - Memorial Acclamation
+280 |Part| Service Music - Eucharistic Acclamation III
+281 |Part| Service Music - Doxology and Great Amen
+282 |Part| Service Music - Eucharistic Prayer for Children
+283 |Part| Service Music - Acclamation 1
+284 |Part| Service Music - Sanctus
+285 |Part| Service Music - Acclamation 2
+286 |Part| Service Music - Acclamation 3
+287 |Part| Service Music - Acclamation 4
+288 |Part| Service Music - Doxology and Great Amen
+289 |Part| Service Music - Eucharistic prayer II: Preface Dialog
+290 |Part| Service Music - Additional Acclamation 1
+291 |Part| Service Music - Sanctus
+292 |Part| Service Music - Additional Acclamation 2
+293 |Part| Service Music - Additional Acclamation 3
+294 |Part| Service Music - Memorial Acclamation
+295 |Part| Service Music - Additional Acclamation 4
+296 |Part| Service Music - Doxology and Great Amen
+297 |Part| Service Music - Sanctus
+298 |Part| Service Music - When We Eat This Bread
+299 |Part| Service Music - Amen
+300 |Part| Service Music - Sanctus
+301 |Part| Service Music - Memorial Acclamation
+302 |Part| Service Music - Amen
+303 |Part| Service Music - Sanctus
+304 |Part| Service Music - Memorial Acclamation and Amen
+305 |Part| Service Music - Sanctus
+306 |Part| Service Music - Memorial Acclamation
+307 |Part| Service Music - Lord's Prayer
+308 |Part| Service Music - Lamb of God
+309 |Part| Service Music - Lamb of God
+310 |Part| Service Music - Lamb of God
+311 |Part| Service Music - Lamb of God
+312 |Part| Service Music - Lamb of God
+313 |Part| Service Music - Lamb of God
+314 |Part| Service Music - Lamb of God
+315 |Part| Service Music - Lamb of God: may we be one
+316|Part| Service Music - May We Be One
 317|Song|O Come, O Come, Emmanuel
 318|Song|People, Look East
 319|Song|Walk in the Reign

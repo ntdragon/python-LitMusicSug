@@ -1,150 +1,326 @@
 A | Advent 1 | .
 B | Advent 1 | Lord, Make Us Turn to You
-C | Advent 1 | .
+C | Advent 1 | To You, O Lord I Lift My Soul
+C | Advent 1 | A Ti Señor/To You, O Lord
+C | Advent 1 | I Lift My Soul to You
+C | Advent 1 | To You, O Lord/A Ti, Señor
 A | Advent 2 | .
 B | Advent 2 | Lord, Let Us See Your Kindness
-C | Advent 2 | .
+C | Advent 2 | El Señor Ha Estado Grande con Nosotros 
+C | Advent 2 | The Lord Has Done Great Things
 A | Advent 3 | .
 B | Advent 3 | My Soul Rejoices
 B | Advent 3 | Magnificat
-C | Advent 3 | .
+C | Advent 3 | Cry Out with Joy, You Will Draw Water
+C | Advent 3 | Cry Out with Joy and Gladness
+C | Advent 3 | Great in Our Midst
+C | Advent 3 | Sing and Shout for Joy
 A | Advent 4 | .
 B | Advent 4 | For Ever I Will Sing
-C | Advent 4 | .
+C | Advent 4 | Lord Make Us Turn to You
+C | Advent 4 | Oh Dios, Restáuranos/ Psalm 80: Lord, Make Us Turn to You
 A | AllSaints | .
 B | AllSaints | .
-C | AllSaints | .
-A | AllSouls | .
-B | AllSouls | .
-C | AllSouls | .
-A | Annunciation | .
-B | Annunciation | .
-C | Annunciation | .
-A | Ascension | .
-B | Ascension | .
-C | Ascension | .
+C | AllSaints | Èsta es la grupo 
+C | AllSaints | Èsta es la raza/ Psalm 24: Lord, this is the people
+C | AllSaints | Lord, This Is the People
+C | AllSaints | Lord, this is the people that longs to see your face
+C | AllSaints | O God , this is the people that longs to see your face
+A | AllSouls | El Señor Es Mi Pastor
+B | AllSouls | El Señor Es Mi Pastor/Psalm 23: The Lord Is My Shepherd
+C | AllSouls | My Shepherd Is the Lord
+C | AllSouls | My Shepherd Is the Lord/Salmo 22: Nada Me Falta
+C | AllSouls | Salmo 33 Gusten y Vean/Taste and See
+C | AllSouls | Shepherd Me, O God/Salmo 22: Guíame, Señor
+C | AllSouls | The Lord Is My Shepherd
+C | AllSouls | The Lord Is My Shepherd, There is Nothing I Shall Want
+C | AllSouls | Though I Walk
+C | AllSouls | Tú Vas Conmigo/Psalm 23: The Lord is My Shepherd
+A | Annunciation | Aquí Estoy, Señor
+B | Annunciation | Here Am I
+C | Annunciation | Here I Am
+C | Annunciation | Here I Am, O God
+C | Annunciation | Here I Am, O Lord 
+C | Annunciation | Here Am I, Lord/Aquí Estoy, Señor
+A | Ascension | Dios Asciende
+B | Ascension | Dios Asciende/Psalm 47: God Mounts His Throne
+C | Ascension | God Goes Up with Shouts
+C | Ascension | God Mounts His Throne
+C | Ascension | God Mounts His Throne to Shouts of Joy
 A | AshWednesday | .
 B | AshWednesday | .
-C | AshWednesday | .
-A | Assumption | .
+C | AshWednesday | Be Merciful, O Lord
+C | AshWednesday | Have Mercy on Me, O Lord
+C | AshWednesday | Have Mercy on Us for We Have Sinned
+C | AshWednesday | Have Mercy on Us, Lord
+C | AshWednesday | Misericordia, Señor
+C | AshWednesday | Por Tu Bondad, Perdónanos/Be Merciful, O Lord
+A | Assumption | 
 B | Assumption | .
-C | Assumption | .
+C | Assumption | Lord, go up to the place of your rest, you and the ark of your holiness
+C | Assumption | The queen stands at your right hand, arrayed in gold
 A | BaptismLord | .
 B | BaptismLord | With Joy You Will Draw Water
-C | BaptismLord | .
+C | BaptismLord | Alabado Sea el Señor/ Psalm 29 Praise the Lord
+C | BaptismLord | Bless the Lord
+C | BaptismLord | El Señor Bendicea Su Pueblo Con La Paz
+C | BaptismLord | O Bless the Lord, My Soul
+C | BaptismLord | The Lord will bless his people with peace
 A | BodyBlood | .
 B | BodyBlood | .
-C | BodyBlood | .
+C | BodyBlood | Priest For Ever, Jesus Christ
+C | BodyBlood | Tú Eres Sacerdote para Siempre
+C | BodyBlood | You Are a Priest For Ever
+C | BodyBlood | You are a priest forever, in the line of Melchezedek
 A | ChristKing | .
 B | ChristKing | .
-C | ChristKing | .
+C | ChristKing | ¡Qué alegria cuando me dijeron
+C | ChristKing | ¡Qué alegria cuando me dijeron/Psalm 122 I rejoiced when I heard them say
+C | ChristKing | Let us go rejoicing to the house of the Lord 
+C | ChristKing | Vamos alegres a la casa del señor/Psalm 122: Let us go rejoicing to the house of the Lord
+C | ChristKing | ¡Qué alegria, ¡Qué alegria, cuando me dijeron/ Psalm 122: Let us go rejoicing 
+C | ChristKing | Con que alegrïa vamos a la casa/ Psalm 122: Let us go rejoicing to the house of the Lord
 A | Christmas | .
 B | Christmas | All the Ends of the Earth
-C | Christmas | .
+C | Christmas | All on Earth, in Sea and Sky
+C | Christmas | All the Ends of the Earth
+C | Christmas | Los Confines de la Tierra/Psalm 98: All the Ends of the Earth
 A | Christmas Dawn | .
 B | Christmas Dawn | A Light Will Shine
-C | Christmas Dawn | .
+C | Christmas Dawn | A Light Will Shine on Us This Day
 A | Christmas Midnight | .
 B | Christmas Midnight | Today Is Born Our Savior
-C | Christmas Midnight | .
+C | Christmas Midnight | Hos Ha Nacido un Salvador
+C | Christmas Midnight | Hoy Nos Ha Nacido/ Today for Us a Savior is Born
+C | Christmas Midnight | Today is Born Our Savior
 A | Christmas Vigil | .
 B | Christmas Vigil | For Ever I Will Sing
-C | Christmas Vigil | .
+C | Christmas Vigil | Cantaré Eternamente/ For Ever I Will Sing
+C | Christmas Vigil | Cantaré Eternamente/ Psalm 89: For Ever I Will Sing
+C | Christmas Vigil | Forever I Will Sing the Goodness of the Lord
 A | Easter | .
 B | Easter | .
-C | Easter | .
+C | Easter | ¡Aleluya!/Psalm 118: Alleluia
+C | Easter | Aleluya/Alleluia
+C | Easter | Alleluia
+C | Easter | Este Es el Día 
+C | Easter | This Is the Day
+A | Easter Vigil | .
+B | Easter Vigil | .
+C | Easter Vigil | R1 - Envía Tu Espíritu
+C | Easter Vigil | R1 - Lord, Send Out Your Spirit
+C | Easter Vigil | R1 - Send Forth Your Spirit
+C | Easter Vigil | R1 - Send Us Your Spirit
+C | Easter Vigil | R2 - Protégeme, Dio Mío
+C | Easter Vigil | R2 - Tú eres, Señor 
+C | Easter Vigil | R2 - You Are My Inheritance
+C | Easter Vigil | R3 - Let Us Sing to the Lord 
+C | Easter Vigil | R3 - Song at the Sea
+C | Easter Vigil | R3 - Song of Moses
+C | Easter Vigil | R3 - To God Be Praise and Glory
+C | Easter Vigil | R4 - I Will Praise You, Lord
+C | Easter Vigil | R4 - I Will Praise You
+C | Easter Vigil | R4 - Te Ensalzaré, Senor
+C | Easter Vigil | R5 - Joyfully You Will Draw Water
+C | Easter Vigil | R5 - Sacarán Agua con Alegrïa
+C | Easter Vigil | R5 - Ustedes Sacarán Agua
+C | Easter Vigil | R5 - We Shall Draw Water Joyfully
+C | Easter Vigil | R5 - You Will Draw Water
+C | Easter Vigil | R6 - Lord, You Have the Words
+C | Easter Vigil | R6 - Señor, Tú Tienes Palabras
+C | Easter Vigil | R6 - Tienes Tú, Señor
+C | Easter Vigil | R6 - Tus Palabras, Señor 
+C | Easter Vigil | R6 - Words of Everlasting Life
+C | Easter Vigil | R6 - Your words, Lord are Spirit and Life
+C | Easter Vigil | R6 - Yours are the Words
+C | Easter Vigil | R7 - As the Deer
+C | Easter Vigil | R7 - Como Busca la Cierva
+C | Easter Vigil | R7 - Like a Deer That Longs
+C | Easter Vigil | R7 - Like the Deer
+C | Easter Vigil | R7 - My Soul is Thirsting
+C | Easter Vigil | R7 - Crea en Mi
+C | Easter Vigil | R7 - Create a Clean Heart
+C | Easter Vigil | R7 - Create in Me
+C | Easter Vigil | R7 - Oh Dios, Crea en Mí
+C | Easter Vigil | Alleluia
+C | Easter Vigil | Alleluia, Alleluia
+C | Easter Vigil | Este Es el Día
+C | Easter Vigil | Let Us Rejoice and Be Glad
+C | Easter Vigil | This Is the Day
 A | Easter 2 | .
 B | Easter 2 | .
-C | Easter 2 | .
+C | Easter 2 | Dad Gracias al Señor
+C | Easter 2 | Éste Es el Día/Give Thanks to the Lord
+C | Easter 2 | Éste Es el Día/Psalm 118 This is the Day
+C | Easter 2 | Give Thanks to the Lord
+C | Easter 2 | Give thanks to the Lord for He is Good
+C | Easter 2 | The Stone Which the Builders Rejected
+C | Easter 2 | This is the Day The Lord Has Made
 A | Easter 3 | .
 B | Easter 3 | .
-C | Easter 3 | .
+C | Easter 3 | I Will Praise You, Lord
+C | Easter 3 | Te Ensalzaré, Senor/Psalm 30: I Will Praise You
 A | Easter 4 | .
 B | Easter 4 | .
-C | Easter 4 | .
+C | Easter 4 | Nosotros Somos Su Pueblo/Psalm 100: We Are His People
+C | Easter 4 | Nosotros Somos Su Pueblo/We Are God's People
+C | Easter 4 | People of God, Flock of the Lord
+C | Easter 4 | Somos Su Pueblo
+C | Easter 4 | We Are God's People
+C | Easter 4 | We Are His People
+C | Easter 4 | We are his people, the sheep of his flock
 A | Easter 5 | .
 B | Easter 5 | .
-C | Easter 5 | .
+C | Easter 5 | Alaba, Alma Mía, al Señor 
+C | Easter 5 | Alabaré Tu Nombre/Psalm 145 I Will Praise Your Name 
+C | Easter 5 | Bendeciré Tu Nombre/Psalm 145 I Will Praise Your Name
+C | Easter 5 | I Will Bless Your Name For Ever 
+C | Easter 5 | I Will Praise Your Name For Ever
+C | Easter 5 | I will praise your Name Forever 
 A | Easter 6 | .
 B | Easter 6 | .
-C | Easter 6 | .
+C | Easter 6 | God, Let All the People Praise You
+C | Easter 6 | La Tierra Ya Germinó/The Earth Has Yielded
+C | Easter 6 | Let All the Nations
+C | Easter 6 | Let the Peoples Praise You 
+C | Easter 6 | O God, Let All the Nations
+C | Easter 6 | O God, let all the nations praise you!
 A | Easter 7 | .
 B | Easter 7 | .
 C | Easter 7 | .
+A | Exaltation Cross | .
+B | Exaltation Cross | .
+C | Exaltation Cross | Do not forget the works of the Lord 
+C | Exaltation Cross | No Olviden las Acciones
 A | Epiphany | .
 B | Epiphany | Every Nation on Earth
 B | Epiphany | Lord, Every Nation on Earth
-C | Epiphany | .
+C | Epiphany | Lord, Every Nation on Earth
+C | Epiphany | Se Postrarán Ante Ti
 A | GoodFriday | .
 B | GoodFriday | .
-C | GoodFriday | .
+C | GoodFriday | Father, I Put My Life in Your Hands
+C | GoodFriday | Father, into Your Hands I Commend My Spirit
+C | GoodFriday | Father, Into Your Hands
+C | GoodFriday | I Put My Life in Your Hands
+C | GoodFriday | In You, O Lord, I Take Refuge
+C | GoodFriday | Padre En Tus Manos
+C | GoodFriday | Pongo Mi Vida
 A | Guadalupe | .
 B | Guadalupe | Salve Regina, Hail, Blessed Lady
 C | Guadalupe | .
 A | HolyFamily | .
 B | HolyFamily | Blessed Are Those Who Fear the Lord
 B | HolyFamily | We Praise You
-C | HolyFamily | .
-A | HolyThursday | .
-B | HolyThursday | .
+C | HolyFamily | Blessed Are They Who Dwell in Your House
+C | HolyFamily | Blessed Are They, Blessed Are they
+C | HolyFamily | Dichosos Los
+C | HolyFamily | Blessed are Those Who Fear the Lord
+C | HolyFamily | Blessed are You
+C | HolyFamily | Dichosos Que Temen al Señor
+A | HolyThursday | El Cáliz Que Bendecimos
+B | HolyThursday | Our Blessing Cup
+C | HolyThursday | The Cup We Bless
+C | HolyThursday | .
 C | HolyThursday | .
 A | Immaculate_Conception | .
 B | Immaculate_Conception | Sing to the Lord a New Song
-C | Immaculate_Conception | .
+C | Immaculate_Conception | Cry Out with Joy and Gladness
+C | Immaculate_Conception | Griten Jubilosos
+C | Immaculate_Conception | Proclaim the Joyful Message
 A | Joseph | .
 B | Joseph | .
-C | Joseph | .
+C | Joseph | Cantaré Eternamente
+C | Joseph | For Ever I Will Sing
+C | Joseph | Forever I Will Sing
+C | Joseph | The Son of David Will Live Forever
 A | Lent 1 | .
 B | Lent 1 | .
-C | Lent 1 | .
+C | Lent 1 | Acompáñame, Señor
+C | Lent 1 | Be With Me Lord
+C | Lent 1 | Be with Me, O Lord
+C | Lent 1 | Be with Me
+C | Lent 1 | Lord, Be with Me
+C | Lent 1 | Mi Amparo, Mi Refugio
+C | Lent 1 | My Refuge, My Fortress
 A | Lent 2 | .
 B | Lent 2 | .
-C | Lent 2 | .
+C | Lent 2 | El Señor Es Mi Luz
+C | Lent 2 | Mi Luz y Salvacion
+C | Lent 2 | The Lord Is My Light
 A | Lent 3 | .
 B | Lent 3 | .
-C | Lent 3 | .
+C | Lent 3 | El Señor Es Tierno y Compasivo
+C | Lent 3 | El Señor es Campasivo
+C | Lent 3 | The Lord is Kind and Merciful
+C | Lent 3 | The Lord is Merciful and Tender
+C | Lent 3 | The Lord Is Tender and Caring
 A | Lent 4 | .
 B | Lent 4 | .
-C | Lent 4 | .
+C | Lent 4 | Gusten y Vean
+C | Lent 4 | O Taste and See
+C | Lent 4 | Taste and See
 A | Lent 5 | .
 B | Lent 5 | .
-C | Lent 5 | .
+C | Lent 5 | El Señor Ha Estado Grande con Nosotros
+C | Lent 5 | God Has Done Great Things for Us
+C | Lent 5 | Laughter Fills Our Mouths
+C | Lent 5 | Our God Has Done Great Things
+C | Lent 5 | The Lord Has Done Great Things
+C | Lent 5 | What Marvels the Lord Worked for Us
 A | MaryMoG | .
 B | MaryMoG | May God Bless Us
-C | MaryMoG | .
+C | MaryMoG | May God Bless Us in His Mercy
+C | MaryMoG | May God Bless Us
 A | MemorialDay | .
 B | MemorialDay | .
 C | MemorialDay | .
 A | MLK | .
 B | MLK | .
-C | MLK | .
+C | MLK | Come, O Lord, Lord, Let Us See Your Kindness
+C | MLK | Let Us See Your Kindness
+C | MLK | Lord, Let Me See Your Kindness
+C | MLK | Lord, Show Us Your Mercy
+C | MLK | Muéstranos, Señor
+C | MLK | Show Us Your Kindness
+C | MLK | The Lord Speaks of Peace
 A | Nat_JohnBaptist | .
 B | Nat_JohnBaptist | .
-C | Nat_JohnBaptist | .
+C | Nat_JohnBaptist | Since My Mother's Womb
+C | Nat_JohnBaptist | I Praise You
+C | Nat_JohnBaptist | I Praise Your Name
+C | Nat_JohnBaptist | I Will Praise You
+C | Nat_JohnBaptist | Te Doy Gracias
 A | Ordinary 1 | .
 B | Ordinary 1 | .
 C | Ordinary 1 | .
 A | Ordinary 2 | .
 B | Ordinary 2 | .
-C | Ordinary 2 | .
+C | Ordinary 2 | Proclaim his marvelous deeds to all the nations
 A | Ordinary 3 | .
 B | Ordinary 3 | .
-C | Ordinary 3 | .
+C | Ordinary 3 | Your words, Lord are Spirit and Life
+C | Ordinary 3 | Tus Palabras, Senor
 A | Ordinary 4 | .
 B | Ordinary 4 | .
-C | Ordinary 4 | .
+C | Ordinary 4 | I Will Sing
+C | Ordinary 4 | I will sing of your salvation
 A | Ordinary 5 | .
 B | Ordinary 5 | .
-C | Ordinary 5 | .
+C | Ordinary 5 | In the Sight of the Angels
 A | Ordinary 6 | .
 B | Ordinary 6 | .
-C | Ordinary 6 | .
+C | Ordinary 6 | Blessed are they who hope in the Lord
+C | Ordinary 6 | Happy are they who hope
 A | Ordinary 7 | .
 B | Ordinary 7 | .
-C | Ordinary 7 | .
+C | Ordinary 7 | The Lord is Kind and Merciful 
+C | Ordinary 7 | El Señor Es Tierno y Compasivo 
+C | Ordinary 7 | El Señor Es Compasivo
 A | Ordinary 8 | .
 B | Ordinary 8 | .
-C | Ordinary 8 | .
+C | Ordinary 8 | Lord, it is good to give thanks to you
+C | Ordinary 8 | Es bueno darte gracias, Señor
 A | Ordinary 9 | .
 B | Ordinary 9 | .
 C | Ordinary 9 | .
@@ -159,91 +335,140 @@ B | Ordinary 12 | .
 C | Ordinary 12 | .
 A | Ordinary 13 | .
 B | Ordinary 13 | .
-C | Ordinary 13 | .
+C | Ordinary 13 | Protégeme. Dio Mío/You Are My Inheritance
+C | Ordinary 13 | Tú Eres, Señor
+C | Ordinary 13 | You Are My Inheritance, O Lord
 A | Ordinary 14 | .
 B | Ordinary 14 | .
-C | Ordinary 14 | .
+C | Ordinary 14 | Aclamen al Señor/Let all the earth
+C | Ordinary 14 | All you nations, sing our your joy to the Lord
+C | Ordinary 14 | Let all the earth cry out to God with Joy
+C | Ordinary 14 | Let all the earth
+C | Ordinary 14 | Toda la Tierra, Canten al Señor
 A | Ordinary 15 | .
 B | Ordinary 15 | .
-C | Ordinary 15 | .
+C | Ordinary 15 | Turn to the Lord in your need, and you will live
 A | Ordinary 16 | .
 B | Ordinary 16 | .
-C | Ordinary 16 | .
+C | Ordinary 16 | He who does justice will live in the presence of the Lord
+C | Ordinary 16 | The just will live in the presence of the Lord
+C | Ordinary 16 | The one who does justice will live in the presence of the Lord
+C | Ordinary 16 | The one who does Justice
+C | Ordinary 16 | They who do justice will live in the presence of God 
 A | Ordinary 17 | .
 B | Ordinary 17 | .
-C | Ordinary 17 | .
+C | Ordinary 17 | Lord, on the day I called for help, you answered me 
+C | Ordinary 17 | Lord, on the day
 A | Ordinary 18 | .
 B | Ordinary 18 | .
-C | Ordinary 18 | .
+C | Ordinary 18 | If today you hear his voice, harden not your hearts
 A | Ordinary 19 | .
 B | Ordinary 19 | .
-C | Ordinary 19 | .
+C | Ordinary 19 | Blessed are the people the Lord has chosen to be his own
+C | Ordinary 19 | Blessed the people
+C | Ordinary 19 | Happy the people the Lord has chosen to be his own
 A | Ordinary 20 | .
 B | Ordinary 20 | .
-C | Ordinary 20 | .
+C | Ordinary 20 | God, Come to My Aid
+C | Ordinary 20 | God, My God, Come to My Aid
+C | Ordinary 20 | Lord, come to my aid
 A | Ordinary 21 | .
 B | Ordinary 21 | .
-C | Ordinary 21 | .
+C | Ordinary 21 | Go to the Ends of the Earth
+C | Ordinary 21 | Go out to all the world and tell the Good News
+C | Ordinary 21 | Go Out and Tell All the World
+C | Ordinary 21 | Go Out to All the World
+C | Ordinary 21 | Vayan por el Mundo Entero
 A | Ordinary 22 | .
 B | Ordinary 22 | .
-C | Ordinary 22 | .
+C | Ordinary 22 | God in your goodness, you have made a home for the poor
+C | Ordinary 22 | God in your goodness
 A | Ordinary 23 | .
 B | Ordinary 23 | .
-C | Ordinary 23 | .
+C | Ordinary 23 | In every age, O Lord, you have been our refuge
 A | Ordinary 24 | .
 B | Ordinary 24 | .
-C | Ordinary 24 | .
+C | Ordinary 24 | I will rise and go to my Father
 A | Ordinary 25 | .
 B | Ordinary 25 | .
-C | Ordinary 25 | .
+C | Ordinary 25 | Praise the Lord who lifts up the poor 
 A | Ordinary 26 | .
 B | Ordinary 26 | .
-C | Ordinary 26 | .
+C | Ordinary 26 | I will Praise my God all my days
+C | Ordinary 26 | I will praise the Lord, all my days
+C | Ordinary 26 | Lord, Come and Save u
+C | Ordinary 26 | Praise the Lord, my soul
 A | Ordinary 27 | .
 B | Ordinary 27 | .
-C | Ordinary 27 | .
+C | Ordinary 27 | If today you hear his voice, harden not your hearts
+C | Ordinary 27 | If today you hear his voice
+C | Ordinary 27 | If today you hear the voice of God, open up your heart
 A | Ordinary 28 | .
 B | Ordinary 28 | .
-C | Ordinary 28 | .
+C | Ordinary 28 | The Lord has revealed to the nations his saving power 
 A | Ordinary 29 | .
 B | Ordinary 29 | .
-C | Ordinary 29 | .
+C | Ordinary 29 | Our help comes from the Lord, the maker of heaven and earth
+C | Ordinary 29 | Our help Comes from the Lord
+C | Ordinary 29 | Our help is from the Lord who made heaven and earth
 A | Ordinary 30 | .
 B | Ordinary 30 | .
-C | Ordinary 30 | .
+C | Ordinary 30 | The Cry of the Poor
+C | Ordinary 30 | The Lord hears the cry of the poor
+C | Ordinary 30 | The Lord hears the cry
 A | Ordinary 31 | .
 B | Ordinary 31 | .
-C | Ordinary 31 | .
+C | Ordinary 31 | Alabaré Tu Nombre
+C | Ordinary 31 | Bendeciré Tu Nombre
+C | Ordinary 31 | I will praise your name for ever, my king and my God 
 A | Ordinary 32 | .
 B | Ordinary 32 | .
-C | Ordinary 32 | .
+C | Ordinary 32 | Al Despertar Me Saciaré
+C | Ordinary 32 | Lord, when your glory appears, my joy will be full 
 A | Ordinary 33 | .
 B | Ordinary 33 | .
-C | Ordinary 33 | .
+C | Ordinary 33 | Dios llega para regir
+C | Ordinary 33 | The Lord comes to rule the earth with justice
 A | Ordinary 34 | .
 B | Ordinary 34 | .
 C | Ordinary 34 | .
 A | Palm | .
 B | Palm | .
-C | Palm | .
+C | Palm | Dios Mío, Dios Mío
+C | Palm | My God, My God
 A | Pentecost | .
 B | Pentecost | .
-C | Pentecost | .
+C | Pentecost | Envía Tu Espíritu 
+C | Pentecost | Lord, Send Out Your Spirit
+C | Pentecost | Send Forth Your Spirit
+C | Pentecost | Send Out Your Spirit
 A | PeterPaul | .
 B | PeterPaul | .
-C | PeterPaul | .
+C | PeterPaul | Their message goes out through all the earth 
+C | PeterPaul | You, Lord, Have the Message
+C | PeterPaul | The angel of the Lord will rescue those who fear him
 A | PresentationLord | .
 B | PresentationLord | .
-C | PresentationLord | .
+C | PresentationLord | Open Wide the Gates
+C | PresentationLord | Who Is the King of Glory
 A | SacredHeart | .
 B | SacredHeart | .
-C | SacredHeart | .
+C | SacredHeart | El Señor Es Mi Pastor
+C | SacredHeart | My Shepherd Is the Lord
+C | SacredHeart | Shepherd Me, O God
+C | SacredHeart | The Lord is my shepherd
+C | SacredHeart | Though I Walk
+C | SacredHeart | Tú Vas Conmigo
 A | Transfiguration | .
 B | Transfiguration | .
 C | Transfiguration | .
 A | Trinity | .
 B | Trinity | .
-C | Trinity | .
+C | Trinity | How great is your name, O Lord our God, through all the earth
+C | Trinity | How wonderful your name, O Lord in all the earth
+C | Trinity | O Lord, How Excellent
+C | Trinity | O Lord, our God, how glorious is your name
+C | Trinity | O Lord, our God
 A | Unborn | .
 B | Unborn | .
 C | Unborn | .

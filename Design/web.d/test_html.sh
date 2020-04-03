@@ -13,6 +13,9 @@ python3 html_try.py > ../html_examples.d/page3.html
 echo "suggestions generated"
 cd ../page4.d
 python3 html_try.py > ../html_examples.d/page4.html
-echo "suggestions generated"
+echo "suggestions selection generated"
+cd ../page5.d
+python3 html_try.py > ../html_examples.d/page5.html
+echo "next input generated"
 cd ..
 echo "Done!"

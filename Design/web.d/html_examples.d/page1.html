@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html class="no-js" lang="en-US">
 <head>
@@ -42,6 +44,7 @@ Music Director or musicians determining what music to use for an event like Sund
 this version the steps are;
 <ol>
 <li> Ask for some information on the event to print out in the header</li>
+<li> Ask which songbook you are using and the theme for the mass parts</li>
 <li> Ask for NPM's suggestions for the event</li>
 <li> It will then input information from database on songbook songs and past suggestions that it knows.</li>
 <li>It will process the input information</li>
@@ -57,11 +60,27 @@ Gather Comprehensive.
 <h1>Now to start</h1>
 <form>
 <b>Parish name:</b> St Roch Catholic Church<br /><br />
-<b>Event Date:</b><input type="date" name="event-date" min=March 06, 2019 max=December 31,2020 value=March 06, 2019><br /><br />
+<b>Event Date:</b><input type="date" name="event-date" min=March 06, 2020 max=December 31,2021 value=March 06, 2020><br /><br />
 <b>Liturgical Year:</b><select name="lityr" size="1"><option value="A">A</option><option value="B">B</option><option value="C">C</option></select>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <b>Liturgical Event:</b><input type="text" name="litevt" value="First Sunday in Lent" size="60" /><br /><br />
 <b>Songbook:</b><select name="songbook" size="1"><option value="GC">Gather Comprehensive</option><option value="G3">Gather Comprehensive 3</option></select><br /><br />
+<b>Mass Theme:</b><select name="mstheme" size="1"><option values=MC>Mass of Creation</option>
+<option values=OM>Order of Mass</option>
+<option values=MJP>Mass of Joy and Peace</option>
+<option values=MNW>Mass for a New World</option>
+<option values=SM>Storrington Mass</option>
+<option values=BML>Black Mountain Liturgy</option>
+<option values=MAA>Mass form Age to Age</option>
+<option values=GM>Glendough Mass</option>
+<option values=MP>Missa Pacem</option>
+<option values=UM>Unity Mass</option>
+<option values=MUSE>Misa Una Sante Fe / One Holy Faith Mass</option>
+<option values=CM>Cantus Missae</option>
+<option values=SEM>Service Music</option>
+<option values=LSS>Song Sheets</option>
+
+</select><br /><br />
 <input type="submit" value="Next Step" >
 </form>
 

@@ -35,8 +35,10 @@ This program comes with a few files that were used in the design, development an
 the program but you may need to create and set up some text files for for your parish.
 
 The initial files needed to set up the programs database are;
-* Songbook file - a file containing the song numbers song titles and are they a Psalm or Song.
-     A Psalm indicates a song that may be used instead of the scriptural passage. Provided
+* Songbook file - a file containing the song numbers song titles and are they a Psalm, Part or Song.
+     A Psalm indicates a song that may be used instead of the scriptural passage. Part is a standard
+     like the Amen for Mass of Creation and is organized by theme then song.
++Provided
      with the program should be GatherPrint.txt and Gather3Print.text which are for Gather
      Comprehensive and Gather Comprehensive Third Edition respectively.
 * Search file - a file containing song titles or first lines of songs and which song numbers
@@ -48,7 +50,7 @@ The initial files needed to set up the programs database are;
 
 ### File Format for creating and importing Song book
      text file using | as the delimiter
-     song (integer) | type (Psalm or Song) | title (string)
+     song (integer) | type (Psalm, Part or Song) | title (string)
 examples
      017|Song|Evensong Final Blessing
      018|Psalm|Psalm 1: Happy Are They
@@ -67,13 +69,19 @@ examples
 last row     
      End of Songs| 0 | 0
 
-### File Format for Suggestions (Psalms input seperately for Songs)
+### File Format for Suggestions (Psalms and Songs input are all seperate)
      text file with | as the delimiter
      Liturgical Year (A B C)| event (text) | Song Title (text)
 example
       B | Advent1 | In the Day of the Lord 
 last row
       E | End | End of Events
+
+### File Format Mass Parts
+     text file with | as delimiter
+     Theme | Part
+example
+     Mass of Creation | Amen
 
 ## Database Tables
 ### Songbook
