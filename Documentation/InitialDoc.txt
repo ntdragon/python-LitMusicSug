@@ -79,7 +79,7 @@ last row
 
 ### File Format Mass Parts
      text file with | as delimiter
-     Theme | Part
+     Setting | Part
 example
      Mass of Creation | Amen
 

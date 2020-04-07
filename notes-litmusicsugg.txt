@@ -5,10 +5,13 @@ Files to keep
      SongbookPrintIndex
      SongbookSearch
      LiturgicalEvents
+     SongbookSettings
+     PrintTemplates
 
 Database Tables
      songbookPrintIndex
      songbookSearch
+     songbookSettings
      EventSuggestions
      EventSaved
 
@@ -40,4 +43,4 @@ Main Menu
     EventSuggestions
         whichEvent LitYr, Event
         SeachKnown, ImportNew, AddNew, AllofThese
-        
+   Print

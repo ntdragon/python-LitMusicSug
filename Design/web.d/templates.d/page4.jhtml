@@ -28,7 +28,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp&nbsp;<b>Song book:</b> {{ evt.bookname }}  &nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;
 &nbsp;&nbsp;&nbsp;&nbsp&nbsp;<b>Mass Setting:</b> {{ evt.theme }} <br />
 <h3>Opening Song</h3>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Saturday 4:00 </b>&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>{{ evt.masstime1 }} </b>&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <select name="openSong4" size="1">
 {%- for row in ksongs -%} 
      <option values={{ row }}>{{ row }}</option>
@@ -57,7 +57,9 @@
 {%- for row in kpsalms -%} 
      <option values={{ row }}>{{ row }}</option>
 {% endfor %}
-</select><br/>
+</select>
+<label for= {{parts.verses}} ><b>Verses:<b></label><input type="text" id= {{parts.verses}} name= {{parts.verses}} size="5">
+<label for={{parts.cantor}}><b>Cantor<b><br/></label><input type="text" id= {{parts.cantor}} name= {{parts.cantor}} size="25">
 &nbsp;&nbsp;&nbsp;&nbsp&nbsp;<b>Sunday  &nbsp;&nbsp;    9:00</b>&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <select name="respSong9" size="1">
 {%- for row in kpsalms -%} 
@@ -71,9 +73,11 @@
 {% endfor %}
 </select><br/><br/>
 
-<b>Gospel Acclimation</b>
+<b>Gospel Acclamation</b>
 &nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 {{ parts.gospelacc }}<br />
+Line1
+Line2
 
 <h3>Offertory Song</h3>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Saturday 4:00 </b>&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -107,7 +111,7 @@
 
 <b>Amen</b>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-{{ parts.holy }}<br />
+{{ parts.amen }}<br />
 
 <b>Lamb of God:</b>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

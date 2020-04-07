@@ -1,0 +1,94 @@
+[# template print_page
+     Function: format for the printed page of final music for the weekend
+          outputs a latex page which then needs to be compiled to pdf using
+          pdflatex page_print.jtex
+     ------------------------------------------------------------------------------------
+     based on Edward Birdsall's single.tex standard template file
+     -------------------------------------------------------------------------------------
+     Variables
+          var - use
+     ------------------------------------------------------------------------------------
+#]
+{% block content %}
+{% block content1 %}
+
+\documentclass{article}
+
+%Packages
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{calc}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{multicol}
+
+%PAGE LAYOUT SETTINGS (based on 8.5'' by 11'' paper letterpaper)
+%Set page so pages have a 1'' border all around
+%header is from 1'' to 1.25'' from top and 0.25''above text
+\setlength{\topmargin}{0in}
+\setlength{\headheight}{0.25in}
+\setlength{\headsep}{0.25in}
+%body text is 9''high and 6.5'' wide
+\setlength{\hoffset}{-0.25in}
+\setlength{\voffset}{-0.5in}
+\setlength{\oddsidemargin}{0in}
+\setlength{\evensidemargin}{0in}
+\setlength{\textheight}{9.0in}
+\setlength{\textwidth}{6.5in}
+%footer is from 1'' to 1.25'' from bottom and 0.25'' below text
+
+%FOR PRINTOUTS WITH EMPTY LINES BETWEEN PARAGRAPHS AND NO INDENT AT START
+\raggedbottom
+\parindent=0pc
+\setlength{\parskip}{1pc}
+
+\begin{document} %End of preamble. Begin writing.
+
+\begin{center}
+\textbf{ \LARGE {{ evt.parish }} } \\
+Mass {{ evt.date }} - {{ evt.des }} - Yr. {{ evt.lityr }} \\
+\textbf{(Choir at {{ evt.chmass}} )}
+ \end{center}
+
+\textbf{Opening Song:} \\
+4:00 \& 9:00 \hspace{10mm} 	\textbf{GC\#443} \hspace{30mm}	Alleluia, Alleluia, Give Thanks \\
+11:30 \hspace{20mm}	 \textbf{GC\#487} \hspace{30mm}	Rejoice, the Lord is King \\
+
+\textbf{Gloria:} \\
+\hspace*{30mm} \textbf{GC\#194} \hspace{30mm} Mass of Creation - Gloria \\
+
+
+\textbf{Responsorial Psalm:} \\
+\hspace*{30mm} \textbf{GC\#121} \hspace{30mm} I was glad (vss. 1-3 only)(Theresa W.) \\
+
+\textbf{Gospel Acclamation:} \\
+\hspace*{30mm} \textbf{GC\#258} \hspace{30mm} Mass of Creation - Gospel Acclamation \\
+%\vspace*{-5mm}
+\hspace*{30mm} ``Blessed is he who comes in the name of the Lord! \\
+\hspace*{30mm} Blessed is the kingdom of our father David that is to come!''
+
+
+\textbf{Offertory:} \\
+\hspace*{30mm} \textbf{GC\#635} \hspace{30mm} The King of Love My Shepherd Is \\
+					
+\textbf{Holy:}	\hspace*{18mm} \textbf{GC\#194} \hspace{30mm} Mass of Creation - Holy \\
+\textbf{Mem Acc:} \hspace*{10mm}	\textbf{GC\#200} \hspace{30mm} Mass of Creation - Memorial Acclimation B \\
+\textbf{Amen:} \hspace*{16mm}	\textbf{GC\#202} \hspace{30mm} Mass of Creation - Amen \\
+\textbf{Lamb of God:} \hspace*{3mm}	\textbf{GC\#204} \hspace{30mm} Mass of Creation - Lamb of God \\
+
+\textbf{Communion:} \\
+\hspace*{30mm}	\textbf{GC\#593} \hspace{30mm} We Remember \\
+
+\textbf{Communion Meditation:} \\
+\hspace*{30mm}	\textbf{GC\#418} \hspace{30mm} Jesus the Lord \\
+
+\textbf{Closing Song:}  \\
+\hspace*{1mm} 4:00 \hspace{20mm} \textbf{GC\#485} \hspace{30mm} Crown Him with many Crowns \\
+\hspace*{1mm} 9:00 \hspace{20mm} \textbf{GC\#794} \hspace{30mm} Ye Watchers and Ye Holy Ones \\
+11:30 \hspace{20mm}	\textbf{GC\#547} \hspace{30mm}	Sing of the Lord's Goodness \\
+					
+
+
+
+\end{document}
+{% endblock content1 %}
+{% endblock content %}

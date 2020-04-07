@@ -12,11 +12,13 @@ hdr = dict(page="Selection", today="Thursday  April 30, 2020")
 #block1 dicts
 
 # block2 dicts
-evt = dict(parish="St Roch Catholic Church", lityr="C", des="First Sunday in Lent", songbook="GC", bookname="Gather Comprehensive" , theme="Mass of Creation")
+evt = dict(parish="St Roch Catholic Church", lityr="C", des="First Sunday in Lent", 
+          songbook="GC", bookname="Gather Comprehensive" , theme="Mass of Creation", 
+          masstime1="Saturday   4:00", masstime2="Sunday   9:00",masstime3="Sunday 11:00")
 
 parts = dict(gloria="GC#193       Gloria", gospelacc="GC#194      Gospel Acclimation", holy="GC#198     Holy, Holy, Holy", 
      memacca="GC#199      Memorial  Acclimation A", memaccb="GC#200      Memorial  Acclimation B", memaccc="GC#201      Memorial  Acclimation C",
-     amen="GC#202         Amen",  log="GC#204         Lamb of God",)
+     amen="GC#202         Amen",  log="GC#204         Lamb of God", verses="all", cantor="name", gospelline1="line1", gospelline2="line2")
 
 kpsalms = [
      "	GC# 085	Psalm 91: Be with Me, Lord",
