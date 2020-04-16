@@ -50,11 +50,12 @@ Mass {{ evt.date }} - {{ evt.des }} - Yr. {{ evt.lityr }} \\
  \end{center}
 
 \textbf{Opening Song:} \\
-4:00 \& 9:00 \hspace{10mm} 	\textbf{GC\#443} \hspace{30mm}	Alleluia, Alleluia, Give Thanks \\
-11:30 \hspace{20mm}	 \textbf{GC\#487} \hspace{30mm}	Rejoice, the Lord is King \\
+{%- for rows in opening -%} 
+ {{opening.masstime }} \hspace{20mm}	 \textbf{ {{ opening.songnum }}} \hspace{30mm} {{ opening.songtitle }}
+{% endfor %}
 
 \textbf{Gloria:} \\
-\hspace*{30mm} \textbf{GC\#194} \hspace{30mm} Mass of Creation - Gloria \\
+\hspace*{30mm} \textbf{ {{ parts.songnum }} } \hspace{30mm}{{ parts.songtitle }} \\
 
 
 \textbf{Responsorial Psalm:} \\
