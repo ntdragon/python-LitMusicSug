@@ -12,7 +12,7 @@ hdr = dict(page="Greeting ", today="Wednesday  March 06, 2019")
 #block1 dicts
 
 # block2 dicts
-evt = dict(parish="St Roch Catholic Church", lityr="C", des="First Sunday in Lent", songbook="GC", bookname="Gather Comprehensive",mstheme="MC", themename="Mass of Creation" )
+cevt = dict(parish="St Roch Catholic Church", lityr="C", des="First Sunday in Lent", songbook="GC", bookname="Gather Comprehensive",mstheme="MC", themename="Mass of Creation" )
 dayt = dict(today="March 06, 2020", dmax="December 31,2021")
 theme = [
     {"num":1 ,"mstid":"MC", "mstname":"Mass of Creation"},
@@ -30,11 +30,76 @@ theme = [
     {"num":12, "mstid":"SEM", "mstname":"Service Music"},
     {"num":20, "mstid":"LSS", "mstname":"Song Sheets"}
 ]
+events = [
+    {"num":1 ,"evtid":"A1", "evtname":"First Sunday in Advent"},
+    {"num":2 ,"evtid":"A2", "evtname":"Second Sunday in Advent"},
+    {"num":3 ,"evtid":"A3", "evtname":"Third Sunday in Advent"},
+    {"num":4 ,"evtid":"A4", "evtname":"Fourth Sunday in Advent"},
+    {"num":5 ,"evtid":"O1", "evtname":"First Sunday in Ordinary Time"},
+    {"num":6 ,"evtid":"O2", "evtname":"Second Sunday in Ordinary Time"},
+    {"num":7 ,"evtid":"O3", "evtname":"Third Sunday in Ordinary Time"},
+    {"num":8 ,"evtid":"O4", "evtname":"Fourth Sunday in  Ordinary Time"},
+    {"num":9 ,"evtid":"O5", "evtname":"Fifth Sunday in  Ordinary Time"},
+    {"num":10 ,"evtid":"O6", "evtname":"Sixth Sunday in  Ordinary Time"},
+    {"num":11 ,"evtid":"O7", "evtname":"Seventh Sunday in  Ordinary Time"},
+    {"num":12 ,"evtid":"O8", "evtname":"Eighth Sunday in  Ordinary Time"},
+    {"num":13 ,"evtid":"O9", "evtname":"Ninth Sunday in  Ordinary Time"},
+    {"num":14 ,"evtid":"O10", "evtname":"Tenth Sunday in  Ordinary Time"},
+    {"num":15 ,"evtid":"O11", "evtname":"Eleventh Sunday in  Ordinary Time"},
+    {"num":16 ,"evtid":"O12", "evtname":"Twelth Sunday in  Ordinary Time"},
+    {"num":17 ,"evtid":"O13", "evtname":"Thirteenth Sunday in  Ordinary Time"},
+    {"num":18 ,"evtid":"O14", "evtname":"Fourteenth Sunday in  Ordinary Time"},
+    {"num":19 ,"evtid":"O15", "evtname":"Fifteenth Sunday in  Ordinary Time"},
+    {"num":20 ,"evtid":"O16", "evtname":"Sixteenth Sunday in  Ordinary Time"},
+    {"num":21 ,"evtid":"O17", "evtname":"Seventeenth Sunday in  Ordinary Time"},
+    {"num":22 ,"evtid":"O18", "evtname":"Eighteenth Sunday in  Ordinary Time"},
+    {"num":23 ,"evtid":"O19", "evtname":"Nineteenthth Sunday in  Ordinary Time"},
+    {"num":24 ,"evtid":"O20", "evtname":"Twentieth Sunday in  Ordinary Time"},
+    {"num":25 ,"evtid":"O21", "evtname":"Twenty First Sunday in  Ordinary Time"},
+    {"num":26 ,"evtid":"O22", "evtname":"Twenty Second Sunday in  Ordinary Time"},
+    {"num":27 ,"evtid":"O23", "evtname":"Twenty Third Sunday in  Ordinary Time"},
+    {"num":28 ,"evtid":"O24", "evtname":"Twenty Fourtth Sunday in  Ordinary Time"},
+    {"num":29 ,"evtid":"O25", "evtname":"Twenty Fifth Sunday in  Ordinary Time"},
+    {"num":30 ,"evtid":"O26", "evtname":"Twenty Sixth Sunday in  Ordinary Time"},
+    {"num":31 ,"evtid":"O27", "evtname":"Twenty Seventh Sunday in  Ordinary Time"},
+    {"num":32 ,"evtid":"O28", "evtname":"Twenty Eighth Sunday in  Ordinary Time"},
+    {"num":33 ,"evtid":"O29", "evtname":"Twenty Ninth Sunday in  Ordinary Time"},
+    {"num":34 ,"evtid":"O30", "evtname":"Thirtieth Sunday in  Ordinary Time"},
+    {"num":35 ,"evtid":"O31", "evtname":"Thirthy First Sunday in  Ordinary Time"},
+    {"num":36 ,"evtid":"O32", "evtname":"Thirty Second Sunday in  Ordinary Time"},
+    {"num":37 ,"evtid":"O33", "evtname":"Thirty Third Sunday in  Ordinary Time"},
+    {"num":38 ,"evtid":"O34", "evtname":"Thirty Fourth Sunday in  Ordinary Time"},
+    {"num":39 ,"evtid":"L1", "evtname":"First Sunday in  Lent"},
+    {"num":40 ,"evtid":"L2", "evtname":"Third Sunday in  Lent"},
+    {"num":41 ,"evtid":"L3", "evtname":"Fourth Sunday in  Lent"},
+    {"num":42 ,"evtid":"L4", "evtname":"Fifth Sunday iin Lent"},
+    {"num":43 ,"evtid":"L5", "evtname":"Palm Sunday"},
+    {"num":44 ,"evtid":"E2", "evtname":"Second Sunday in  Easter Time"},
+    {"num":45 ,"evtid":"E3", "evtname":"Third Sunday in  Easter Time"},
+    {"num":46 ,"evtid":"E4", "evtname":"Fourth Sunday in  Ordinary Time"},
+    {"num":47 ,"evtid":"E5", "evtname":"Fifth Sunday in  Easter Time"},
+    {"num":48 ,"evtid":"E6", "evtname":"Sixth Sunday in  Easter Time"},
+    {"num":49 ,"evtid":"E7", "evtname":"Seventh Sunday in  Easter Time"},
+    {"num":50 ,"evtid":"--", "evtname":"Seventh Sunday in  Easter Time"},
+    {"num":51 ,"evtid":"O12", "evtname":"Twelth Sunday in  Ordinary Time"},
+    {"num":52 ,"evtid":"O13", "evtname":"Thirteenth Sunday in  Ordinary Time"},
+    {"num":53 ,"evtid":"O14", "evtname":"Fourteenth Sunday in  Ordinary Time"},
+    {"num":54 ,"evtid":"O15", "evtname":"Fifteenth Sunday in  Ordinary Time"},
+    {"num":55 ,"evtid":"O16", "evtname":"Sixteenth Sunday in  Ordinary Time"},
+    {"num":56 ,"evtid":"O17", "evtname":"Seventeenth Sunday in  Ordinary Time"},
+    {"num":57 ,"evtid":"O18", "evtname":"Eighteenth Sunday in  Ordinary Time"},
 
+
+
+
+
+
+
+]
 # block3 dicts
 
 # collect all the dicts and such
-input_ = {"hd":hd, "hdr":hdr, "theme":theme, "evt":evt, "dayt":dayt }
+input_ = {"hd":hd, "hdr":hdr, "theme":theme, "cevt":cevt, "dayt":dayt }
 
 # now to go out and render
 

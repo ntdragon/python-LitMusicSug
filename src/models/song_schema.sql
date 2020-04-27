@@ -20,3 +20,39 @@ create table songsearch (
           num       integer,
           songs     text
 );
+
+-- Mass parts with theme containing all the standard songs used in all masses
+create table mparts (
+          id        integer primary key autoincrement not null,
+          book      text,
+          theme      text,
+          name    text,
+          num       integer,
+     unique(book, theme, name, num)
+);
+
+-- Event is used to help in planning events throught the year
+create table events (
+          id        integer primary key autoincrement not null,
+          fid            text,
+          name      text,
+          title         text,
+          type    text
+);
+
+-- Suggestions is used to record suggestins eithr used or not used for the evens for songs and psalms
+create table sugg (
+          id        integer primary key autoincrement not null,
+          event     text,
+          lityr     char,
+         stitle     text
+);
+
+--Used is a table recording what songs were used so they can be retrieved for quick reference
+create table eventhistory (
+          id        integer primary key autoincrement not null,
+          dayt      date;
+          event     text,
+          book      text,
+          num       integer
+);
