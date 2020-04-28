@@ -65,45 +65,38 @@ events = [
     {"num":32 ,"evtid":"O28", "evtname":"Twenty Eighth Sunday in  Ordinary Time"},
     {"num":33 ,"evtid":"O29", "evtname":"Twenty Ninth Sunday in  Ordinary Time"},
     {"num":34 ,"evtid":"O30", "evtname":"Thirtieth Sunday in  Ordinary Time"},
-    {"num":35 ,"evtid":"O31", "evtname":"Thirthy First Sunday in  Ordinary Time"},
+    {"num":35 ,"evtid":"O31", "evtname":"Thirty First Sunday in  Ordinary Time"},
     {"num":36 ,"evtid":"O32", "evtname":"Thirty Second Sunday in  Ordinary Time"},
     {"num":37 ,"evtid":"O33", "evtname":"Thirty Third Sunday in  Ordinary Time"},
     {"num":38 ,"evtid":"O34", "evtname":"Thirty Fourth Sunday in  Ordinary Time"},
     {"num":39 ,"evtid":"L1", "evtname":"First Sunday in  Lent"},
-    {"num":40 ,"evtid":"L2", "evtname":"Third Sunday in  Lent"},
-    {"num":41 ,"evtid":"L3", "evtname":"Fourth Sunday in  Lent"},
-    {"num":42 ,"evtid":"L4", "evtname":"Fifth Sunday iin Lent"},
+    {"num":40 ,"evtid":"L2", "evtname":"Second Sunday in  Lent"},
+    {"num":41 ,"evtid":"L3", "evtname":"Third Sunday in  Lent"},
+    {"num":42 ,"evtid":"L4", "evtname":"Fourth Sunday iin Lent"},
     {"num":43 ,"evtid":"L5", "evtname":"Palm Sunday"},
     {"num":44 ,"evtid":"E2", "evtname":"Second Sunday in  Easter Time"},
     {"num":45 ,"evtid":"E3", "evtname":"Third Sunday in  Easter Time"},
-    {"num":46 ,"evtid":"E4", "evtname":"Fourth Sunday in  Ordinary Time"},
+    {"num":46 ,"evtid":"E4", "evtname":"Fourth Sunday in  Easter Time"},
     {"num":47 ,"evtid":"E5", "evtname":"Fifth Sunday in  Easter Time"},
     {"num":48 ,"evtid":"E6", "evtname":"Sixth Sunday in  Easter Time"},
     {"num":49 ,"evtid":"E7", "evtname":"Seventh Sunday in  Easter Time"},
-    {"num":50 ,"evtid":"--", "evtname":"Seventh Sunday in  Easter Time"},
-    {"num":51 ,"evtid":"O12", "evtname":"Twelth Sunday in  Ordinary Time"},
-    {"num":52 ,"evtid":"O13", "evtname":"Thirteenth Sunday in  Ordinary Time"},
-    {"num":53 ,"evtid":"O14", "evtname":"Fourteenth Sunday in  Ordinary Time"},
-    {"num":54 ,"evtid":"O15", "evtname":"Fifteenth Sunday in  Ordinary Time"},
-    {"num":55 ,"evtid":"O16", "evtname":"Sixteenth Sunday in  Ordinary Time"},
-    {"num":56 ,"evtid":"O17", "evtname":"Seventeenth Sunday in  Ordinary Time"},
-    {"num":57 ,"evtid":"O18", "evtname":"Eighteenth Sunday in  Ordinary Time"},
-
-
-
-
-
-
-
+    {"num":50 ,"evtid":"D1", "evtname":"Christmas"},
+    {"num":51 ,"evtid":"D2", "evtname":"Easter"},
+    {"num":52 ,"evtid":"H1", "evtname":"Holy Family"},
+    {"num":53 ,"evtid":"H2", "evtname":"Baptism of the Lord"},
+    {"num":54 ,"evtid":"H3", "evtname":"Ash Wednesday"},
+    {"num":55 ,"evtid":"H4", "evtname":"Pentecost"},
+    {"num":56 ,"evtid":"MW1", "evtname":"Wedding"},
+    {"num":57 ,"evtid":"MF1", "evtname":"Funeral"}
 ]
 # block3 dicts
 
 # collect all the dicts and such
-input_ = {"hd":hd, "hdr":hdr, "theme":theme, "cevt":cevt, "dayt":dayt }
+input_ = {"hd":hd, "hdr":hdr, "theme":theme, "events":events, "cevt":cevt, "dayt":dayt }
 
 # now to go out and render
 
-env = Environment(loader = FileSystemLoader("../templates/"))
+env = Environment(loader = FileSystemLoader("../templates.d/"))
 template=env.get_template("page1.jhtml")
 
 

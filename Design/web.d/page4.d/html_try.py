@@ -69,7 +69,7 @@ input_ = {"hd":hd, "hdr":hdr, "evt":evt, "kpsalms":kpsalms,   "ksongs":ksongs, "
 
 # now to go out and render
 
-env = Environment(loader = FileSystemLoader("../templates/"))
+env = Environment(loader = FileSystemLoader("../templates.d/"))
 template=env.get_template("page4.jhtml")
 
 

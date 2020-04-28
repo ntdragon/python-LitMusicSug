@@ -48,9 +48,9 @@ commed = {
 }
 
 closing = {
-     {"masstime":"4:00",  "songnum":"GC#611", "songtitle":"On Eagle's Wings"},
-     {"masstime":"9:00", "songnum":"GC#689", "songtitle":"Out of Darkness"},
-     {"masstime":"11:30",  "songnum":"GC#574", "songtitle":"Lead Me, Guide Me"}
+     {"masstime":"4:00",  "songnum":"GC\#611", "songtitle":"On Eagle's Wings"},
+     {"masstime":"9:00", "songnum":"GC\#689", "songtitle":"Out of Darkness"},
+     {"masstime":"11:30",  "songnum":"GC\#574", "songtitle":"Lead Me, Guide Me"}
 }
 
 

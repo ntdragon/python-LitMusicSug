@@ -1,0 +1,70 @@
+ A1 | Advent 1 | First Sunday in Advent | Weekend
+ A2 | Advent 2 | Second Sunday in Advent | Weekend
+ A3 | Advent 3 | Third Sunday in Advent | Weekend
+ A4 | Advent 4 | Fourth Sunday in Advent | Weekend
+ O1 | Ordinary 1 | First Sunday in Ordinary Time | Weekend
+ O2 | Ordinary 2 | Second Sunday in Ordinary Time | Weekend
+ O3 | Ordinary 3 | Third Sunday in Ordinary Time | Weekend
+ O4 | Ordinary 4 | Fourth Sunday in Ordinary Time | Weekend
+ O5 | Ordinary 5 | Fifth Sunday in Ordinary Time | Weekend
+ O6 | Ordinary 6 | Sixth Sunday in Ordinary Time | Weekend
+ O7 | Ordinary 7 | Seventh Sunday in Ordinary Time | Weekend
+ O8 | Ordinary 8 | Eighth Sunday in Ordinary Time | Weekend
+ O9 | Ordinary 9 | Ninth Sunday in Ordinary Time | Weekend
+ O10 | Ordinary 10 | Tenth Sunday in Ordinary Time | Weekend
+ O11 | Ordinary 11 | Eleventh Sunday in Ordinary Time | Weekend
+ O12 | Ordinary 12 | Twelth Sunday in Ordinary Time | Weekend
+ O13 | Ordinary 13 | Thirteenth Sunday in Ordinary Time | Weekend
+ O14 | Ordinary 14 | Fourtteenth Sunday in Ordinary Time | Weekend
+ O15 | Ordinary 15 | Fifteenth Sunday in Ordinary Time | Weekend
+ O16 | Ordinary 16 | Sixteenth Sunday in Ordinary Time | Weekend
+ O17 | Ordinary 17 | Seventeenth Sunday in Ordinary Time | Weekend
+ O18 | Ordinary 18 | Eightteenth Sunday in Ordinary Time | Weekend
+ O19 | Ordinary 19 | Nineteenth Sunday in Ordinary Time | Weekend
+ O20 | Ordinary 20 | Twentieth Sunday in Ordinary Time | Weekend
+ O21 | Ordinary 21 | Twenty First Sunday in Ordinary Time | Weekend
+ O22 | Ordinary 22 | Twenty Second Sunday in Ordinary Time | Weekend
+ O23 | Ordinary 23 | Twenty Third Sunday in Ordinary Time | Weekend
+ O24 | Ordinary 24 | Twenty Fourth Sunday in Ordinary Time | Weekend
+ O25 | Ordinary 25 | Twenty Fifth Sunday in Ordinary Time | Weekend
+ O26 | Ordinary 26 | Twenty Sixth Sunday in Ordinary Time | Weekend
+ O27 | Ordinary 27 | Twenty Seventh Sunday in Ordinary Time | Weekend
+ O28 | Ordinary 28 | Twenty Eighth Sunday in Ordinary Time | Weekend
+ O29 | Ordinary 29 | Twenty Ninth Sunday in Ordinary Time | Weekend
+ O30 | Ordinary 30 | Thirtieth Sunday in Ordinary Time | Weekend
+ O31 | Ordinary 31 | Thirty First Sunday in Ordinary Time | Weekend
+ O32 | Ordinary 32 | Thirty Second Sunday in Ordinary Time | Weekend
+ O33 | Ordinary 33 | Thirty Third Sunday in Ordinary Time | Weekend
+ O34 | Ordinary 34 | Thirty Fourth Sunday in Ordinary Time | Weekend
+ L1 | Lent 1 | First Sunday of Lent | Weekend
+ L2 | Lent 2 | First Sunday of Lent | Weekend
+ L3 | Lent 3 | First Sunday of Lent | Weekend
+ L4 | Lent 4 | First Sunday of Lent | Weekend
+ L5 | Lent 5 | First Sunday of Lent | Weekend
+ L6 | Lent 6 | Passion(Palm) Sunday | Weekend
+ E2 | Easter 2 | Second Sunday of Easter | Weekend
+ E3 | Easter 3 | Third Sunday of Easter | Weekend
+ E4 | Easter 4 | Fourth Sunday of Easter | Weekend
+ E5 | Easter 5 | Fifth Sunday of Easter | Weekend
+ E6 | Easter 6 | Sixth Sunday of Easter | Weekend
+ E7 | Easter 7 | Seventh Sunday of Easter | Weekend
+ S1 | Holy Family | Holy Family | Weekend
+ S2 | Christmas 2 |Second Sunday After Christmas | Weekend
+ S3 | Epiphany | Epiphany | Multiple
+ S4 | Baptism of the Lord | Baptism of the Lord | Weekend
+ S5 | Pentecost | Pentecost | Weekend
+ S6 | Most Holy Trinity | Most Holy Trinity | Weekend
+ S7 | Most Holy Body and Blood | Most Holy Body and Blood | Weekend
+ S8 | Christ the King | Christ the King | Weekend
+ S9 | Presentation of the Lord | Presentation of the Lord | Weekend
+ H1 | Immaculate Cnception | Immaculate Conception of Mary | Multiple
+ H2 | Mary Mother of God | May Mother of God | Multiple
+ H3 | Ash Wednesday | Ash Wednesday | Day
+ H4 | Holy Thursday | Holy Thursday | Day
+ H5 | Good Friday | Good Friday | Day 
+ H6 | Ascension of the Lord | Ascension of the Lord | Multiple
+ H7 | Assumption of Mary | Assumption of Mary | Multiple
+ H8 | All Saints | All Saints | Day
+ H9 | All Souls | All Souls | Day
+ H10 | Christmas | Christmas | Multiple
+ H11 | Easter | Easter | Multiple

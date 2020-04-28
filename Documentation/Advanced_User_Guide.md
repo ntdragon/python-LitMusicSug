@@ -2,6 +2,8 @@
 
 ## Introduction
 
+This document is designed to help you in creating files to import information such as adding new songbooks which is the most common need.
+
 ## File Formats
 ### File Format for creating and importing Song book
      text file using | as the delimiter

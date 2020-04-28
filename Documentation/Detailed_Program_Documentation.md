@@ -2,7 +2,44 @@
 
 ## Introduction
 
+This document gives an in depth descriptions for the files and code used for this program.
+Version 1.0 ??/2020 Edward Birdsall
+
 ## File Structures
+### File Format for creating and importing Song book
+     text file using | as the delimiter
+     song (integer) | type (Psalm, Part or Song) | title (string)
+examples
+     017|Song|Evensong Final Blessing
+     018|Psalm|Psalm 1: Happy Are They
+last row:
+      99999|end|End of Songs
+
+### File Format for creating and importing Song book Search
+     text file using | as the delimiter
+     title (string)| number of songs for this title (integer)| songnumber (integer) <| songnumber(integer)>
+examples
+     Love Is the Sunlight| 1 | 866
+     Lover of Us All| 1 | 633
+     Magnificat/Canticle of Mary| 5 | 014 | 145 | 146 | 534 | 788
+     Ubi Caritas| 2 | 408 | 631
+     Unless a Grain of Wheat| 1 | 697
+last row     
+     End of Songs| 0 | 0
+
+### File Format for Suggestions (Psalms and Songs input are all seperate)
+     text file with | as the delimiter
+     Liturgical Year (A B C)| event (text) | Song Title (text)
+example
+      B | Advent1 | In the Day of the Lord 
+last row
+      E | End | End of Events
+
+### File Format Mass Parts
+     text file with | as delimiter
+     Setting | Part
+example
+     Mass of Creation | Amen
 
 ## Database Structures
 ### Events
@@ -16,7 +53,7 @@ This database contains a list of the standard weekend and holy day events but al
 
 In more detail;
     fid File Identifier - A short id to put in the file name to help quickly identify it, normall one or two characters followed by a number.  Standard values are; A1 through A4 (Advent), O1 through O34 (Ordinary Time), L1 through L5 (Lent), E2-E7(Easter), S-- (Special Sundays), H-- (Holy Days), D--(Holy Days with Vigils like Christmas and Easter).  Additionally P-- is the prefix for parish special events like patron saint.  MW--(Weddings), MF(Funerals), M_--(Musician defined)
-    name name of the event which may be identical to title or smething easier to remember.  It is not shown anywhere but is searchable.
+    name name of the event which may be identical to title or something easier to remember.  It is not shown anywhere but is searchable.
     title is the formal printed title of the event like Second Sunday of Advent or John and Mary Smith's Wedding.
     type is a categorization of the schedule of masses for the event.  Weekend, Holy Day, Single, Multiple are defined.  Using Weekend will prompt the program to use the parish's standard weekend mass schedule as will Holy Day.  Single and Multiple will prompt the user to define the day, time and for multiple masses how many and all their scheduling information.
 
@@ -53,15 +90,18 @@ This database contains a listing for each songbook of all songs matching a sugge
           id        integer primary key autoincrement not null,
           book      text,
           stitle    text,
-          num       integer,
-          songs     text
+          numsongs  integer,
+          songlist  text
 
-### Suggestions
+### Suggestions for SOngs and Psalms
 
           id        integer primary key autoincrement not null,
-          event     text,
           lityr     char,
-         stitle     text
+          event     text,
+          stype     text,
+         stitle     text,
+         origin     text,   who suggested this (NPM, GIA,Person or org)
+          date      date    original date of suggestion
 
 ### EventHistory
 
