@@ -59,25 +59,31 @@
 {% endfor %}
 </select>
 <label for= {{parts.verses}} ><b>Verses:<b></label><input type="text" id= {{parts.verses}} name= {{parts.verses}} size="5">
-<label for={{parts.cantor}}><b>Cantor<b><br/></label><input type="text" id= {{parts.cantor}} name= {{parts.cantor}} size="25">
+<label for={{parts.cantor}}><b>Cantor:<b></label><input type="text" id= {{parts.cantor}} name= {{parts.cantor}} size="25"><br/>
 &nbsp;&nbsp;&nbsp;&nbsp&nbsp;<b>Sunday  &nbsp;&nbsp;    9:00</b>&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <select name="respSong9" size="1">
 {%- for row in kpsalms -%} 
      <option values={{ row }}>{{ row }}</option>
 {% endfor %}
-</select><br/>
+</select>
+<label for= {{parts.verses}} ><b>Verses:<b></label><input type="text" id= {{parts.verses}} name= {{parts.verses}} size="5">
+<label for={{parts.cantor}}><b>Cantor:<b></label><input type="text" id= {{parts.cantor}} name= {{parts.cantor}} size="25">
+<br/>
 &nbsp;&nbsp;&nbsp;&nbsp&nbsp;<b>Sunday  &nbsp; 11:00</b>&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <select name="respSong11" size="1">
 {%- for row in kpsalms -%} 
      <option values={{ row }}>{{ row }}</option>
 {% endfor %}
-</select><br/><br/>
+</select>
+<label for= {{parts.verses}} ><b>Verses:<b></label><input type="text" id= {{parts.verses}} name= {{parts.verses}} size="5">
+<label for={{parts.cantor}}><b>Cantor:<b></label><input type="text" id= {{parts.cantor}} name= {{parts.cantor}} size="25"><br/>
+<br/><br/>
 
 <b>Gospel Acclamation</b>
 &nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 {{ parts.gospelacc }}<br />
-Line1
-Line2
+<center><input type="text" id= {{parts.gospel1}} name= {{parts.gospel1}} size="75"></center><br/>
+<center><input type="text" id= {{parts.gospel2}} name= {{parts.gospel2}} size="75"></center><br/>
 
 <h3>Offertory Song</h3>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Saturday 4:00 </b>&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
