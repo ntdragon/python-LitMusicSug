@@ -38,19 +38,19 @@
 
 <h3>Unknown Psalms Suggested</h3>
 {% for row in upsalms %}
-     {{ row }}<br />
+     <input type="submit" value="Add to Known Psalms" >{{ row }}<br />
 {% endfor %}
 
 <h3>Unknown Song Suggestions</h3>
 {% for row in usongs %}
-     {{ row }}<br />
+     <input type="submit" value="Add to Known Songs" >{{ row }}<br />
 
 {% endfor %}
 <hr>
 {% endblock content2 %}
 {% block content3 %}
 <form id="sugdone">
-<input type="submit" value="Next Event" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Quit" >
+<input type="submit" value="Select Songs to use" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Quit" >
 </form>
 
 

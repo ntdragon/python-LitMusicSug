@@ -6,8 +6,8 @@ from jinja2 import Environment, FileSystemLoader
 page = dict(action="single", user="Edward Birdsall")
 
 # tab and header
-hd = {"loc": "Input Suggestions"}
-hdr = dict(page="Input Suggestions", today="Wednesday  March 06, 2019")
+hd = {"loc": "Input NPM Suggestions"}
+hdr = dict(page="Input NPM Suggestions", today="Wednesday  March 06, 2019")
 
 #block1 dicts
 

@@ -10,7 +10,7 @@
      <link rel= "stylesheet" type = "text/css" href="../css/normalize.css" />
      <link rel= "stylesheet" type = "text/css" href="../css/main.css" />
     <link rel= "stylesheet" type = "text/css" href="../css/website.css" />
-     <title> Input Suggestions  Page</title>
+     <title> Add Suggestion  Page</title>
       
 </head>
 <body>
@@ -24,7 +24,7 @@
           <img src="../gfx/lilypond-pic.jpg" alt="lilypond instruction" height="100" width=150">
      </figure> 
           <div id=header-center>
-               <h1>Liturgical Music Suggestions Input Suggestions Page</h1>
+               <h1>Liturgical Music Suggestions Add Suggestion to database Page</h1>
                <h3>Today's Date: Wednesday  March 06, 2019</h3>
           </div>
      <figure id="header-right">
@@ -38,99 +38,35 @@
 <style>textarea { width: 60em; }</style>
 <div id="main">
 
-<h1>Settings</h1>
-Parish: St Roch Catholic Church<br />
-Songbook: Gather Comprehensive<br />
-<b>Event Date:</b><input type="date" name="event-date" min=March 06, 2019 max=December 31,2020 value=March 06, 2019><br /><br />
-<b>Liturgical Year:</b><select name="lityr" size="1"><option value="A">A</option><option value="B">B</option><option value="C">C</option></select>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<b>Liturgical Event:</b><select name="litevt" size="1"><option values=A1>First Sunday in Advent</option>
-<option values=A2>Second Sunday in Advent</option>
-<option values=A3>Third Sunday in Advent</option>
-<option values=A4>Fourth Sunday in Advent</option>
-<option values=O1>First Sunday in Ordinary Time</option>
-<option values=O2>Second Sunday in Ordinary Time</option>
-<option values=O3>Third Sunday in Ordinary Time</option>
-<option values=O4>Fourth Sunday in  Ordinary Time</option>
-<option values=O5>Fifth Sunday in  Ordinary Time</option>
-<option values=O6>Sixth Sunday in  Ordinary Time</option>
-<option values=O7>Seventh Sunday in  Ordinary Time</option>
-<option values=O8>Eighth Sunday in  Ordinary Time</option>
-<option values=O9>Ninth Sunday in  Ordinary Time</option>
-<option values=O10>Tenth Sunday in  Ordinary Time</option>
-<option values=O11>Eleventh Sunday in  Ordinary Time</option>
-<option values=O12>Twelth Sunday in  Ordinary Time</option>
-<option values=O13>Thirteenth Sunday in  Ordinary Time</option>
-<option values=O14>Fourteenth Sunday in  Ordinary Time</option>
-<option values=O15>Fifteenth Sunday in  Ordinary Time</option>
-<option values=O16>Sixteenth Sunday in  Ordinary Time</option>
-<option values=O17>Seventeenth Sunday in  Ordinary Time</option>
-<option values=O18>Eighteenth Sunday in  Ordinary Time</option>
-<option values=O19>Nineteenthth Sunday in  Ordinary Time</option>
-<option values=O20>Twentieth Sunday in  Ordinary Time</option>
-<option values=O21>Twenty First Sunday in  Ordinary Time</option>
-<option values=O22>Twenty Second Sunday in  Ordinary Time</option>
-<option values=O23>Twenty Third Sunday in  Ordinary Time</option>
-<option values=O24>Twenty Fourtth Sunday in  Ordinary Time</option>
-<option values=O25>Twenty Fifth Sunday in  Ordinary Time</option>
-<option values=O26>Twenty Sixth Sunday in  Ordinary Time</option>
-<option values=O27>Twenty Seventh Sunday in  Ordinary Time</option>
-<option values=O28>Twenty Eighth Sunday in  Ordinary Time</option>
-<option values=O29>Twenty Ninth Sunday in  Ordinary Time</option>
-<option values=O30>Thirtieth Sunday in  Ordinary Time</option>
-<option values=O31>Thirty First Sunday in  Ordinary Time</option>
-<option values=O32>Thirty Second Sunday in  Ordinary Time</option>
-<option values=O33>Thirty Third Sunday in  Ordinary Time</option>
-<option values=O34>Thirty Fourth Sunday in  Ordinary Time</option>
-<option values=L1>First Sunday in  Lent</option>
-<option values=L2>Second Sunday in  Lent</option>
-<option values=L3>Third Sunday in  Lent</option>
-<option values=L4>Fourth Sunday iin Lent</option>
-<option values=L5>Palm Sunday</option>
-<option values=E2>Second Sunday in  Easter Time</option>
-<option values=E3>Third Sunday in  Easter Time</option>
-<option values=E4>Fourth Sunday in  Easter Time</option>
-<option values=E5>Fifth Sunday in  Easter Time</option>
-<option values=E6>Sixth Sunday in  Easter Time</option>
-<option values=E7>Seventh Sunday in  Easter Time</option>
-<option values=D1>Christmas</option>
-<option values=D2>Easter</option>
-<option values=H1>Holy Family</option>
-<option values=H2>Baptism of the Lord</option>
-<option values=H3>Ash Wednesday</option>
-<option values=H4>Pentecost</option>
-<option values=MW1>Wedding</option>
-<option values=MF1>Funeral</option>
+<form>
+<h1>Add Unknown Suggestion to database</h1>
+<br />
+<h2>Notes</h2>
 
-</select>
-<b>Mass Theme:</b><select name="mstheme" size="1"><option values=MC>Mass of Creation</option>
-<option values=OM>Order of Mass</option>
-<option values=MJP>Mass of Joy and Peace</option>
-<option values=MNW>Mass for a New World</option>
-<option values=SM>Storrington Mass</option>
-<option values=BML>Black Mountain Liturgy</option>
-<option values=MAA>Mass form Age to Age</option>
-<option values=GM>Glendough Mass</option>
-<option values=MP>Missa Pacem</option>
-<option values=UM>Unity Mass</option>
-<option values=MUSE>Misa Una Sante Fe / One Holy Faith Mass</option>
-<option values=CM>Cantus Missae</option>
-<option values=SEM>Service Music</option>
-<option values=LSS>Song Sheets</option>
+<p>This page allows you to add song suggestions marked as unknown by the program as it searched though 
+its database.  There is a number of reasons for that the most prevalent is typos in the suggestion or the 
+song may not exist for the songbook contrary to what the suggestion source thought.  You are presented 
+with the search phrase of the suggestion and can choose several things.  You can mark it as not being in
+the song book,  enter the number for the song in the songbook or cancel this search.  In all cases you will
+be returned to the page you were at previously.</p>
+<p>If you mark it as not in the songbook, in the future the program will ignore the song for the selected songbook only and also not report it as unknown.  If you give a song number for the song book then it will recognize it in the future as known.</p>
+<br />
+<h2>Unknown Suggestion</h2>
+Unknown Suggestion for Song: <b>All That Is Hidden </b>
+<br /><br /><br />
+Songbook:</b><select name="psongbook" size="1"><option value="GC">Gather Comprehensive</option><option value="G3">Gather Comprehensive 3</option><option value="SS">Song Sheets</option></select>
+<br /><br />
 
-</select><br /><br />
-
-
-
-
-<h1>Suggestions Input</h1>
-<h2>Psalms</h2>
-<textarea formid ="inputsug" name="psalms"  rows="5" placeholder="Input Psalm Suggestions Here"></textarea>
-<h2>Songs</h2>
-<textarea formid ="inputsug" name="songs"   rows="15" placeholder="Input Song Suggestions Here"></textarea><br />
-<form id="inputsug">
-<input type="submit" value="Next Step" >
+<b>Song Number:</b><input type="number" id= 654 name= 654 size="2">
+<br /><br /><input type="submit" value="Locate print title for song number " >
+<br /><br />
+<b>Print Song title is:</b>
+<br /><br />
+<input type="submit" value="Mark as Does Not Exist " ><input type="submit" value="Add Suggestion and return to previous page" ><input type="submit" value="Return to Previous page without update" >
 </form>
+
+
+
 
 
 

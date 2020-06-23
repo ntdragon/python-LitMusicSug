@@ -17,5 +17,8 @@ echo "suggestions selection generated"
 cd ../page5.d
 python3 html_try.py > ../html_examples.d/page5.html
 echo "next input generated"
+#cd ../page6.d
+#python3 html_try.py > ../html_examples.d/page6.html
+#echo "next input generated"
 cd ..
 echo "Done!"

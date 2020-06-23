@@ -28,15 +28,16 @@ Music Director or musicians determining what music to use for an event like Sund
 this version the steps are;
 <ol>
 <li> Ask for some information on the event to print out in the header</li>
-<li> Ask which songbook you are using and the theme for the mass parts</li>
-<li> Ask for NPM's suggestions for the event</li>
-<li> It will then input information from database on songbook songs and past suggestions that it knows.</li>
-<li>It will process the input information</li>
-<li>Then it will output the parsed information in known and unknown sections for Psalms and then Liturgical songs.</li>
+<li> Ask which songbooks and song sheets you are using and the theme for the mass parts</li>
+<li> Ask for NPM's or other source suggestions for the event or just use suggestions from the database</li>
+<li>If you add NPM or other source suggestions it will allow you to input those, then sort for those in your songbooks as well as add suggestions already known in the database.  If you select use the database then it will draw the suggestions known in the database</li>
+<li>Then it will output the parsed information in known and unknown sections for Psalms and then Liturgical songs.  You will have an opportunity to add unknown songs to the database</li>
+<li>There will then be a suggestions selection page for songs to be used for the Mass(es)</li>
+<li>Finally there will be the opportunity to quit or do another event since many times you will be planning a series of events like all of Advent or Lent at one time.</li>
 </ol>
 
 Currently the input and output is based on helping St. Roch's church in Flat Rock, Michigan which uses
-Gather Comprehensive.
+Gather Comprehensive.  Later editions will hopefully have filters to allow you to input information from GIA and other sources.
 
 {% endblock content1 %}
 
@@ -52,14 +53,20 @@ Gather Comprehensive.
      <option values={{ num.evtid }}>{{ num.evtname }}</option>
 {% endfor %}
 </select><br /><br />
-<br /><br />
-<b>Songbook:</b><select name="songbook" size="1"><option value="GC">Gather Comprehensive</option><option value="G3">Gather Comprehensive 3</option></select><br /><br />
+<b>Congregation Songbook:</b><select name="psongbook" size="1"><option value="GC">Gather Comprehensive</option><option value="G3">Gather Comprehensive 3</option><option value="SS">Song Sheets</option>
+</select><br />
+<b>Choir Songbook:</b><select name="csongbook" size="1"><option value="GC">Gather Comprehensive</option><option value="G3">Gather Comprehensive 3</option>
+<option value="SS">Song Sheets</option></select><br />
+<b>Song Sheets In Use:</b><select name="ssongbook" size="1"><option value="PSB">Local Parish Song Book</option>
+          <option value="MDSB">Music Director's Song Sheets</option><option value="GC">Gather Comprehensive</option>
+          <option value="MDSB">Both Local parish Song Book and Music Director's Song Sheets</option><option value="NS">None</option></select><br /><br />
+
 <b>Mass Theme:</b><select name="mstheme" size="1">
 {%- for num in theme -%} 
      <option values={{ num.mstid }}>{{ num.mstname }}</option>
 {% endfor %}
 </select><br /><br />
-<input type="submit" value="Next Step" >
+<input type="submit" value="Input Suggestions from NPM" ><input type="submit" value="Input Suggestions from Other Source" ><input type="submit" value="Use Suggestions in Database" >
 </form>
 {% endblock content2 %}
 {% block content3 %}

@@ -87,7 +87,8 @@ events = [
     {"num":54 ,"evtid":"H3", "evtname":"Ash Wednesday"},
     {"num":55 ,"evtid":"H4", "evtname":"Pentecost"},
     {"num":56 ,"evtid":"MW1", "evtname":"Wedding"},
-    {"num":57 ,"evtid":"MF1", "evtname":"Funeral"}
+    {"num":57 ,"evtid":"MF1", "evtname":"Funeral"},
+    {"num":99 ,"evtid":"N00", "evtname":"Other"}
 ]
 # block3 dicts
 
