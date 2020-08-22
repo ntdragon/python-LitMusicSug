@@ -1,0 +1,71 @@
+{% extends "base.jhtml" %}
+{# template page6
+     Function: template Input Suggestions Page
+    --------------------------------------------------------------------------------------------------------------------------- 
+     extends base.jhtml which includes header.jhtml and footer.jhtml
+     base - hd.loc   page location within website
+     header - hdr.name         who is accessing this page
+                      hdr.page           what page in the website
+                      hdr.today         today's date
+     footer - graphics currently set but should be variable?  don't really change over website
+    --------------------------------------------------------------------------------------------------------------------------- 
+     Graphics are from ../gfx/
+     CSS are from ..css/
+     --------------------------------------------------------------------------------------------------------------------------- 
+     Variables
+          var - use
+     --------------------------------------------------------------------------------------------------------------------------- 
+#}
+
+{% block content %}
+<input type="hidden" name="jinja2_template" value="page6.jhtml">
+<style>textarea { width: 60em; }</style>
+<div id="main">
+{% block content1 %}
+<h1>Manual input of  songs for sonbooks(s)</h1>
+<p>
+With this page you are entering a song for one or more songbooks manually rather than importing the information from a file.   There may be any number of reasons for this but common if this is your songbook or a local growing songbook.  iIf you are starting a new songbook or songbooks for entry please click <ul>here</ul> to take you to a page where you can set up the information on the songbook(s) for the database so that songs can be entered for them.  The songbooks listed below are the ones that the database has initial entries.
+</p>
+<h2>Song books</h2>
+<p>
+First of all is to select or enter the songbooks for which you will be entering information.  I am set up to do up to three at a time.
+</p>
+Songbook1:<select name="songbook1" size="1"><option value="GC">Gather Comprehensive</option><option value="G3">Gather Comprehensive 3</option>
+<option value="LPSB">St Roch Parish Songbook</option>
+<option value="MDPS">Music Director's Songbook</option>
+</select><br />
+Songbook2:<select name="songbook2" size="1"><option value="GC">Gather Comprehensive</option><option value="G3">Gather Comprehensive 3</option>
+<option value="LPSB">St Roch Parish Songbook</option>
+<option value="MDPS">Music Director's Songbook</option>
+<option value="none">Not used</option>
+</select><br />
+Songbook3:<select name="songbook3" size="1"><option value="GC">Gather Comprehensive</option><option value="G3">Gather Comprehensive 3</option>
+<option value="LPSB">St Roch Parish Songbook</option>
+<option value="MDPS">Music Director's Songbook</option>
+<option value="none">Not used</option>
+</select><br />
+
+Now for each new entry please enter the following;
+Type:<select name="Psalm" size="1"><option value="p">Psalm</option>
+<option value="m">Mass Part</option>
+<option value="s">Song</option>
+<option value="o">Other</option>
+</select><br />
+Printed Title<input type="text" id= {{parts.songtitle1}} name= {{parts.songtitle1}} size="5"><br />
+Search string<input type="text" id= {{parts.songsearch}} name= {{parts.songsearch}} size="5"><br />
+
+Songbook1 number<input type="number" id= {{parts.songnum1}} name= {{parts.songnum1}} size="5"><br />
+Songbook2 number<input type="number" id= {{parts.songnum2}} name= {{parts.songnum2}} size="5"> songbook2 Printed Title <input type="text" id= {{parts.songtitle2}} name= {{parts.songtitle2}} size="5"><br />
+<b>Songbook3 number</b><input type="number" id= {{parts.songnum3}} name= {{parts.songnum3}} size="5"> <b>Songbook2 Printed Title</b> <input type="number" id= {{parts.songtitle3}} name= {{parts.songtitle3}} size="5">
+
+{% endblock content1 %}
+
+{% block content2 %}
+
+{% endblock content2 %}
+{% block content3 %}
+
+
+{% endblock content3 %}
+</div>
+{% endblock content %}
