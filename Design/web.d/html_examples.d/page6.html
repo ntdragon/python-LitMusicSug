@@ -1,0 +1,120 @@
+
+
+<!DOCTYPE html>
+<html class="no-js" lang="en-US">
+<head>
+     
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="author" content="Edward Birdsall"> 
+     <link rel= "stylesheet" type = "text/css" href="../css/normalize.css" />
+     <link rel= "stylesheet" type = "text/css" href="../css/main.css" />
+    <link rel= "stylesheet" type = "text/css" href="../css/website.css" />
+     <title> Input Songs Manually  Page</title>
+      
+</head>
+<body>
+<input type="hidden" name="jinja2_template" value="base.jhtml">
+     
+
+    <div id="header">
+<input type="hidden" name="jinja2_template" value="header.jhtml">
+        
+    <figure id="header-left">
+          <img src="../gfx/lilypond-pic.jpg" alt="lilypond instruction" height="100" width=150">
+     </figure> 
+          <div id=header-center>
+               <h1>Liturgical Music Suggestions Input Songs Manually Page</h1>
+               <h3>Today's Date: Friday  November 06, 2020</h3>
+          </div>
+     <figure id="header-right">
+          <img src="../gfx/drum-clef.jpg" alt="drum clef" height="100" width="100">
+     </figure>
+        
+     </div>
+     <div id="nav"></div>
+    <div id="content">
+<input type="hidden" name="jinja2_template" value="page6.jhtml">
+<style>textarea { width: 60em; }</style>
+<div id="main">
+
+<h1>Manual input of  songs for sonbooks(s)</h1>
+<p>
+With this page you are entering a song for one or more songbooks manually rather than importing the information from a file.   There may be any number of reasons for this but commonly this is your songbook or a local growing songbook.  If you are starting a new songbook or songbooks for entry please click <u>here</u> to take you to a page where you can set up the information on the songbook(s) for the database so that songs can be entered for them.  The songbooks listed below are the ones that the database has initial entries.
+</p>
+<hr />
+<h2>Song books</h2>
+<p>
+First of all is to select or enter the songbooks for which you will be entering information.  I am set up to do up to three at a time.
+</p>
+Songbook1:<select name="songbook1" size="1"><option values=Gather Comprehensive 1>Gather Comprehensive 1 </option>
+<option values=Gather Comprehensive 3>Gather Comprehensive 3 </option>
+<option values=Music Director Song Book>Music Director Song Book </option>
+<option values=Local Parish Song Book>Local Parish Song Book </option>
+
+</select><br />
+Songbook2:<select name="songbook2" size="1"><option values=Gather Comprehensive 1>Gather Comprehensive 1 </option>
+<option values=Gather Comprehensive 3>Gather Comprehensive 3 </option>
+<option values=Music Director Song Book>Music Director Song Book </option>
+<option values=Local Parish Song Book>Local Parish Song Book </option>
+
+<option value="none">Not used</option>
+</select><br />
+Songbook3:<select name="songbook3" size="1"><option values=Gather Comprehensive 1>Gather Comprehensive 1 </option>
+<option values=Gather Comprehensive 3>Gather Comprehensive 3 </option>
+<option values=Music Director Song Book>Music Director Song Book </option>
+<option values=Local Parish Song Book>Local Parish Song Book </option>
+
+<option value="none">Not used</option>
+</select><br />
+<hr />
+
+<b>Now for each new entry please enter the following;</b><br />
+Type:<select name="Psalm" size="1"><option value="p">Psalm</option>
+<option value="m">Mass Part</option>
+<option value="s">Song</option>
+<option value="o">Other</option>
+</select><br />
+Printed Title<input type="text" id= Song Book 1 Printed Title name= Song Book 1 Printed Title value=" Song Book 1 Printed Title " size="25"><br />
+Search string<input type="text" id= Search String for song name= Search String for song value=" Search String for song "size="25"><br />
+
+Songbook1 number<input type="number" id= 1 name= 1 value="1" size="1"><br />
+
+Songbook2 number<input type="number" id= 1 name= 1 value="1" size="1">
+Songbook2 Printed Title <input type="text" id= Song book 2 Printed title if different name= Song book 2 Printed title if different value=" Song book 2 Printed title if different " size="25"><br />
+Songbook3 number<input type="number" id= 1 name= 1 value="1" size="5">
+Songbook3 Printed Title <input type="text" id= Song book 3 Printed title if different name= Song book 3 Printed title if different value=" Song book 3 Printed title if different " size="25"><br />
+<br /><br />
+<input type="submit" value="Accept and Next Entry" > &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+<input type="submit" value="Accept and Done" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+<input type="submit" value="Cancel" >
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+    
+
+
+    <div id="footer">
+<input type="hidden" name="jinja2_template" value="footer.jhtml">
+        
+      <div id="footer-left">
+          <img src="../gfx/drum-clef.jpg" alt="drum clef" height="100" width="100">
+      </div>
+<div id="footer-center">
+          <img src="../gfx/webfoot.jpg" alt="webmaster  @  birdsalle.com" height="100" width="300">
+     </div>
+     <figure id="footer-right">
+          <img src="../gfx/ed.jpg" alt="ed" height="100" width=100">
+     </figure>
+        
+     </div>
+</body>
+</html>

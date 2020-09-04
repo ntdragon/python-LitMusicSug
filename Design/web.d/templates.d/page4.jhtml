@@ -1,6 +1,6 @@
 {% extends "base.jhtml" %}
 {# template page4
-     Function: template Output Suggestions Page
+     Function:Suggestions Selection Page
     --------------------------------------------------------------------------------------------------------------------------- 
      extends base.jhtml which includes header.jhtml and footer.jhtml
      base - hd.loc   page location within website
@@ -14,7 +14,11 @@
      --------------------------------------------------------------------------------------------------------------------------- 
      Variables
           var - use
-     --------------------------------------------------------------------------------------------------------------------------- 
+          evt - event information
+          parts - Mass parts information
+          kpsalms - known psalm suggestions
+          ksongs - known song suggestions
+ --------------------------------------------------------------------------------------------------------------------------- 
 #}
 
 {% block content %}

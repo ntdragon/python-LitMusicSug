@@ -1,0 +1,12 @@
+Index To Web Pages
+
+page01  - Greetings Page - start of planning an event
+page02  - Input Suggestions (from NPM or the like)
+page03  - Suggestions Page (from search and database)
+page04  - Suggestions Selection Page
+page05  - Add Search string to database
+page06  - Manual Input of Songs for database
+page07  - Add Search term to database and make known Psalm/Song
+page08  - Database song search (create a song title database across songbooks)
+page09  - Manual transfer of known songs from a known songbook to a new songbook
+page 10 - Start a new songbook 

@@ -6,8 +6,9 @@ from jinja2 import Environment, FileSystemLoader
 page = dict(action="single", user="Edward Birdsall")
 
 # tab and header
-hd = {"loc": "Input Songs Manually"}
-hdr = dict(page="Input Songs Manually", today="Friday  November 06, 2020")
+
+hd = {"loc": "Add Songbook"}
+hdr = dict(page="Add Songbook to database", today="Saturday  March 06, 2021")
 
 #block1 dicts
 ksongbooks = [
@@ -63,25 +64,22 @@ usongbooks = [
      {"num":43, "sbc":"WC", "sbi":"WC",  "sbn":"We Celebrate  (2011, WLP)"},
      {"num":44, "sbc":"WS", "sbi":"WS",  "sbn":" Word and Song (annual resource, WLP)"},
      {"num":45, "sbc":"WOR", "sbi":"WOR",  "sbn":"Worship, Third Edition (1986, GIA) "},
-     {"num":46, "sbc":"WOR4", "sbi":"WOR4",  "sbn":"Worship, Fourth Edition (GIA, 2011)"}
+     {"num":46, "sbc":"WOR4", "sbi":"WOR4",  "sbn":"Worship, Fourth Edition (GIA, 2011)"},
+     {"num":47, "sbc":"XXXX", "sbi":"XXXX",  "sbn":"None of the Above"}
 ]
 
-parts = dict(songtitle1="Song Book 1 Printed Title", songsearch="Search String for song",
-songnum1=1, songnum2=1,songtitle2="Song book 2 Printed title if different", songnum3=1, 
-songtitle3="Song book 3 Printed title if different"
-)
+
 
 # block2 dicts
-
 # block3 dicts
 
 # collect all the dicts and such
-input_ = {"hd":hd, "hdr":hdr, "ksongbooks":ksongbooks, "Usongbooks":usongbooks, "parts":parts}
+input_ = {"hd":hd, "hdr":hdr, "ksongbooks":ksongbooks, "usongbooks":usongbooks }
 
 # now to go out and render
 
 env = Environment(loader = FileSystemLoader("../templates.d/"))
-template=env.get_template("page6.jhtml")
+template=env.get_template("page10.jhtml")
 
 
 output = template.render(input_)

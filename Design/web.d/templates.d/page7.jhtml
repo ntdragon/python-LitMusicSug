@@ -1,0 +1,53 @@
+{% extends "base.jhtml" %}
+{# template webpage
+     Function: Add Search term to database and make known Psalm/Song
+    --------------------------------------------------------------------------------------------------------------------------- 
+     extends base.jhtml which includes header.jhtml and footer.jhtml
+     base - hd.loc   page location within website
+     header - hdr.name         who is accessing this page
+                      hdr.page           what page in the website
+                      hdr.today         today's date
+     footer - graphics currently set but should be variable?  don't really change over website
+    --------------------------------------------------------------------------------------------------------------------------- 
+     Graphics are from ../gfx/
+     CSS are from ..css/
+     --------------------------------------------------------------------------------------------------------------------------- 
+     Variables
+          var - use
+     --------------------------------------------------------------------------------------------------------------------------- 
+#}
+
+{% block content %}
+<input type="hidden" name="jinja2_template" value="page7.jhtml">
+   <div id="main">
+{% block content1 %}
+<h1>Pointing a search string to known songs</h1>
+
+Given a search string that the database does not know here you enter for known songbooks the song(s) that fit that
+search string.  If there is more than one song in a book enter the numbers with commas.  Example: 25, 527, 851 <br />  If the string is known for some known songbooks then their values will be shown and you need only enter for the books you are using to update the database.</p>
+
+<center><b>Search String:" {{parts.searchString}} "</center>
+<table border="5" height="30%" width="50%" align=center>
+<tr><th style="text-align:center; width:60%">Songbook</th><th style="text-align:center; width:40%">Song Number(s)</th>
+
+{%- for row in ksongbooks -%}
+<tr><td  style="text-align:left"> {{ row.sbn }}</td> 
+<td  style="text-align:center"> <input type="text" name="num" value="{{ row.snum }}" /> </td> 
+</tr>
+{% endfor %}
+
+</table>
+
+<input type="submit" value="Done" >&nbsp;&nbsp;<input type="submit" value="Cancel" >
+{% endblock content1 %}
+
+{% block content2 %}
+
+
+{% endblock content2 %}
+{% block content3 %}
+
+
+{% endblock content3 %}
+</div>
+{% endblock content %}

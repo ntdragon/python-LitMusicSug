@@ -1,0 +1,52 @@
+{% extends "base.jhtml" %}
+{# template webpage
+     Function: Manual transfer of known songs from a known songbook to a new songbook
+    --------------------------------------------------------------------------------------------------------------------------- 
+     extends base.jhtml which includes header.jhtml and footer.jhtml
+     base - hd.loc   page location within website
+     header - hdr.name         who is accessing this page
+                      hdr.page           what page in the website
+                      hdr.today         today's date
+     footer - graphics currently set but should be variable?  don't really change over website
+    --------------------------------------------------------------------------------------------------------------------------- 
+     Graphics are from ../gfx/
+     CSS are from ..css/
+     --------------------------------------------------------------------------------------------------------------------------- 
+     Variables
+          var - use
+     --------------------------------------------------------------------------------------------------------------------------- 
+#}
+
+{% block content %}
+<input type="hidden" name="jinja2_template" value="page9.jhtml">
+   <div id="main">
+{% block content1 %}
+<H1>Transfer song and search data from known songbook to New Songbook</h1>
+<p>This page is to assist in transferring the song numbers and titles from a songbook in the database to a new
+songbook that is being addedto the database.  This is good for things like a new version of a songbook where
+many things are the same but there are additions and deletions from the olderto the newer version<p>
+<p>Initially the numbers for the new songbook are the same but you have teh chanceto change that.  For new songs you will need to use the Add Song to Song book page but for all the songs that are in both songbooks you will just need to edit the numbers for the new songbook and the new numbers plus search information will be updated.  The song type will be the same as in the source songbook.</p> 
+{% endblock content1 %}
+
+{% block content2 %}
+
+<center><b>Transferring from:</b> {{ bks.book1 }} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<b>Transferring to:</b> {{ bks.book2 }} </center>
+<table border="5" height="30%" width="50%" align=center>
+<tr><th style="text-align:center; width:60%">Title</th><th style="text-align:center; width:5%">Old Number</th> <th style="width:5%">New Number</th> <th style="width:30%">Actions</th></tr>
+
+{%- for row in sbk -%}
+<tr><td  style="text-align:left"> {{ row.stitle }}</td> <td  style="text-align:center">{{ row.snum }} </td>  <td  style="text-align:center"> <input type="text" name="num" value="{{ row.nsnum }}" /> </td>  
+</td><td  style="text-align:center">
+     <input type="radio" name="{{ row.num }}" value="Accept  {{ row.num }}"   />Accept &nbsp;
+      <input type="radio" name="{{ row.num }}" value="Remove {{ row.num }} "  />Remove</td></tr>
+{% endfor %}
+
+</table>
+
+{% endblock content2 %}
+{% block content3 %}
+
+
+{% endblock content3 %}
+</div>
+{% endblock content %}

@@ -1,6 +1,6 @@
 {% extends "base.jhtml" %}
 {# template page2
-     Function: template Add Suggestions to database Page
+     Function: Add Search string to database
     --------------------------------------------------------------------------------------------------------------------------- 
      extends base.jhtml which includes header.jhtml and footer.jhtml
      base - hd.loc   page location within website
@@ -14,7 +14,9 @@
      --------------------------------------------------------------------------------------------------------------------------- 
      Variables
           var - use
-     --------------------------------------------------------------------------------------------------------------------------- 
+          cevt - event onformation
+          dayt - date information
+          parts - psalm/song information --------------------------------------------------------------------------------------------------------------------------- 
 #}
 
 {% block content %}

@@ -1,6 +1,6 @@
 {% extends "base.jhtml" %}
 {# template page1
-     Function: template Greeting Page
+     Function: Greetings Page - start of planning an event
     --------------------------------------------------------------------------------------------------------------------------- 
      extends base.jhtml which includes header.jhtml and footer.jhtml
      base - hd.loc   page location within website
@@ -14,6 +14,10 @@
      --------------------------------------------------------------------------------------------------------------------------- 
      Variables
           var - use
+          cevt - event
+          dayt - dates
+          thene - Mass Theme
+          events - which Sunday or eent
      --------------------------------------------------------------------------------------------------------------------------- 
 #}
 

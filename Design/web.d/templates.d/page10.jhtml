@@ -1,0 +1,59 @@
+{% extends "base.jhtml" %}
+{# template webpage
+     Function: Start a new songbook
+    --------------------------------------------------------------------------------------------------------------------------- 
+     extends base.jhtml which includes header.jhtml and footer.jhtml
+     base - hd.loc   page location within website
+     header - hdr.name         who is accessing this page
+                      hdr.page           what page in the website
+                      hdr.today         today's date
+     footer - graphics currently set but should be variable?  don't really change over website
+    --------------------------------------------------------------------------------------------------------------------------- 
+     Graphics are from ../gfx/
+     CSS are from ..css/
+     --------------------------------------------------------------------------------------------------------------------------- 
+     Variables
+          var - use
+          row - loop variable
+          ksongbooks - known songbooks in the database
+          usongbooks - known songbooks not in the database
+          songbook - selected songbook --------------------------------------------------------------------------------------------------------------------------- 
+#}
+
+{% block content %}
+<input type="hidden" name="jinja2_template" value="page10.jhtml">
+   <div id="main">
+{% block content1 %}
+
+{% endblock content1 %}
+<h1>Starting a new Songbook in the database</h1>
+<p>With this page you will start a new songbook and add it to the datbase.  You will be presented with a set
+ of known songbooks from NPM or the opportunity to add a different title like a new songbook for your parish
+ that you are creating.</p>
+<p>The first step will be to set the title of the new songbook and its code.  For example Gather Comprehensive is a title and its code is GC.  You may be setting up a new songbook of your songs so the title may be your name and the code your initials if your initials are not the same as a known songbook.</p>
+<p>Below is a set of known songbooks from NPM that are not in the database, songbooks that are in the database.  There is also the option to pick "None of the Above" which will then ask you to enter the desired title and code.</p>
+<h3>Songbooks in Database</h3>
+{%- for row in ksongbooks -%} 
+     <option values={{ row.sbn }}>{{ row.sbn }} </option>
+{% endfor %}
+<h3>Songbooks not in database</h3>
+<select name="songbook" size="1">
+{%- for row in usongbooks -%} 
+     <option values={{ row,sbn }}>{{ row.sbn }}</option>
+{% endfor %}
+</select><br />
+<h3>Your Selection</h3>
+<label for="sbtitle"><b>Title:</b></label><input type="text" id="sbtitle" value=" songbook.sbn " size=25>  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+<label for="sdcode"><b>Code:</b></label><input type="text" id="sbcode" value=" songbook.sbc " size=5>
+{% block content2 %}
+<p>Now that we have the songbook and its searchbase it is time to add songs and their search strings.  You
+ can either add from file, transfer information from a similar songbook editing the information or manually
+ enter song and search information.</p>
+<input type="submit" value="Input From File" >&nbsp;&nbsp;<input type="submit" value="Transfer and Edit" >&nbsp;&nbsp;<input type="submit" value="Manual Input" >
+{% endblock content2 %}
+{% block content3 %}
+
+
+{% endblock content3 %}
+</div>
+{% endblock content %}

@@ -12,6 +12,7 @@ hdr = dict(page="Greeting ", today="Wednesday  March 06, 2019")
 #block1 dicts
 
 # block2 dicts
+# Event Information
 cevt = dict(parish="St Roch Catholic Church", lityr="C", des="First Sunday in Lent", songbook="GC", bookname="Gather Comprehensive",mstheme="MC", themename="Mass of Creation" )
 dayt = dict(today="March 06, 2020", dmax="December 31,2021")
 theme = [

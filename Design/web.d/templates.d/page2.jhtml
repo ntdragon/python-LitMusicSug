@@ -1,6 +1,6 @@
 {% extends "base.jhtml" %}
 {# template page2
-     Function: template Input Suggeastions Page
+     Function:  Input Suggestions (from NPM or the like)
     --------------------------------------------------------------------------------------------------------------------------- 
      extends base.jhtml which includes header.jhtml and footer.jhtml
      base - hd.loc   page location within website
@@ -14,7 +14,9 @@
      --------------------------------------------------------------------------------------------------------------------------- 
      Variables
           var - use
-     --------------------------------------------------------------------------------------------------------------------------- 
+     evt - event information
+     dayt - date information
+     inoputsug - psalm and song suggestions --------------------------------------------------------------------------------------------------------------------------- 
 #}
 
 {% block content %}

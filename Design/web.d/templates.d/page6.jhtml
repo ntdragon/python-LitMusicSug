@@ -1,6 +1,6 @@
 {% extends "base.jhtml" %}
 {# template page6
-     Function: template Input Suggestions Page
+     Function:Manual Input of Songs for database
     --------------------------------------------------------------------------------------------------------------------------- 
      extends base.jhtml which includes header.jhtml and footer.jhtml
      base - hd.loc   page location within website
@@ -14,7 +14,9 @@
      --------------------------------------------------------------------------------------------------------------------------- 
      Variables
           var - use
-     --------------------------------------------------------------------------------------------------------------------------- 
+          ksongbooks - known songbooks
+          usongbooks - unknown songbook
+          parts - psalm/song information to be entered --------------------------------------------------------------------------------------------------------------------------- 
 #}
 
 {% block content %}
@@ -24,40 +26,51 @@
 {% block content1 %}
 <h1>Manual input of  songs for sonbooks(s)</h1>
 <p>
-With this page you are entering a song for one or more songbooks manually rather than importing the information from a file.   There may be any number of reasons for this but common if this is your songbook or a local growing songbook.  iIf you are starting a new songbook or songbooks for entry please click <ul>here</ul> to take you to a page where you can set up the information on the songbook(s) for the database so that songs can be entered for them.  The songbooks listed below are the ones that the database has initial entries.
+With this page you are entering a song for one or more songbooks manually rather than importing the information from a file.   There may be any number of reasons for this but commonly this is your songbook or a local growing songbook.  If you are starting a new songbook or songbooks for entry please click <u>here</u> to take you to a page where you can set up the information on the songbook(s) for the database so that songs can be entered for them.  The songbooks listed below are the ones that the database has initial entries.
 </p>
+<hr />
 <h2>Song books</h2>
 <p>
 First of all is to select or enter the songbooks for which you will be entering information.  I am set up to do up to three at a time.
 </p>
-Songbook1:<select name="songbook1" size="1"><option value="GC">Gather Comprehensive</option><option value="G3">Gather Comprehensive 3</option>
-<option value="LPSB">St Roch Parish Songbook</option>
-<option value="MDPS">Music Director's Songbook</option>
+Songbook1:<select name="songbook1" size="1">
+{%- for row in ksongbooks -%} 
+     <option values={{ row.sbn }}>{{ row.sbn }} </option>
+{% endfor %}
 </select><br />
-Songbook2:<select name="songbook2" size="1"><option value="GC">Gather Comprehensive</option><option value="G3">Gather Comprehensive 3</option>
-<option value="LPSB">St Roch Parish Songbook</option>
-<option value="MDPS">Music Director's Songbook</option>
+Songbook2:<select name="songbook2" size="1">
+{%- for row in ksongbooks -%} 
+     <option values={{ row.sbn }}>{{ row.sbn }} </option>
+{% endfor %}
 <option value="none">Not used</option>
 </select><br />
-Songbook3:<select name="songbook3" size="1"><option value="GC">Gather Comprehensive</option><option value="G3">Gather Comprehensive 3</option>
-<option value="LPSB">St Roch Parish Songbook</option>
-<option value="MDPS">Music Director's Songbook</option>
+Songbook3:<select name="songbook3" size="1">
+{%- for row in ksongbooks -%} 
+     <option values={{ row.sbn }}>{{ row.sbn }} </option>
+{% endfor %}
 <option value="none">Not used</option>
 </select><br />
+<hr />
 
-Now for each new entry please enter the following;
+<b>Now for each new entry please enter the following;</b><br />
 Type:<select name="Psalm" size="1"><option value="p">Psalm</option>
 <option value="m">Mass Part</option>
 <option value="s">Song</option>
 <option value="o">Other</option>
 </select><br />
-Printed Title<input type="text" id= {{parts.songtitle1}} name= {{parts.songtitle1}} size="5"><br />
-Search string<input type="text" id= {{parts.songsearch}} name= {{parts.songsearch}} size="5"><br />
+Printed Title<input type="text" id= {{parts.songtitle1}} name= {{parts.songtitle1}} value=" {{parts.songtitle1}} " size="25"><br />
+Search string<input type="text" id= {{parts.songsearch}} name= {{parts.songsearch}} value=" {{parts.songsearch}} "size="25"><br />
 
-Songbook1 number<input type="number" id= {{parts.songnum1}} name= {{parts.songnum1}} size="5"><br />
-Songbook2 number<input type="number" id= {{parts.songnum2}} name= {{parts.songnum2}} size="5"> songbook2 Printed Title <input type="text" id= {{parts.songtitle2}} name= {{parts.songtitle2}} size="5"><br />
-<b>Songbook3 number</b><input type="number" id= {{parts.songnum3}} name= {{parts.songnum3}} size="5"> <b>Songbook2 Printed Title</b> <input type="number" id= {{parts.songtitle3}} name= {{parts.songtitle3}} size="5">
+Songbook1 number<input type="number" id= {{parts.songnum1}} name= {{parts.songnum1}} value="{{parts.songnum1}}" size="1"><br />
 
+Songbook2 number<input type="number" id= {{parts.songnum2}} name= {{parts.songnum2}} value="{{parts.songnum1}}" size="1">
+Songbook2 Printed Title <input type="text" id= {{parts.songtitle2}} name= {{parts.songtitle2}} value=" {{parts.songtitle2}} " size="25"><br />
+Songbook3 number<input type="number" id= {{parts.songnum3}} name= {{parts.songnum3}} value="{{parts.songnum3}}" size="5">
+Songbook3 Printed Title <input type="text" id= {{parts.songtitle3}} name= {{parts.songtitle3}} value=" {{parts.songtitle3}} " size="25"><br />
+<br /><br />
+<input type="submit" value="Accept and Next Entry" > &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+<input type="submit" value="Accept and Done" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+<input type="submit" value="Cancel" >
 {% endblock content1 %}
 
 {% block content2 %}

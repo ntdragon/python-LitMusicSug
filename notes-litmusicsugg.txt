@@ -21,10 +21,13 @@ Import functions
     ImportSuggestionsInitial
     ImportSuggestionsEvent
     ImportSuggestionManual
+     ManualInputSong
+     ManuualTransferSongs     (say from v1 of songbook to V2 so new number with add/subtract songs)
+
 
 Initialize functions
     InitializeParishProfile
-    InitializeSongBooksDatabasetions
+    InitializeSongBooksDatabaseSections
     InitializeSuggestionsDatabase
     InitializeTemplates
 
@@ -35,7 +38,9 @@ EditFunction
     EditSongbook
     EditSuggestions
     EditTemplates
-
+     UpdateUnknownSuggestiontoKnown
+  
+-------------------------------------------
 Main Menu
     Initialize
     Edit
@@ -44,3 +49,9 @@ Main Menu
         whichEvent LitYr, Event
         SeachKnown, ImportNew, AddNew, AllofThese
    Print
+
+Ways to Input songs and search strings (these should be linked together)
+     1) Input from FIle
+     2) Update an Unknown Suggestion
+     3) Manual Input
+     4) Transfer songs with new numbers to new songbook
