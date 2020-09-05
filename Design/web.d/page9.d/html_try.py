@@ -8,7 +8,7 @@ page = dict(action="single", user="Edward Birdsall")
 # tab and header
 
 hd = {"loc": "Transfer Numbers"}
-hdr = dict(page="Thansfer Song information to new songbook", today="Wednesday  March 06, 2019")
+hdr = dict(page="Transfer Song information to new songbook", today="Wednesday  March 06, 2019")
 
 #block1 dicts
 

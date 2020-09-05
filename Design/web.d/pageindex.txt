@@ -1,5 +1,6 @@
 Index To Web Pages
 
+page00  - Main Directory Page
 page01  - Greetings Page - start of planning an event
 page02  - Input Suggestions (from NPM or the like)
 page03  - Suggestions Page (from search and database)

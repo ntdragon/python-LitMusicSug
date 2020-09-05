@@ -26,7 +26,7 @@
 Given a search string that the database does not know here you enter for known songbooks the song(s) that fit that
 search string.  If there is more than one song in a book enter the numbers with commas.  Example: 25, 527, 851 <br />  If the string is known for some known songbooks then their values will be shown and you need only enter for the books you are using to update the database.</p>
 
-<center><b>Search String:" {{parts.searchString}} "</center>
+<center><b>Search String:" {{parts.searchString}} "</center><br />
 <table border="5" height="30%" width="50%" align=center>
 <tr><th style="text-align:center; width:60%">Songbook</th><th style="text-align:center; width:40%">Song Number(s)</th>
 

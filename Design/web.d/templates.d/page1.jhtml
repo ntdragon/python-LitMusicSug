@@ -57,20 +57,34 @@ Gather Comprehensive.  Later editions will hopefully have filters to allow you t
      <option values={{ num.evtid }}>{{ num.evtname }}</option>
 {% endfor %}
 </select><br /><br />
-<b>Congregation Songbook:</b><select name="psongbook" size="1"><option value="GC">Gather Comprehensive</option><option value="G3">Gather Comprehensive 3</option><option value="SS">Song Sheets</option>
-</select><br />
-<b>Choir Songbook:</b><select name="csongbook" size="1"><option value="GC">Gather Comprehensive</option><option value="G3">Gather Comprehensive 3</option>
-<option value="SS">Song Sheets</option></select><br />
-<b>Song Sheets In Use:</b><select name="ssongbook" size="1"><option value="PSB">Local Parish Song Book</option>
-          <option value="MDSB">Music Director's Song Sheets</option><option value="GC">Gather Comprehensive</option>
-          <option value="MDSB">Both Local parish Song Book and Music Director's Song Sheets</option><option value="NS">None</option></select><br /><br />
+<b>Congregation Songbook:</b><select name="psongbook" size="1">
+{%- for row in ksongbooks -%} 
+     <option values={{ row,sbn }}>{{ row.sbn }}</option>
+{% endfor %}
+<option value="SSt">Song Sheets for event</option>
+</select><br /><br />
+<b>Choir Songbook:</b><select name="csongbook" size="1">
+{%- for row in ksongbooks -%} 
+     <option values={{ row,sbn }}>{{ row.sbn }}</option>
+{% endfor %}
+<option value="SSt">Song Sheets for event</option>
+</select><br /><br />
+<b>Song Sheets In Use:</b><select name="ssongbook" size="1">
+{%- for row in ksongbooks -%} 
+     <option values={{ row,sbn }}>{{ row.sbn }}</option>
+{% endfor %}
+<option value="SSt">Song Sheets for event</option>
+<option value="NS">None</option>
+</select><br /><br />
 
 <b>Mass Theme:</b><select name="mstheme" size="1">
 {%- for num in theme -%} 
      <option values={{ num.mstid }}>{{ num.mstname }}</option>
 {% endfor %}
 </select><br /><br />
-<input type="submit" value="Input Suggestions from NPM" ><input type="submit" value="Input Suggestions from Other Source" ><input type="submit" value="Use Suggestions in Database" >
+<input type="submit" value="Input Suggestions from NPM" > &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+<input type="submit" value="Input Suggestions from Other Source" > &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+<input type="submit" value="Use only Suggestions in Database" >
 </form>
 {% endblock content2 %}
 {% block content3 %}

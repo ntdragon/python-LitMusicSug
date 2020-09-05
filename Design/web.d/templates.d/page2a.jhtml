@@ -1,0 +1,51 @@
+{% extends "base.jhtml" %}
+{# template page2
+     Function:  Input Suggestions (from NPM or the like)
+    --------------------------------------------------------------------------------------------------------------------------- 
+     extends base.jhtml which includes header.jhtml and footer.jhtml
+     base - hd.loc   page location within website
+     header - hdr.name         who is accessing this page
+                      hdr.page           what page in the website
+                      hdr.today         today's date
+     footer - graphics currently set but should be variable?  don't really change over website
+    --------------------------------------------------------------------------------------------------------------------------- 
+     Graphics are from ../gfx/
+     CSS are from ..css/
+     --------------------------------------------------------------------------------------------------------------------------- 
+     Variables
+          var - use
+     evt - event information
+     dayt - date information
+     inoputsug - psalm and song suggestions --------------------------------------------------------------------------------------------------------------------------- 
+#}
+
+{% block content %}
+<input type="hidden" name="jinja2_template" value="page1.jhtml">
+<style>textarea { width: 60em; }</style>
+<div id="main">
+{% block content1 %}
+<h1>Instructions</h1>
+<ol>
+<li>Please paste or type in the song titles of your suggestions for Psalms and Songs.</li>
+<li>When all suggestions are pasted or typed in the click on the Next button to proceed.</li>
+</ol>
+{% endblock content1 %}
+
+{% block content2 %}
+<h1>Suggestions Input</h1>
+<h2>Psalms</h2>
+<textarea formid ="inputsug" name="psalms"  rows="5" placeholder="Input Psalm Suggestions Here"></textarea>
+<h2>Songs</h2>
+<textarea formid ="inputsug" name="songs"   rows="15" placeholder="Input Song Suggestions Here"></textarea><br />
+<form id="inputsug">
+<input type="submit" value="Next Step" >
+</form>
+
+
+{% endblock content2 %}
+{% block content3 %}
+
+
+{% endblock content3 %}
+</div>
+{% endblock content %}

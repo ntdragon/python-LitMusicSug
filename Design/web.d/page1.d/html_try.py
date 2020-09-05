@@ -15,6 +15,14 @@ hdr = dict(page="Greeting ", today="Wednesday  March 06, 2019")
 # Event Information
 cevt = dict(parish="St Roch Catholic Church", lityr="C", des="First Sunday in Lent", songbook="GC", bookname="Gather Comprehensive",mstheme="MC", themename="Mass of Creation" )
 dayt = dict(today="March 06, 2020", dmax="December 31,2021")
+
+ksongbooks = [
+     {"num":0, "sbc":"GC", "sbi":"GC1",  "sbn":"Gather Comprehensive"},
+    {"num":1, "sbc":"G3", "sbi":"GC3",  "sbn":"Gather Comprehensive 3"},
+    {"num":2, "sbc":"SS", "sbi":"MDS1",  "sbn":"Music Director Song Book"},
+    {"num":3, "sbc":"SS", "sbi":"LPS1",  "sbn":"Local Parish Song Book"},     
+]
+
 theme = [
     {"num":1 ,"mstid":"MC", "mstname":"Mass of Creation"},
     {"num":0, "mstid":"OM", "mstname":"Order of Mass"},
@@ -94,7 +102,7 @@ events = [
 # block3 dicts
 
 # collect all the dicts and such
-input_ = {"hd":hd, "hdr":hdr, "theme":theme, "events":events, "cevt":cevt, "dayt":dayt }
+input_ = {"hd":hd, "hdr":hdr, "theme":theme, "events":events, "cevt":cevt, "dayt":dayt, "ksongbooks":ksongbooks }
 
 # now to go out and render
 

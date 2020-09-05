@@ -24,7 +24,7 @@
           <img src="../gfx/lilypond-pic.jpg" alt="lilypond instruction" height="100" width=150">
      </figure> 
           <div id=header-center>
-               <h1>Liturgical Music Suggestions Greeting  Page</h1>
+               <h1>Liturgical Music Greeting  Page</h1>
                <h3>Today's Date: Wednesday  March 06, 2019</h3>
           </div>
      <figure id="header-right">
@@ -124,13 +124,28 @@ Gather Comprehensive.  Later editions will hopefully have filters to allow you t
 <option values=N00>Other</option>
 
 </select><br /><br />
-<b>Congregation Songbook:</b><select name="psongbook" size="1"><option value="GC">Gather Comprehensive</option><option value="G3">Gather Comprehensive 3</option><option value="SS">Song Sheets</option>
-</select><br />
-<b>Choir Songbook:</b><select name="csongbook" size="1"><option value="GC">Gather Comprehensive</option><option value="G3">Gather Comprehensive 3</option>
-<option value="SS">Song Sheets</option></select><br />
-<b>Song Sheets In Use:</b><select name="ssongbook" size="1"><option value="PSB">Local Parish Song Book</option>
-          <option value="MDSB">Music Director's Song Sheets</option><option value="GC">Gather Comprehensive</option>
-          <option value="MDSB">Both Local parish Song Book and Music Director's Song Sheets</option><option value="NS">None</option></select><br /><br />
+<b>Congregation Songbook:</b><select name="psongbook" size="1"><option values=({'num': 0, 'sbc': 'GC', 'sbi': 'GC1', 'sbn': 'Gather Comprehensive'}, Undefined)>Gather Comprehensive</option>
+<option values=({'num': 1, 'sbc': 'G3', 'sbi': 'GC3', 'sbn': 'Gather Comprehensive 3'}, Undefined)>Gather Comprehensive 3</option>
+<option values=({'num': 2, 'sbc': 'SS', 'sbi': 'MDS1', 'sbn': 'Music Director Song Book'}, Undefined)>Music Director Song Book</option>
+<option values=({'num': 3, 'sbc': 'SS', 'sbi': 'LPS1', 'sbn': 'Local Parish Song Book'}, Undefined)>Local Parish Song Book</option>
+
+<option value="SSt">Song Sheets for event</option>
+</select><br /><br />
+<b>Choir Songbook:</b><select name="csongbook" size="1"><option values=({'num': 0, 'sbc': 'GC', 'sbi': 'GC1', 'sbn': 'Gather Comprehensive'}, Undefined)>Gather Comprehensive</option>
+<option values=({'num': 1, 'sbc': 'G3', 'sbi': 'GC3', 'sbn': 'Gather Comprehensive 3'}, Undefined)>Gather Comprehensive 3</option>
+<option values=({'num': 2, 'sbc': 'SS', 'sbi': 'MDS1', 'sbn': 'Music Director Song Book'}, Undefined)>Music Director Song Book</option>
+<option values=({'num': 3, 'sbc': 'SS', 'sbi': 'LPS1', 'sbn': 'Local Parish Song Book'}, Undefined)>Local Parish Song Book</option>
+
+<option value="SSt">Song Sheets for event</option>
+</select><br /><br />
+<b>Song Sheets In Use:</b><select name="ssongbook" size="1"><option values=({'num': 0, 'sbc': 'GC', 'sbi': 'GC1', 'sbn': 'Gather Comprehensive'}, Undefined)>Gather Comprehensive</option>
+<option values=({'num': 1, 'sbc': 'G3', 'sbi': 'GC3', 'sbn': 'Gather Comprehensive 3'}, Undefined)>Gather Comprehensive 3</option>
+<option values=({'num': 2, 'sbc': 'SS', 'sbi': 'MDS1', 'sbn': 'Music Director Song Book'}, Undefined)>Music Director Song Book</option>
+<option values=({'num': 3, 'sbc': 'SS', 'sbi': 'LPS1', 'sbn': 'Local Parish Song Book'}, Undefined)>Local Parish Song Book</option>
+
+<option value="SSt">Song Sheets for event</option>
+<option value="NS">None</option>
+</select><br /><br />
 
 <b>Mass Theme:</b><select name="mstheme" size="1"><option values=MC>Mass of Creation</option>
 <option values=OM>Order of Mass</option>
@@ -148,7 +163,9 @@ Gather Comprehensive.  Later editions will hopefully have filters to allow you t
 <option values=LSS>Song Sheets</option>
 
 </select><br /><br />
-<input type="submit" value="Input Suggestions from NPM" ><input type="submit" value="Input Suggestions from Other Source" ><input type="submit" value="Use Suggestions in Database" >
+<input type="submit" value="Input Suggestions from NPM" > &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+<input type="submit" value="Input Suggestions from Other Source" > &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+<input type="submit" value="Use only Suggestions in Database" >
 </form>
 
 

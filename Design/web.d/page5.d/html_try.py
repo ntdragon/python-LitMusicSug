@@ -15,13 +15,19 @@ hdr = dict(page="Add Suggestion to database", today="Wednesday  March 06, 2019")
 cevt = dict(parish="St Roch Catholic Church", lityr="C", des="First Sunday in Lent", songbook="GC", bookname="Gather Comprehensive" )
 dayt = dict(today="March 06, 2019", dmax="December 31,2020")
 
-parts = dict(songnum="654", songtitle="All that is Hidden")
+parts = dict(songnum="654", songtitle="All that is Hidden", songprinttitle="All that is Hidden")
 
+ksongbooks = [
+     {"num":0, "sbc":"GC", "sbi":"GC1",  "sbn":"Gather Comprehensive 1"},
+    {"num":1, "sbc":"G3", "sbi":"GC3",  "sbn":"Gather Comprehensive 3"},
+    {"num":2, "sbc":"SS", "sbi":"MDS1",  "sbn":"Music Director Song Book"},
+    {"num":3, "sbc":"SS", "sbi":"LPS1",  "sbn":"Local Parish Song Book"},     
+]
 # block2 dicts
 # block3 dicts
 
 # collect all the dicts and such
-input_ = {"hd":hd, "hdr":hdr, "cevt":cevt, "dayt":dayt,"parts":parts  }
+input_ = {"hd":hd, "hdr":hdr, "cevt":cevt, "dayt":dayt,"parts":parts,  "ksongbooks":ksongbooks }
 
 # now to go out and render
 

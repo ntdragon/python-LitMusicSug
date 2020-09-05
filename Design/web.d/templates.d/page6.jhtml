@@ -24,9 +24,9 @@
 <style>textarea { width: 60em; }</style>
 <div id="main">
 {% block content1 %}
-<h1>Manual input of  songs for sonbooks(s)</h1>
+<h1>Manual input of  songs for song books(s)</h1>
 <p>
-With this page you are entering a song for one or more songbooks manually rather than importing the information from a file.   There may be any number of reasons for this but commonly this is your songbook or a local growing songbook.  If you are starting a new songbook or songbooks for entry please click <u>here</u> to take you to a page where you can set up the information on the songbook(s) for the database so that songs can be entered for them.  The songbooks listed below are the ones that the database has initial entries.
+With this page you are entering a song for one or more songbooks manually rather than importing the information from a file.   There may be any number of reasons for this but commonly this is your songbook or a local growing songbook.  If you are starting a new songbook or songbooks for entry please click <u>here</u> to take you to a page where you can set up the information on the songbook(s) for the database so that songs can be entered for them.  The songbooks listed below are the ones that the database has information.
 </p>
 <hr />
 <h2>Song books</h2>

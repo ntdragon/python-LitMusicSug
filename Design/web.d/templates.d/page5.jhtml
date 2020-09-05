@@ -40,15 +40,20 @@ be returned to the page you were at previously.</p>
 <h2>Unknown Suggestion</h2>
 Unknown Suggestion for Song: <b>All That Is Hidden </b>
 <br /><br /><br />
-Songbook:</b><select name="psongbook" size="1"><option value="GC">Gather Comprehensive</option><option value="G3">Gather Comprehensive 3</option><option value="SS">Song Sheets</option></select>
-<br /><br />
+Songbook:</b><select name="songbook" size="1">
+{%- for row in ksongbooks -%} 
+     <option values={{ row,sbn }}>{{ row.sbn }}</option>
+{% endfor %}
+</select><br />
 
 <b>Song Number:</b><input type="number" id= {{parts.songnum}} name= {{parts.songnum}} size="2">
 <br /><br /><input type="submit" value="Locate print title for song number " >
 <br /><br />
-<b>Print Song title is:</b>
+<b>Print Song title is: {{ parts.songprinttitle }}</b>
 <br /><br />
-<input type="submit" value="Mark as Does Not Exist " ><input type="submit" value="Add Suggestion and return to previous page" ><input type="submit" value="Return to Previous page without update" >
+<input type="submit" value="Mark as Does Not Exist " > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="submit" value="Add Suggestion and return to previous page" > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="submit" value="Return to Previous page without update" >
 </form>
 {% endblock content1 %}
 
