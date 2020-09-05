@@ -69,6 +69,15 @@ example
 -------------------------------------------------------------
 ### Parish
      name
+     MusicBook code
+     Weekend Saturday Time(s)
+     Weekend Sunday Mass TImes
+     Holy Day Mass Times
+     Weekday Mass Time
+
+### Music Director
+    name
+    Initials
      
 ### Songs Used
      date

@@ -20,6 +20,32 @@
 {% block content %}
 <input type="hidden" name="jinja2_template" value="page8.jhtml">
    <div id="main">
+
+<table border="" height="75%" width="90%" align=center>
+
+<tr><td style="width:25%; vertical-align:top">
+<h2>Routine Operations</h2>
+<input type="submit" name="action" value="Create Event Music Selections Sheet" /><br /><br />
+<input type="submit" name="action" value="Print Event Music Selection Sheet" /><br /><br />
+<input type="submit" name="action" value="Update Calendar" /><br /><br />
+<input type="submit" name="action" value="Add Songs to Songbook" /><br /><br />
+<input type="submit" name="action" value="Songbook Listing by title" /><br /><br />
+<input type="submit" name="action" value="Songbook listing by number" /><br />
+<hr style="height:2px;border-width:0;color:black;background-color:gray;width:80%">
+<h2>Maintenance</h2>
+<input type="submit" name="action" value="Add Songbook" /><br /><br />
+<input type="submit" name="action" value="Input Songs to Songbooks" /><br /><br />
+<input type="submit" name="action" value="Transfer Songbook data to new Songbook" /><br />
+
+<hr style="height:2px;border-width:0;color:black;background-color:gray;width:80%">
+<input type="submit" name="action" value="Edit Personal Profile" /><br /><br />
+<input type="submit" name="action" value="Edit Parish Profile" /><br />
+<hr style="height:2px;border-width:0;color:black;background-color:gray;width:80%">
+<center><input type="submit" name="action" value="Quit" /></center>
+<hr style="height:2px;border-width:0;color:black;background-color:gray;width:100%">
+</td>
+<td style="Width:75%">
+
           <table border="" height="75%" width="90%" align=center>
           <caption align=top><b> {{cal.month}}  {{cal.year}} </b></caption>
 <!-- top line -->
@@ -142,10 +168,7 @@
      </center>
      <br />
      <hr/>
-      <form method="GET" style="display:inline" action="user_home.html">
-     <center><input type="submit" name="action" value="Home page" /></center> <hr /> <br />
-     </form>
-   <br /><br /><br />
-
+</td></tr>
+</table>
      </div>
 {% endblock content %}

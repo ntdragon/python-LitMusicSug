@@ -108,6 +108,17 @@ example
 -------------------------------------------------------------
 ### Parish
      name
+     music book code
+     Weekend Saturday mass time(s)
+     Weekend SUnday Mass times
+     Holyday mass times
+     Holyday vigil Mass times
+
+### Music Director
+    name
+    initials
+    music book(s) code
+    number of music books and number of songs in each music book
      
 ### Songs Used
      date

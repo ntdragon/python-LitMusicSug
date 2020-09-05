@@ -8,6 +8,16 @@ page04  - Suggestions Selection Page
 page05  - Add Search string to database
 page06  - Manual Input of Songs for database
 page07  - Add Search term to database and make known Psalm/Song
-page08  - Database song search (create a song title database across songbooks)
+page08  * Database song search (create a song title database across songbooks)
 page09  - Manual transfer of known songs from a known songbook to a new songbook
-page 10 - Start a new songbook 
+page10  - Start a new songbook 
+page11  * Update Calendars
+page12  * Edit Personal Profile
+page13  * Edit Parish Profile
+page14  * Print Event Music Sheet
+page15  * Songbook Listing - Alphabetic
+page16  * Songbook Listing - Numeric
+page17  * 
+page18  *
+page19  *
+page20  *
