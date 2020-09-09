@@ -34,7 +34,9 @@
 <b> Date: </b><input type="date" name="event-date" min={{dayt.today}} max={{dayt.dmax}} value={{dayt.today}}><br /><br />
 <b>Entry: </b> <input type="text" name="entry text" /><br /><br />
 
-
+<input type="submit" name="action" value="Create event" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="submit" name="action" value="Cancel" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="submit" name="action" value="Done" />
 
 
 
@@ -46,7 +48,7 @@
 
 </td>
 <td style="Width:75%">
-
+<br /><br />
           <table border="" height="75%" width="90%" align=center>
           <caption align=top><b> {{cal.month}}  {{cal.year}} </b></caption>
 <!-- top line -->
