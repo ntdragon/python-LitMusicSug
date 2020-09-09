@@ -7,8 +7,8 @@ page = dict(action="single", user="Edward Birdsall")
 
 # tab and header
 
-hd = {"loc": "Add Suggestion"}
-hdr = dict(page="Add Suggestion to database", today="Wednesday  March 06, 2019")
+hd = {"loc": "Songbook Listing - Alphabetic"}
+hdr = dict(page="Alphabetic SOngbook Index", today="Wednesday  March 06, 2019")
 
 #block1 dicts
 
