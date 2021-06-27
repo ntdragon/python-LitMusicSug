@@ -47,6 +47,11 @@ The initial files needed to set up the programs database are;
 * Event file - a file containing lines having liturgical year, liturgical event and song title
      suggested for that event.  SongSuggestions.txt and PsalmSuggestions.txt are provided to
      get you started. 
+* Readings File - a file containing lines that lists the readings for each liturgical year event and 
+     a short description of the topuic of the reading.
+* Antiphons and Sequences File - a file containing the sequences (or lack thereof) and antiphons for
+     all liturgical events.
+
 
 ### File Format for creating and importing Song book
      text file using | as the delimiter
@@ -82,6 +87,18 @@ last row
      Setting | Part
 example
      Mass of Creation | Amen
+
+### File Format for Readings File
+    text File with | as delimiter
+    Liturgical year | Liturgical event | which reading | author and verses | topic
+    B | 13th Sunday in Ordinary Time | First Reading | Wisdom 1:13-15; 2:23-24 | God did not make death
+
+### File Format for Sequence and Antiphons
+    text file with | as delimeter
+    Liturgical year | Liturgical event | antiphon?Sequence | when | antiphon/sequence
+    B | 13th Sunday of Ordinary Time | antiphon | Opening | Ps 47 (46):2
+    B | 13th Sunday of Ordinary Time | sequence | none | none
+
 
 ## Database Tables
 ### Songbook
@@ -128,3 +145,18 @@ example
      masspart
      songbook
      song title
+### Readings
+    lityr
+    event
+    masspart
+    reading
+### Responsorial Psalm
+    lityr
+    event
+    responsorial psalm with refrain
+### antiphons/sequences
+    lityr
+    event
+    antiphon/sequence
+    location
+    antiphon or sequence

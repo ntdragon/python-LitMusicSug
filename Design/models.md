@@ -15,8 +15,9 @@
      Liturgical Year: String (A,B,C, ABC)
      Song or Psalm:String
      Song Title or First Line: String
-     
-###
+###Respnsorial Pslams
+###Antiphons and Sequences
+###Readings
 
 ##conversion from fyles
 convertPrint(fyle,songbook,database)
