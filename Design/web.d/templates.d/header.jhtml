@@ -6,7 +6,7 @@
      CSS are from ../css/
      --------------------------------------------------------------------------------------------------------------------------- 
      Variables
-          hdr.name  is the person's name in the header bar
+          hdr.name -not needed
           hdr.page is the current page name in the website
           hdr.today is the current date and time of page access
      --------------------------------------------------------------------------------------------------------------------------- 

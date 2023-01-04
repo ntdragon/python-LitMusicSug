@@ -14,6 +14,24 @@
      --------------------------------------------------------------------------------------------------------------------------- 
      Variables
           var - use
+          cal - calendar information
+               month - Name of Month
+               year - numeric year
+               startwk - week of the year for the first displayed week
+          pref - user preferences
+               startDay - first day of the week
+          colorsm - color pallette used
+               neutral
+          tdy - carries the information for the calendar display
+               bgtclr - today's background color
+               bgeclr - todays event background color
+               mnum - month number 1-12
+               dnum - day of month number
+               devt - number of changeable events today
+               dev1t - event 1 title or null
+               dev1c - event 1 color or background
+               dev1e - event 1 executable or null
+               dev2_, dev3_ and dev4_ are the sets for the second, third and fourth event for the day
      --------------------------------------------------------------------------------------------------------------------------- 
 #}
 
@@ -50,105 +68,67 @@
           <caption align=top><b> {{cal.month}}  {{cal.year}} </b></caption>
 <!-- top line -->
           <tr><th>Week</th>{%- for i in range(7) -%} <th style="width:13%">{{ days[pref.startDay + i] }}</th> {% endfor %} </tr>
-<!-- row 1 -->
-          <tr><td style="text-align:center">{{ cal.startwk }}</td>{%- for i in range(7) -%}<td  style="text-align:center; background-color:{{ tdy[i]["bgtclr"]}}"><b>{{ tdy[i].dnum }}</b></td> {% endfor %}</tr>
-          <tr><td style="text-align:center; background-color:{{ colorsm.neutral }}">&nbsp;</br>&nbsp;<br />&nbsp;</td>{%- for i in range(7) -%}<td style="text-align:center; vertical-align:top; background-color:{{ tdy[i]["bgeclr"] }}">
-         {% if tdy[i].devt  == 1 %}
-             <font color="{{ tdy[i]["dev1c"]  }}"><b>{{ tdy[i]["dev1t"]}}</b></font> 
-         {% elif tdy[i].devt == 2 %}
-            <font color="{{ tdy[i]["dev1c"]  }}"><b>{{ tdy[i]["dev1t"]}}</b></font> </br > 
-            <font color="{{ tdy[i]["dev2c"]  }}"><b>{{ tdy[i]["dev2t"]}}</b></font> 
-         {% elif tdy[i].devt == 3  %}
-           <font color="{{ tdy[i]["dev1c"]  }}"><b>{{ tdy[i]["dev1t"]}}</b></font> </br > 
-            <font color="{{ tdy[i]["dev2c"]  }}"><b>{{ tdy[i]["dev2t"]}}</b></font> </br>
-          <font color="{{ tdy[i]["dev3c"]  }}"><b>{{ tdy[i]["dev3t"]}}</b></font>
-         {% elif tdy[i].devt == 4  %}
-           <font color="{{ tdy[i]["dev1c"]  }}"><b>{{ tdy[i]["dev1t"]}}</b></font> </br > 
-            <font color="{{ tdy[i]["dev2c"]  }}"><b>{{ tdy[i]["dev2t"]}}</b></font> </br>
-          <font color="{{ tdy[i]["dev3c"]  }}"><b>{{ tdy[i]["dev3t"]}}</b></font></br> 
-         <font color="{{ tdy[i]["dev4c"]  }}"><b>{{ tdy[i]["dev4t"]}}</b></font>
-         {% else %}
-          {% endif %}</td> {% endfor %}</tr>
-<!-- row 2 -->
-         <tr><td style="text-align:center">{{ cal.startwk+1 }}</td>{%- for i in range(7, 14, 1) -%}<td  style="text-align:center; background-color:{{ tdy[i]["bgtclr"]}}"><b>{{ tdy[i].dnum }}</b></td> {% endfor %}</tr>
-          <tr><td style="text-align:center; background-color:{{ colorsm.neutral }}">&nbsp;</br>&nbsp;<br />&nbsp;</td>{%- for i in range(7, 14, 1) -%}<td style="text-align:center; vertical-align:top; background-color:{{ tdy[i]["bgeclr"] }}"> 
-          {% if tdy[i].devt  == 1 %}
-             <font color="{{ tdy[i]["dev1c"]  }}"><b>{{ tdy[i]["dev1t"]}}</b></font> 
-         {% elif tdy[i].devt == 2 %}
-            <font color="{{ tdy[i]["dev1c"]  }}"><b>{{ tdy[i]["dev1t"]}}</b></font> </br > 
-            <font color="{{ tdy[i]["dev2c"]  }}"><b>{{ tdy[i]["dev2t"]}}</b></font> 
-         {% elif tdy[i].devt == 3  %}
-           <font color="{{ tdy[i]["dev1c"]  }}"><b>{{ tdy[i]["dev1t"]}}</b></font> </br > 
-            <font color="{{ tdy[i]["dev2c"]  }}"><b>{{ tdy[i]["dev2t"]}}</b></font> </br>
-          <font color="{{ tdy[i]["dev3c"]  }}"><b>{{ tdy[i]["dev3t"]}}</b></font>
-         {% elif tdy[i].devt == 4  %}
-           <font color="{{ tdy[i]["dev1c"]  }}"><b>{{ tdy[i]["dev1t"]}}</b></font> </br > 
-            <font color="{{ tdy[i]["dev2c"]  }}"><b>{{ tdy[i]["dev2t"]}}</b></font> </br>
-          <font color="{{ tdy[i]["dev3c"]  }}"><b>{{ tdy[i]["dev3t"]}}</b></font></br> 
-         <font color="{{ tdy[i]["dev4c"]  }}"><b>{{ tdy[i]["dev4t"]}}</b></font>
-         {% else %}
-          {% endif %}</td> {% endfor %}</tr>
-
-<!-- row 3 -->
-         <tr><td style="text-align:center">{{ cal.startwk+2 }}</td>{%- for i in range(14, 21, 1) -%}<td  style="text-align:center;  background-color:{{ tdy[i]["bgtclr"]}}"><b>{{ tdy[i].dnum }}</b></td> {% endfor %}</tr>
-          <tr><td style="text-align:center; background-color:{{ colorsm.neutral }}">&nbsp;</br>&nbsp;<br />&nbsp;</td>{%- for i in range(14, 21, 1) -%}<td style="text-align:center; vertical-align:top; background-color:{{  tdy[i]["bgeclr"] }}">
-         {% if tdy[i].devt  == 1 %}
-             <font color="{{ tdy[i]["dev1c"]  }}"><b>{{ tdy[i]["dev1t"]}}</b></font> 
-         {% elif tdy[i].devt == 2 %}
-            <font color="{{ tdy[i]["dev1c"]  }}"><b>{{ tdy[i]["dev1t"]}}</b></font> </br > 
-            <font color="{{ tdy[i]["dev2c"]  }}"><b>{{ tdy[i]["dev2t"]}}</b></font> 
-         {% elif tdy[i].devt == 3  %}
-           <font color="{{ tdy[i]["dev1c"]  }}"><b>{{ tdy[i]["dev1t"]}}</b></font> </br > 
-            <font color="{{ tdy[i]["dev2c"]  }}"><b>{{ tdy[i]["dev2t"]}}</b></font> </br>
-          <font color="{{ tdy[i]["dev3c"]  }}"><b>{{ tdy[i]["dev3t"]}}</b></font>
-         {% elif tdy[i].devt == 4  %}
-           <font color="{{ tdy[i]["dev1c"]  }}"><b>{{ tdy[i]["dev1t"]}}</b></font> </br > 
-            <font color="{{ tdy[i]["dev2c"]  }}"><b>{{ tdy[i]["dev2t"]}}</b></font> </br>
-          <font color="{{ tdy[i]["dev3c"]  }}"><b>{{ tdy[i]["dev3t"]}}</b></font></br> 
-         <font color="{{ tdy[i]["dev4c"]  }}"><b>{{ tdy[i]["dev4t"]}}</b></font>
-         {% else %}
-          {% endif %}</td> {% endfor %}</tr>
-
-<!-- row 4 -->
-          <tr><td style="text-align:center">{{ cal.startwk +3 }}</td>{%- for i in range(21, 28, 1) -%}<td  style="text-align:center;  background-color:{{ tdy[i]["bgtclr"]}}"><b>{{ tdy[i].dnum }}</b></td> {% endfor %}</tr>
-          <tr><td style="text-align:center; background-color:{{ colorsm.neutral }}">&nbsp;</br>&nbsp;<br />&nbsp;</td>{%- for i in range(21, 28, 1) -%}<td style="text-align:center; vertical-align:top;background-color:{{  tdy[i]["bgeclr"] }}">
-         {% if tdy[i].devt  == 1 %}
-             <font color="{{ tdy[i]["dev1c"]  }}"><b>{{ tdy[i]["dev1t"]}}</b></font> 
-         {% elif tdy[i].devt == 2 %}
-            <font color="{{ tdy[i]["dev1c"]  }}"><b>{{ tdy[i]["dev1t"]}}</b></font> </br > 
-            <font color="{{ tdy[i]["dev2c"]  }}"><b>{{ tdy[i]["dev2t"]}}</b></font> 
-         {% elif tdy[i].devt == 3  %}
-           <font color="{{ tdy[i]["dev1c"]  }}"><b>{{ tdy[i]["dev1t"]}}</b></font> </br > 
-            <font color="{{ tdy[i]["dev2c"]  }}"><b>{{ tdy[i]["dev2t"]}}</b></font> </br>
-          <font color="{{ tdy[i]["dev3c"]  }}"><b>{{ tdy[i]["dev3t"]}}</b></font>
-         {% elif tdy[i].devt == 4  %}
-           <font color="{{ tdy[i]["dev1c"]  }}"><b>{{ tdy[i]["dev1t"]}}</b></font> </br > 
-            <font color="{{ tdy[i]["dev2c"]  }}"><b>{{ tdy[i]["dev2t"]}}</b></font> </br>
-          <font color="{{ tdy[i]["dev3c"]  }}"><b>{{ tdy[i]["dev3t"]}}</b></font></br> 
-         <font color="{{ tdy[i]["dev4c"]  }}"><b>{{ tdy[i]["dev4t"]}}</b></font>
-         {% else %}
-          {% endif %}</td> {% endfor %}</tr>
-
-
-<!-- row 5 -->
-          <tr><td style="text-align:center">{{ cal.startwk+4 }}</td>{%- for i in range(28, 35, 1) -%}<td  style="text-align:center;  background-color:{{ tdy[i]["bgtclr"]}}"><b>{{ tdy[i].dnum }}</b></td> {% endfor %}</tr>
-          <tr><td style="text-align:center; background-color:{{ colorsm.neutral }}">&nbsp;</br>&nbsp;<br />&nbsp;</td>{%- for i in range(28, 35, 1) -%}<td style="text-align:center; vertical-align:top;background-color:{{  tdy[i]["bgeclr"] }}">
-         {% if tdy[i].devt  == 1 %}
-             <font color="{{ tdy[i]["dev1c"]  }}"><b>{{ tdy[i]["dev1t"]}}</b></font> 
-         {% elif tdy[i].devt == 2 %}
-            <font color="{{ tdy[i]["dev1c"]  }}"><b>{{ tdy[i]["dev1t"]}}</b></font> </br > 
-            <font color="{{ tdy[i]["dev2c"]  }}"><b>{{ tdy[i]["dev2t"]}}</b></font> 
-         {% elif tdy[i].devt == 3  %}
-           <font color="{{ tdy[i]["dev1c"]  }}"><b>{{ tdy[i]["dev1t"]}}</b></font> </br > 
-            <font color="{{ tdy[i]["dev2c"]  }}"><b>{{ tdy[i]["dev2t"]}}</b></font> </br>
-          <font color="{{ tdy[i]["dev3c"]  }}"><b>{{ tdy[i]["dev3t"]}}</b></font>
-         {% elif tdy[i].devt == 4  %}
-           <font color="{{ tdy[i]["dev1c"]  }}"><b>{{ tdy[i]["dev1t"]}}</b></font> </br > 
-            <font color="{{ tdy[i]["dev2c"]  }}"><b>{{ tdy[i]["dev2t"]}}</b></font> </br>
-          <font color="{{ tdy[i]["dev3c"]  }}"><b>{{ tdy[i]["dev3t"]}}</b></font></br> 
-         <font color="{{ tdy[i]["dev4c"]  }}"><b>{{ tdy[i]["dev4t"]}}</b></font>
-         {% else %}
-          {% endif %}</td> {% endfor %}</tr>
+          {%- for r in range(0, cal.calrows, 1) -%}
+<!-- rows -->
+          <tr><td style="text-align:center">{{ cal.startwk+r }}</td>{%- for i in range((r*7),(r+1)*7, 1) -%}<td  style="text-align:center; background-color:{{ tdy[i]["bgtclr"]}}"><b>{{ tdy[i].dnum }}</b></td> {% endfor %}</tr>
+          <tr><td style="text-align:center; background-color:{{ colorsm.neutral }}">&nbsp;</br>&nbsp;<br />&nbsp;</td>{%- for i in range((r*7), (r+1)*7, 1) -%}<td style="text-align:center; vertical-align:top; background-color:{{ tdy[i]["bgeclr"] }}">
+               {% if tdy[i].devt  == 1 %}
+                    {% if tdy[i].dev1e == "" %}
+                         <font color="{{ tdy[i]["dev1c"]  }}"><b>{{ tdy[i]["dev1t"]}}</b></font>
+                    {% else %}
+                          <button><font color="{{ tdy[i]["dev1c"]  }}"><b>{{ tdy[i]["dev1t"]}}</b></font></button>
+                    {% endif %}
+               {% elif tdy[i].devt == 2 %}
+                    {% if tdy[i].dev1e == "" %}
+                         <font color="{{ tdy[i]["dev1c"]  }}"><b>{{ tdy[i]["dev1t"]}}</b></font>
+                    {% else %}
+                          <button><font color="{{ tdy[i]["dev1c"]  }}"><b>{{ tdy[i]["dev1t"]}}</b></font></button>
+                    {% endif %}
+                    {% if tdy[i].dev2e == "" %}
+                         <font color="{{ tdy[i]["dev2c"]  }}"><b>{{ tdy[i]["dev2t"]}}</b></font>
+                    {% else %}
+                          <button><font color="{{ tdy[i]["dev2c"]  }}"><b>{{ tdy[i]["dev2t"]}}</b></font></button>
+                    {% endif %}               
+               {% elif tdy[i].devt == 3  %}
+                    {% if tdy[i].dev1e == "" %}
+                         <font color="{{ tdy[i]["dev1c"]  }}"><b>{{ tdy[i]["dev1t"]}}</b></font>
+                    {% else %}
+                          <button><font color="{{ tdy[i]["dev1c"]  }}"><b>{{ tdy[i]["dev1t"]}}</b></font></button>
+                    {% endif %}
+                    {% if tdy[i].dev2e == "" %}
+                         <font color="{{ tdy[i]["dev2c"]  }}"><b>{{ tdy[i]["dev2t"]}}</b></font>
+                    {% else %}
+                          <button><font color="{{ tdy[i]["dev2c"]  }}"><b>{{ tdy[i]["dev2t"]}}</b></font></button>
+                    {% endif %}               
+                    {% if tdy[i].dev3e == "" %}
+                         <font color="{{ tdy[i]["dev3c"]  }}"><b>{{ tdy[i]["dev3t"]}}</b></font>
+                    {% else %}
+                          <button><font color="{{ tdy[i]["dev3c"]  }}"><b>{{ tdy[i]["dev3t"]}}</b></font></button>
+                    {% endif %}
+               {% elif tdy[i].devt == 4  %}
+                    {% if tdy[i].dev1e == "" %}
+                         <font color="{{ tdy[i]["dev1c"]  }}"><b>{{ tdy[i]["dev1t"]}}</b></font>
+                    {% else %}
+                          <button><font color="{{ tdy[i]["dev1c"]  }}"><b>{{ tdy[i]["dev1t"]}}</b></font></button>
+                    {% endif %}
+                    {% if tdy[i].dev2e == "" %}
+                         <font color="{{ tdy[i]["dev2c"]  }}"><b>{{ tdy[i]["dev2t"]}}</b></font>
+                    {% else %}
+                          <button><font color="{{ tdy[i]["dev2c"]  }}"><b>{{ tdy[i]["dev2t"]}}</b></font></button>
+                    {% endif %}               
+                    {% if tdy[i].dev3e == "" %}
+                         <font color="{{ tdy[i]["dev3c"]  }}"><b>{{ tdy[i]["dev3t"]}}</b></font>
+                    {% else %}
+                          <button><font color="{{ tdy[i]["dev3c"]  }}"><b>{{ tdy[i]["dev3t"]}}</b></font></button>
+                    {% endif %}
+                    {% if tdy[i].dev4e == "" %}
+                         <font color="{{ tdy[i]["dev4c"]  }}"><b>{{ tdy[i]["dev4t"]}}</b></font>
+                    {% else %}
+                          <button><font color="{{ tdy[i]["dev4c"]  }}"><b>{{ tdy[i]["dev4t"]}}</b></font></button>
+                    {% endif %}               
+               {% else %}
+               {% endif %}</td> {% endfor %}</tr>
+          {% endfor %}
 
           </table>
 

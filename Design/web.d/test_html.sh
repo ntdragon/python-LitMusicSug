@@ -43,19 +43,19 @@ python3 html_try.py > ../html_examples.d/page11.html
 echo "11-Update Calendar generated"
 #cd ../page12.d
 #python3 html_try.py > ../html_examples.d/page12.html
-#echo "12-next input generated"
+#echo "12-Edit Personal Profile generated"
 #cd ../page13.d
 #python3 html_try.py > ../html_examples.d/page13.html
-#echo "13-next input generated"
+#echo "13-Edit Parish Profile generated"
 #cd ../page14.d
 #python3 html_try.py > ../html_examples.d/page14.html
-#echo "14-next input generated"
+#echo "14-Print Event Music Sheet generated"
 #cd ../page15.d
 #python3 html_try.py > ../html_examples.d/page15.html
-#echo "15-next input generated"
+#echo "15-Songbook Listing Alphabetic generated"
 #cd ../page16.d
 #python3 html_try.py > ../html_examples.d/page61.html
-#echo "16-next input generated"
+#echo "16-Songbook Listing Numeric generated"
 #cd ../page17.d
 #python3 html_try.py > ../html_examples.d/page17.html
 #echo "17-next input generated"

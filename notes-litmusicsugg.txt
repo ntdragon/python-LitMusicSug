@@ -39,7 +39,12 @@ EditFunction
     EditSuggestions
     EditTemplates
      UpdateUnknownSuggestiontoKnown
-  
+
+Planning
+     Liturgical Calendar with events and colors
+     Calendar of events Liturgical and otherwise to help plan
+          other events like funerals, weddings, rehearsals,...
+     Liturgical Calendar - event, color, season, readings cycle
 -------------------------------------------
 Main Menu
     Initialize
@@ -55,3 +60,5 @@ Ways to Input songs and search strings (these should be linked together)
      2) Update an Unknown Suggestion
      3) Manual Input
      4) Transfer songs with new numbers to new songbook
+
+Liturgical Calendar module with event, color, link for Masses and songs
