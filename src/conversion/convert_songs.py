@@ -14,7 +14,7 @@ def convert(book, infile, db):
     schema_filename = 'songbook_schema.sql'
     #db is songbook database filename
     
-    db_is_new = not os.path.exists(db)         
+    db_is_new = not os.path.exists(db)
 
     dbcon = sqlite3.connect(db)
     dbcrsr = dbcon.cursor()

@@ -11,6 +11,6 @@ How many database to have?  Thought is one for songbooks (Print and Search), Sug
      a third one for Songs Used.  Easier to keep organized and recover if multiple rather than 
      one.
 
-
+database for calendars, Liturgical calendar especially.
 
 

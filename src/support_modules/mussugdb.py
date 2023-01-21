@@ -17,9 +17,9 @@ Database Tables
           songs text - list of songs for that search title
      sugg
          id  - primary key
-          ly_yr   text - liturgical year (A,B,C)
+          ly_yr   text - liturgical year (A,B,C,I,II)
           event     text - liturgical event
-          stype text - Psalm or Song 
+          stype     text - Psalm or Song 
           title     text - a song title for psalm or song
           origin    text - where suggestion was from
           idate      date - date suggestion imported
@@ -33,12 +33,27 @@ Database Tables
      savedevent
          id  - primary key
           date text - date and time of mass for sunday or event
-          lityr text - liturgical year (A,B,C)
+          lityr text - liturgical year (A,B,C,I,II)
           event text - liturgical event
           stipe - text  - which song/psalm in Mass
           book - text - song book code
           num - song number
           #TODO: need to learn best method to do this
+     litevent
+          id
+          date      date
+          title     text
+          lityr     text
+     litday
+          title     text - key
+          rank      text
+          color     text
+          optcolor  text
+     litrdngs
+          title     text
+          lityr     text (A,B,C,I,II)
+          rdps      text (Reading x,Psalm)
+          ref       text (code for reading or Psalm)
 """
 import argparse
 import sys
@@ -57,8 +72,6 @@ class MusSugDB():
           ?self.db = sqlite3.connect(self.args.database)
 
      ?def _get_parms(self):
-          
-
 
      def convertsong(book, infile, db_name):
          """ Do the conversion for a song book file

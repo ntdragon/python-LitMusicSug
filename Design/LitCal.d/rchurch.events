@@ -1,0 +1,198 @@
+1|1|SOLEMNITY|WHITE|Solemnity of Mary Mother of God|
+1|2|MEMORIAL|WHITE|Saints Basil the Great and Gregory Nazianzen|Bishops&Doctors of the Church|
+1|3|OPTIONAL_MEMORIAL|WHITE|The Most Holy Name of Jesus|
+1|7|OPTIONAL_MEMORIAL|NONE|Saint Raymond of Penyafort|Priest|
+1|13|OPTIONAL_MEMORIAL|NONE|Saint Hilary of Poitiers|Bishop&Doctor of the Church|
+1|17|MEMORIAL|WHITE|Saint Anthony of Egypt|ABishopsot|||
+1|20|OPTIONAL_MEMORIAL|NONE|Saint Fabian|Pope&Martyr|
+1|20|OPTIONAL_MEMORIAL|NONE|Saint Sebastian|MEMORIAL|
+1|21|MEMORIAL|RED|Saint Agnes|Virgin&Martyr|
+1|22|OPTIONAL_MEMORIAL|NONE|Saint Vincent of Saragossa|Deacon&Martyr|
+1|24|MEMORIAL|WHITE|Saint Francis de Sales|Bishop&Doctor of the Church|
+1|25|FEAST|WHITE|The Conversion of Saint Paul, Apostle||
+1|26|MEMORIAL|WHITE|Saints Timothy and Titus|Bishops|
+1|27|OPTIONAL_MEMORIAL|NONE|Saint Angela Merici|Virgin|
+1|28|MEMORIAL|WHITE|Saint Thomas Aquinas|Priest&Doctor of the Church|
+1|31|MEMORIAL|WHITE|Saint John Bosco|
+2|2|Lord|WHITE|Presentation of the Lord||
+2|3|OPTIONAL_MEMORIAL|NONE|Saint Blase|Bishop&Martyr|ansgar|Bishop||
+2|5|MEMORIAL|RED|Saint Agatha|Virgin&Martyr|
+2|6|MEMORIAL|RED|Saints Paul Miki and companions|Martyrs|
+2|8|OPTIONAL_MEMORIAL|NONE|Saint Jerome Emiliani|Priest||
+2|8|OPTIONAL_MEMORIAL|NONE|Saint Josephine Bakhita|Virgin|
+2|10|MEMORIAL|WHITE|Saint Scholastica|Virgin|
+2|11|OPTIONAL_MEMORIAL|NONE|Our Lady of Lourdes||
+2|14|MEMORIAL|WHITE|Saints Cyril, monk, and Methodius, Bishop||
+2|17|OPTIONAL_MEMORIAL|NONE|Seven Holy Founders of the Servite Order||
+2|21|OPTIONAL_MEMORIAL|NONE|Saint Peter Damian|Bishop&Doctor of the Church|
+2|22|FEAST|WHITE|Chair of Saint Peter, Apostle||
+2|23|MEMORIAL|RED|Saint Polycarp|Bishop&Martyr|
+3|4|OPTIONAL_MEMORIAL|NONE|Saint Casimir||
+3|7|MEMORIAL|RED|Saints Perpetua and Felicity|Mmf|
+3|8|OPTIONAL_MEMORIAL|NONE|Saint John of God|Religiuos Male|
+3|9|OPTIONAL_MEMORIAL|NONE|Saint Frances of Rome|Religious Female|
+3|17|OPTIONAL_MEMORIAL|NONE|Saint Patrick|Bishop|
+3|18|OPTIONAL_MEMORIAL|NONE|Saint Cyril of Jerusalem|Bishop&Doctor of the Church|
+3|19|SOLEMNITY|WHITE|Saint Joseph, Husband of the Blessed Virgin Mary|
+3|23|OPTIONAL_MEMORIAL|NONE|Saint Turibius of Mogrovejo|Bishop|
+3|25|SOLEMNITY|WHITE|Annunciation of the Lord|
+4|2|OPTIONAL_MEMORIAL|NONE|Saint Francis of Paola|Hermit|
+4|4|OPTIONAL_MEMORIAL|NONE|Saint Isidore|Bishop&Doctor of the Church|
+4|5|OPTIONAL_MEMORIAL|NONE|Saint Vincent Ferrer|Priest|
+4|7|MEMORIAL|WHITE|Saint John Baptist de la Salle|Priest|
+4|11|MEMORIAL|RED|Saint Stanislaus|Bishop&Martyr|
+4|13|OPTIONAL_MEMORIAL|NONE|Saint Martin I|Pope&Martyr|
+4|21|OPTIONAL_MEMORIAL|NONE|Saint Anselm of Canterbury|Bishop&Doctor of the Church|
+4|23|OPTIONAL_MEMORIAL|NONE|Saint George|Bishop&Martyr||
+4|23|OPTIONAL_MEMORIAL|NONE|Saint Adalbert|Bishop&Martyr||
+4|24|OPTIONAL_MEMORIAL|NONE|Saint Fidelis of Sigmaringen|Pope&Martyr|
+4|25|FEAST|RED|Saint Mark|Ap&Ev|
+4|28|OPTIONAL_MEMORIAL|NONE|Saint Peter Chanel|Pope&Martyr|Saint Louis Grignon de Monfort|Priest||
+4|29|MEMORIAL|WHITE|Saint Catherine of Siena|Virgin&Doctor of the Church
+4|30|OPTIONAL_MEMORIAL|NONE|Saint Pius V|Priest|
+5|1|OPTIONAL_MEMORIAL|NONE|Saint Joseph the Worker||
+5|2|MEMORIAL|WHITE|Saint Athanasius|Bishop&Doctor of the Church|
+5|3|FEAST|RED|Saints Philip and James|Apostles|
+5|12|OPTIONAL_MEMORIAL|NONE|Saints Nereus and Achilleus|Martyrs|pancrace|Martyr||
+5|13|OPTIONAL_MEMORIAL|NONE|Our Lady of Fatima||
+5|14|FEAST|RED|Saint Matthias|Apostle|
+5|18|OPTIONAL_MEMORIAL|NONE|Saint John I|Pope&Martyr|
+5|20|OPTIONAL_MEMORIAL|NONE|Saint Bernardine of Siena|Priest|
+5|21|OPTIONAL_MEMORIAL|NONE|christopher_magallanes_co|Martyrs|
+5|22|OPTIONAL_MEMORIAL|NONE|rita||
+5|25|OPTIONAL_MEMORIAL|NONE|venerable_bede|Priest&Doctor of the Church|greg_VII|Priest|mary_magd_pazzi|V
+5|26|MEMORIAL|WHITE|philip_neri|Priest|
+5|27|OPTIONAL_MEMORIAL|NONE|augustin_canterbury|Bishop|
+5|31|FEAST|WHITE|mary_visitation||
+6|1|MEMORIAL|RED|justin_martyr|MEMORIAL|
+6|2|OPTIONAL_MEMORIAL|NONE|marcellin_peter|Martyrs|
+6|3|MEMORIAL|RED|charles_lwanga.co|Martyrs|
+6|5|MEMORIAL|RED|boniface|Bishop&Martyr|
+6|6|OPTIONAL_MEMORIAL|NONE|norbert|Bishop|
+6|9|OPTIONAL_MEMORIAL|NONE|ephrem|Deacon&Doctor of the Church|
+6|11|MEMORIAL|RED|barnabas|Apostle|
+6|13|MEMORIAL|WHITE|anthony_padua|Priest&Doctor of the Church|
+6|19|OPTIONAL_MEMORIAL|NONE|romualdABishopsot|||
+6|21|MEMORIAL|WHITE|aloysius|Religiuos Male|
+6|22|OPTIONAL_MEMORIAL|NONE|paulinus|Bishop|john_fischer_thomas_more|Martyrs||
+6|24|SOLEMNITY|WHITE|birth_jb||
+6|27|OPTIONAL_MEMORIAL|NONE|cyril_alexandria|Bishop&Doctor of the Church|
+6|28|MEMORIAL|RED|ireneaeus|Bishop&Martyr|
+6|29|SOLEMNITY|RED|peter_paul_app|Apostles|
+6|30|OPTIONAL_MEMORIAL|NONE|first_martyrs_rome||
+7|3|FEAST|RED|thomas_app|Apostle|
+7|4|OPTIONAL_MEMORIAL|NONE|elizabeth_portugal|Queen|
+7|5|OPTIONAL_MEMORIAL|NONE|anthony_zaccaria|Priest|
+7|6|OPTIONAL_MEMORIAL|NONE|maria_goretti|Virgin&Martyr|
+7|9|OPTIONAL_MEMORIAL|NONE|augustin_zhao_rong|Martyrs|
+7|11|MEMORIAL|WHITE|benoitABishopsot|||
+7|13|OPTIONAL_MEMORIAL|NONE|henri||
+7|14|OPTIONAL_MEMORIAL|NONE|camille_lellis|Priest|
+7|15|MEMORIAL|WHITE|bonaventure|Bishop&Doctor of the Church|
+7|16|OPTIONAL_MEMORIAL|NONE|ND_Carmel||
+7|20|OPTIONAL_MEMORIAL|NONE|appolinaire|Bishop&Martyr|
+7|21|OPTIONAL_MEMORIAL|NONE|laurent_brindisi|Priest&Doctor of the Church|
+7|22|FEAST|WHITE|mary_magdalene||
+7|23|OPTIONAL_MEMORIAL|NONE|brigitte|Religious Female|
+7|24|OPTIONAL_MEMORIAL|NONE|sharbel_makhluf|Priest&Hermit|
+7|25|FEAST|RED|james_app|Apostle|
+7|26|MEMORIAL|WHITE|joachim_anne||
+7|29|MEMORIAL|WHITE|marthe||
+7|30|OPTIONAL_MEMORIAL|NONE|peter_chrysologus|Bishop&Doctor of the Church|
+7|31|MEMORIAL|WHITE|ignace_de_loyola|Priest|
+8|1|MEMORIAL|WHITE|alphonse_marie_liguori|Bishop&Doctor of the Church|
+8|2|OPTIONAL_MEMORIAL|NONE|eusebe|Bishop|pierre_julien_eymard|Priest||
+8|4|MEMORIAL|WHITE|cure_d_ars|Priest|
+8|5|OPTIONAL_MEMORIAL|NONE|ded_s_maria_maggiore||
+8|6|Lord|WHITE|transfiguration||
+8|7|OPTIONAL_MEMORIAL|NONE|sixtus-ii.co|Martyrs|cajetan|Priest||
+8|8|MEMORIAL|WHITE|dominique|Priest|
+8|9|OPTIONAL_MEMORIAL|NONE|edith.stein|rF&Mf|
+8|10|FEAST|RED|laurent|Deacon&Martyr|
+8|11|MEMORIAL|WHITE|claire|Virgin|
+8|12|OPTIONAL_MEMORIAL|NONE|jeanne_de_chantal|Religious Female|
+8|13|OPTIONAL_MEMORIAL|NONE|pontian_hippolytus|Martyrs|
+8|14|MEMORIAL|RED|maximilien_kolbe|Pope&Martyr|
+8|15|SOLEMNITY|WHITE|mary_assumption||
+8|16|OPTIONAL_MEMORIAL|NONE|stephen_hungary|King|
+8|19|OPTIONAL_MEMORIAL|NONE|jean_eudes|Priest|
+8|20|MEMORIAL|WHITE|bernard_de_clairvaux|Ab&D|
+8|21|MEMORIAL|WHITE|pius_x|Priest|
+8|22|MEMORIAL|WHITE|mary_queenship||
+8|23|OPTIONAL_MEMORIAL|NONE|rose_lima|Virgin|
+8|24|FEAST|RED|barthelemi|Apostle|
+8|25|OPTIONAL_MEMORIAL|NONE|louis|K|joseph_calasanz|Priest||
+8|27|MEMORIAL|WHITE|monique||
+8|28|MEMORIAL|WHITE|augustin_hippone|Bishop&Doctor of the Church|
+8|29|MEMORIAL|RED|beheading_jb||
+9|3|MEMORIAL|WHITE|gregory_the_great|Priest&Doctor of the Church|
+9|8|FEAST|WHITE|mary_birth||
+9|9|OPTIONAL_MEMORIAL|NONE|peter_claver|Priest|
+9|12|OPTIONAL_MEMORIAL|NONE|mary_holyname||
+9|13|MEMORIAL|WHITE|jean_chrysostome|Bishop&Doctor of the Church|
+9|14|FEAST|RED|exaltation_croix||
+9|15|MEMORIAL|WHITE|ND_Douleurs||
+9|16|MEMORIAL|RED|corneille_cyprien|Martyrs|
+9|17|OPTIONAL_MEMORIAL|NONE|robert_bellarmine|Bishop&Doctor of the Church|
+9|19|OPTIONAL_MEMORIAL|NONE|januarius|Bishop&Martyr|
+9|20|MEMORIAL|RED|andre_kim_taegon.co|Martyrs|
+9|21|FEAST|RED|matthieu_ev|Ap&Ev|
+9|23|MEMORIAL|WHITE|padre_pio|Priest|
+9|26|OPTIONAL_MEMORIAL|NONE|come_damien|Martyrs|
+9|27|MEMORIAL|WHITE|vincent_paul|Priest|
+9|28|OPTIONAL_MEMORIAL|NONE|wenceslas|MEMORIAL|lorenzo_ruiz.co|Martyrs||
+9|29|FEAST|WHITE|archangels|Aa|
+9|30|MEMORIAL|WHITE|jerome|Priest&Doctor of the Church|
+10|1|MEMORIAL|WHITE|therese_enfant_jesus|Virgin&Doctor of the Church
+10|2|MEMORIAL|WHITE|angels_guardians||
+10|4|MEMORIAL|WHITE|francis_assisi||
+10|6|OPTIONAL_MEMORIAL|NONE|bruno|Priest|
+10|7|MEMORIAL|WHITE|ND_Rosaire||
+10|9|OPTIONAL_MEMORIAL|NONE|denis.co|Martyrs|jean_leonardi|Priest||
+10|11|OPTIONAL_MEMORIAL|NONE|jean_XXIII|Priest|
+10|14|OPTIONAL_MEMORIAL|NONE|calliste|Pope&Martyr|
+10|15|MEMORIAL|WHITE|teresa_avila|Virgin&Doctor of the Church
+10|16|OPTIONAL_MEMORIAL|NONE|hedwige|Religious Female|mm_alacocque|Virgin||
+10|17|MEMORIAL|RED|ignace_antioche|Bishop&Martyr|
+10|18|FEAST|RED|luc_ev|Ev|
+10|19|OPTIONAL_MEMORIAL|NONE|jean_brebeuf.co|Martyrs|paul_cross|Priest||
+10|22|OPTIONAL_MEMORIAL|NONE|jean_paul_II|Priest|
+10|23|OPTIONAL_MEMORIAL|NONE|jean_capistran|Priest|
+10|24|OPTIONAL_MEMORIAL|NONE|antoine_marie_claret|Bishop|
+10|28|FEAST|RED|simon_jude|Apostles|
+11|1|SOLEMNITY|WHITE|toussaint||
+11|2|Lord|Bishop|defunts||
+11|3|OPTIONAL_MEMORIAL|NONE|martin_porres|Religiuos Male|
+11|4|MEMORIAL|WHITE|charles_borromee|Bishop|
+11|9|Lord|WHITE|ded_jean_de_latran||
+11|10|MEMORIAL|WHITE|leon|Pope&Doctor of the Church|
+11|11|MEMORIAL|WHITE|martin_tours|Bishop|
+11|12|MEMORIAL|RED|josaphat|Bishop&Martyr|
+11|15|OPTIONAL_MEMORIAL|NONE|albert_great|Bishop&Doctor of the Church|
+11|16|OPTIONAL_MEMORIAL|NONE|margaret_scotland|Queen|gertrude|Virgin||
+11|17|MEMORIAL|WHITE|elizabeth_hungary|Religious Female|
+11|18|OPTIONAL_MEMORIAL|NONE|ded_peter_paul||
+11|21|MEMORIAL|WHITE|mary_presentation||
+11|22|MEMORIAL|RED|cecilia|Virgin&Martyr|
+11|23|OPTIONAL_MEMORIAL|NONE|clement_I|Pope&Martyr|colomban|Religiuos Male||
+11|24|MEMORIAL|RED|andre_dung_lac.co|Martyrs|
+11|25|OPTIONAL_MEMORIAL|NONE|cath_alexandrie|Virgin&Martyr|
+11|30|FEAST|RED|andre_app|Apostle|
+12|3|MEMORIAL|WHITE|francois_xavier|Priest|
+12|4|OPTIONAL_MEMORIAL|NONE|jean_damascene|Priest&Doctor of the Church|
+12|6|OPTIONAL_MEMORIAL|NONE|nicolas|Bishop|
+12|7|MEMORIAL|WHITE|ambroise|Bishop&Doctor of the Church|
+12|8|SOLEMNITY|WHITE|mary_immaculee_conception||
+12|9|OPTIONAL_MEMORIAL|NONE|juan_diego||
+12|11|OPTIONAL_MEMORIAL|NONE|damasus_I|Priest|
+12|12|OPTIONAL_MEMORIAL|NONE|ND_Guadalupe||
+12|13|MEMORIAL|RED|lucy|Virgin&Martyr|
+12|14|MEMORIAL|WHITE|jean_de_la_croix|Priest&Doctor of the Church|
+12|21|OPTIONAL_MEMORIAL|NONE|peter_canisius|Priest&Doctor of the Church|
+12|23|OPTIONAL_MEMORIAL|NONE|john_kanty|Priest|
+12|25|SOLEMNITY|G|noel||
+12|26|FEAST|RED|etienne|M1|
+12|27|FEAST|WHITE|jean_app|Ap&Ev|
+12|28|FEAST|RED|innocents|Martyrs|
+12|29|OPTIONAL_MEMORIAL|NONE|thomas_beckett|Bishop&Martyr|
+12|31|OPTIONAL_MEMORIAL|NONE|silvestre|Priest|

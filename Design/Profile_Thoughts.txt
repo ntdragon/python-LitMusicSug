@@ -9,7 +9,7 @@ Parish
      Name:
      Parish code:        to help in tracking song books for parish
      Weekend Mass Schedule
-     Dailty Mass Schedule
+     Daily Mass Schedule
      Holyday and vigils mass schedule
      Code for Parish Songbooks
      date Started:            |Used so that multiple parishes served can be tracked

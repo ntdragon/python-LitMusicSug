@@ -29,7 +29,7 @@ Program Operation
 """
 Initialization Files
 --------------------
-	Liturgical Events
+	Liturgical Events 2022 instead of a file containing possible Liturgical Events have a calendar generated with events
 	Initial Suggestions
 	Gather Comprehensive Print
 	Gather Comprehensive Search
